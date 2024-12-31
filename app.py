@@ -1,8 +1,8 @@
 import logging
 from flask import Flask, render_template, request, session, jsonify, url_for
 from src.OETWriting import OETWritingTaskAssistant
-# from src.OETListening import OETListeningTaskAssistant
-# from src.OETReading import OETReadingTaskAssistant
+from src.OETListening import OETListeningTaskAssistant
+from src.OETReading import OETReadingTaskAssistant
 import requests
 import json
 import time
