@@ -1,0 +1,206 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px; /* Optional: keeps padding around the content */
+  background-color: rgb(224, 229, 235); /* Set body background color to grey */
+}
+
+.u-section-1 {
+  min-height: 369px;
+  padding: 0 10%; /* Add left and right padding */
+  background-color: rgb(224, 229, 235); 
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  width: calc(((100% - 1140px) / 2)  + 1140px);
+  margin: 10px auto 13px 0;
+}
+.u-section-1 .u-image-1 {
+  min-height: 250px;
+  background-image: url("images/c8f35ff85d919e8ff15e460f3f6c350ead8cc6ba3a2aff2ea771a9ed0e6b36c5b9f1ef7e78f2505786aa56a4c9b0316fe0c341c96e5bcc4e1b9e9b_1280.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0 8px;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 295px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 0;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 819px;
+  height: 292px;
+  margin: 30px -34px 0 auto;
+}
+
+.u-section-1 .u-text-1 {
+  margin: -243px 244px 0 auto;
+}
+.u-section-1 .u-text-2 {
+  margin: 37px 278px 0 auto;
+}
+
+#tips-container {
+  background-color: #f0f0f0;  /* Light grey background */
+  padding: 20px;              /* Add some padding inside the container */
+  border-radius: 8px;         /* Optional: rounded corners for better styling */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Optional: slight shadow for depth */
+}
+
+#tips-container h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#tips-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#tips-container li {
+  margin-bottom: 10px;  /* Add space between list items */
+}
+.italic-text {
+  font-style: italic;
+  display: block;             /* Makes it block-level */
+  margin-bottom: 8px;         /* Adds space below the block */
+  font-weight: bold;          /* Makes the text stand out */
+  color: #333;                /* Optional: Darker color for emphasis */
+}
+
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 510px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    position: relative;
+    width: calc(((100% - 940px) / 2) + 940px);
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 229px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 658px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 190px;
+  }
+  .u-section-1 .u-text-1 {
+    margin-top: -181px;
+    margin-right: 201px;
+  }
+  .u-section-1 .u-text-2 {
+    margin-right: 204px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 {
+   min-height: 70px;
+ }
+
+ .u-section-1 .u-layout-wrap-1 {
+   width: calc(((100% - 720px) / 2) + 720px);
+ }
+
+ .u-section-1 .u-image-1 {
+   min-height: 178px;
+ }
+
+ .u-section-1 .u-layout-cell-2 {
+   min-height: 211px;
+ }
+
+ .u-section-1 .u-shape-1 {
+   width: 504px;
+ }
+
+ .u-section-1 .u-text-1 {
+   margin-right: 154px;
+ }
+
+ .u-section-1 .u-text-2 {
+   margin-right: 156px;
+ }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-layout-wrap-1 {
+    width: calc(((100% - 540px) / 2) + 540px);
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 267px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 194px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-top: -34px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -164px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-layout-wrap-1 {
+    width: calc(((100% - 340px) / 2) + 340px);
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 168px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 188px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 340px;
+    margin-top: -40px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -158px;
+    margin-right: 97px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 98px;
+  }
+} .u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 894px;
+}
+
+.u-section-2 .u-custom-html-1 {
+  height: auto;
+  min-height: 950px;
+  margin: 95px 0 -150px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-custom-html-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+}

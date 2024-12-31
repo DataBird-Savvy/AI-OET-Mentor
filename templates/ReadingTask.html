@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="OET Writing Task">
+    <meta name="description" content="">
+    <title>Reading Task</title>
+    <link rel="stylesheet" href="static/nicepage.css" media="screen">
+    <link rel="stylesheet" href="static/ReadingTask.css" media="screen">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.3/marked.min.js"></script>   
+     
+    <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+    <script class="u-script" type="text/javascript" src="static/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="static/nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 6.21.3, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+    "logo": "static/images/logo_mentor.png"
+
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Reading Task">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-ec27"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <a href="#" class="u-image u-logo u-image-1">
+          <img src="static/images/logo_mentor.png" class="u-logo-image u-logo-image-1">
+        </a>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="./" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{ url_for('writing_task')}}" style="padding: 10px 20px;">Writing Task</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{ url_for('listening_task')}}" style="padding: 10px 20px;">Listening Task</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{ url_for('reading_task')}}" style="padding: 10px 20px;">Reading Task</a>
+</li></ul>
+          </div>
+          <div class="u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="./">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ url_for('writing_task')}}">Writing Task</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ url_for('listening_task')}}">Listening Task</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ url_for('reading_task')}}">Reading Task</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-clearfix u-palette-5-light-3 u-section-1" id="sec-1b9b">
+      <div class="custom-expanded data-layout-selected u-clearfix u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-container-align-center u-container-style u-image u-layout-cell u-size-18 u-image-1" data-image-width="1280" data-image-height="961">
+              <div class="u-container-layout u-container-layout-1"></div>
+            </div>
+            <div class="u-container-style u-layout-cell u-palette-5-light-1 u-size-42 u-layout-cell-2">
+              <div class="u-container-layout u-container-layout-2">
+                <div class="u-grey-40 u-shape u-shape-rectangle u-shape-1"></div>
+                <h2 class="u-align-center u-text u-text-default u-text-grey-10 u-text-1">Reading Task </h2>
+                <p class="u-align-center u-text u-text-default u-text-grey-10 u-text-2">TIME ALLOWED: 45 MINUTES</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-container-align-left u-palette-5-light-2 u-section-2" id="sec-cd44">
+      <div class="u-clearfix u-sheet u-sheet-1">
+          <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <style>
+               
+                  body {
+                      font-family: Arial, sans-serif;
+                      margin: 0;
+                      padding: 0;
+                      background-color: #E0E5EB;
+                  }
+  
+                  h1 {
+                      text-align: left; /* Changed from center to left */
+                  }
+
+                  .task-set {
+                    margin-bottom: 20px;
+                  }
+                  .task-set h3 {
+                      margin-bottom: 10px;
+                  }
+                  .task-question {
+                      margin-bottom: 8px;
+                  }
+                  .task-question span {
+                      font-weight: bold;
+                  }
+                  .task-box {
+                      background-color: #fff;
+                      padding: 20px;
+                      padding left:50px
+                      margin: 0 auto;
+                      border-radius: 8px;
+                      max-width: 1200px;
+                      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                      text-align: left; /* Ensure text inside the box aligns left */
+                      font-size: 10px;  /* You can adjust this value as per your requirement */
+                      
+                  }
+  
+                  .task-box h2 {
+                      margin-top: 0;
+                  }
+  
+                  textarea {
+                      width: 100%;
+                      height: 300px;
+                      padding: 10px;
+                      border: 1px solid #ccc;
+                      border-radius: 4px;
+                      font-size: 16px;
+                      resize: none;
+                  }
+  
+                  .button-container {
+                    background-color: #fff;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    display: flex;
+                    justify-content: space-between; /* Adjusts spacing between button and timer */
+                    align-items: center;
+                    margin: 10px 0; /* Optional margin for spacing */
+                }
+                  .timer-display {
+                    font-size: 19px; /* Adjust font size for better visibility */
+                    margin-left: 20px; /* Adds space between button and timer */
+                    text-align: right;
+                    min-width: 80px;
+                    flex-shrink: 0; /* Prevents the timer from shrinking */
+                }
+  
+                  button {
+                      padding: 15px 30px;
+                      background-color: #619c87;
+                      color: #fff;
+                      border: none;
+                      border-radius: 4px;
+                      cursor: pointer;
+                      font-size: 18px;
+                      margin-right: 10px; /* Add space between buttons */
+                  }
+  
+                  button:hover {
+                      background-color: #4e7b6d;
+                  }
+  
+                 
+                  .feedback-box {
+                    background-color: #e7f3fe;
+                    border-left: 6px solid #B2BEC7;
+                    padding: 5px;
+                    margin-top: 5px;
+                }
+
+                #questions-containerA table {
+                  width: 100%;
+                  border-collapse: collapse;
+                  margin: 20px 0;
+              }
+            
+              #questions-containerA table, 
+              #questions-containerA th, 
+              #questions-containerA td {
+                  border: 1px solid #ddd; /* Adds outline to the table */
+              }
+            
+              #questions-containerA th, 
+              #questions-containerA td {
+                  padding: 8px; /* Adds some padding for better readability */
+                  text-align: left;
+              }
+            
+              #questions-containerA th {
+                  background-color: #f4f4f4; /* Highlights table headers */
+              }
+              table {
+                width: 100%;
+                border-collapse: collapse;
+              }
+              
+              table th, table td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+              }
+              
+              table th {
+                background-color: #f4f4f4;
+              }
+              .box {
+                  border: 2px solid #677480;  /* Green border */
+                  padding: 10px;
+                  margin: 10px 0;
+                  border-radius: 5px;
+                  background-color: #f9f9f9;  /* Light gray background */
+                }
+
+                .box h3 {
+                  color: #222;  /* Dark text for the title */
+                  font-size: 2em;
+                  margin-bottom: 10px;
+                }
+
+                .box p {
+                  font-size: 1.8em;
+                  color: #333;  /* Slightly lighter text color for passage */
+                }
+                            
+            
+
+            
+        
+
+             
+              </style>
+  
+              <div class="button-container">
+                <button id="start-button" onclick="startTest()" style="height: 250px;" >Start Test</button>
+                <div id="timer-display" class="timer-display" style="display: none;">0:00</div> <!-- Timer Display -->
+             
+                
+                <!-- Container for Writing Tips -->
+                <div id="tips-container" class="tips-container" >
+                  <h3 style="text-align: center; font-size: 24px; color: rgba(0, 0, 0, 0.8);">Important Tips for OET Reading Test</h3>
+                  <ul>
+                    <li><span class="italic-text">Familiarize Yourself with the Test Format</span>: Understand the different parts of the listening test (Part A, B, and C), including the types of questions and audio formats you’ll encounter.</li>
+                    <li><span class="italic-text">Listen for Key Information</span>: Pay attention to key details such as patient symptoms, treatment plans, and medical advice. Focus on listening for numbers, dates, times, and names.</li>
+                    <li><span class="italic-text">Practice Active Listening</span>: Practice listening to various audio clips and take notes. This will help you train your ears to pick up important details quickly and efficiently.</li>
+                    <li><span class="italic-text">Understand Accents and Dialects</span>: OET listening recordings feature a range of English accents, so it’s beneficial to practice with different accents to be prepared for any variations in pronunciation.</li>
+                    <li><span class="italic-text">Follow the Instructions Carefully</span>: Read and listen to the instructions for each section carefully to ensure you understand what is being asked and to avoid mistakes.</li>
+                    <li><span class="italic-text">Keep Up with the Pace</span>: The test moves quickly, so it’s important to stay focused and not to spend too much time on any one question. Move on if you miss an answer and come back later if time allows.</li>
+                    <li><span class="italic-text">Take Notes During the Listening</span>: Jot down important points as you listen to the recordings. This helps you track the key information and makes it easier to answer questions when they follow.</li>
+                    <li><span class="italic-text">Stay Calm and Focused</span>: Don’t panic if you don’t understand every word. Focus on the overall message and main points of the recording, rather than trying to understand every detail.</li>
+                    <li><span class="italic-text">Review Your Answers</span>: If time permits, double-check your answers before submitting. Ensure that all information is correctly entered and that you’ve responded to all questions.</li>
+                    <li><span class="italic-text">Practice Under Test Conditions</span>: Regularly practice listening exercises under timed conditions to simulate the actual test environment. This will help you manage your time effectively and get accustomed to the pressure of the test.</li>
+                    <li><span class="italic-text">Be Prepared for Different Question Types</span>: Practice with a variety of question types, such as multiple-choice, fill-in-the-blank, matching, and short-answer questions to be well-prepared for any format on the test.</li>
+                  </ul>
+
+
+                  
+                </div>
+              </div>
+              <!-- Test Content -->
+              <div id="test-content" style="display: none;">
+
+                <!-- Dropdown to select task part -->
+                <select id="task-select" onchange="showTask(this.value)">
+                  <option value="A">Part A</option>
+                  <option value="BC">Part B & C</option>
+                </select>
+              
+
+                <!-- Part A Task -->
+                <div id="task-A" class="task-box" style="display:none;">
+                  <h3>Part A</h3>
+                  <p id="questions-containerA"></p>
+                  <div id="questions-containerAQA"></div>
+                </div>
+
+                <!-- Part B and C Task -->
+                <div id="task-BC" class="task-box" style="display:none;">
+                  <h3>Part B</h3>
+                  <div id="questions-containerB1"></div>
+                  <div id="questions-containerB2"></div>
+                  <h3>Part C</h3>
+                  <p id="questions-containerC1"></p>
+                  <div id="questions-containerCQA1"></div>
+                  
+                  <p id="questions-containerC2"></p>
+                  <div id="questions-containerCQA2"></div>
+                </div>
+                 
+                </div>
+
+                <div class="task-box">
+                  <form id="task-form" action="{{ url_for('reading_task') }}" method="POST">
+                    <div class="button-container">
+                      
+                      <button type="button" name="submit_button" value="submit" id="submit_btn" onclick="gatherAndSubmitAnswers(event)">Submit</button>
+                      <button type="submit" name="submit_button" value="next" onclick="startTest()">Next</button>
+                    </div>
+                  </form>
+
+                  <div class="feedback-box">
+                    <div id="feedback-display" style="font-size: 18px; line-height: 1.6; overflow-y: auto; max-height: 500px;"></div>
+                  </div>
+
+                </div>
+              </div>
+
+          </div>
+      </div>
+  </section>
+  
+  <script>
+    // Initialize variables with fallback to null
+    const task_A = `{{ task_A | tojson |safe }}` || null; 
+    const taskAQA = JSON.parse(`{{ task_qa_A | tojson | safe }}`) || null;  
+    const task_B1 = `{{ task_B1 | tojson | safe }}` || null;  
+    const task_B2 = `{{ task_B2 | tojson | safe }}` || null;  
+    const next_got = `{{ next_got | tojson | safe }}` || null;
+    const timeAllotted = parseInt(`{{ time_allowed }}` || null, 10);
+    const feedback = `{{ feedback | safe }}` || null; 
+    const feedbackgot = `{{ feedback_got | tojson | safe }}` || null;
+    
+    const task_C1 = `{{ task_C1| tojson | safe }}` || null;
+    const taskCQA1 = JSON.parse(`{{ task_qa_C1 | tojson | safe }}`) || null; 
+    const task_C2 = `{{ task_C2| tojson | safe }}` || null; 
+    const taskCQA2 = JSON.parse(`{{ task_qa_C2 | tojson | safe }}`) || null; 
+
+
+    // Log variables to verify their values
+    
+    console.log("task_B1", task_B1);
+    console.log("type of task_B1", typeof task_B1);
+    console.log("task_B1", task_B2);
+    console.log("type of task_B2", typeof task_B2);
+    console.log("task_C1", task_C1);
+    console.log("taskCQA1", taskCQA1);
+    console.log("task_C2", task_C2);
+    console.log("taskCQA2", taskCQA2);
+    console.log("feedback_content",feedback)
+    
+    
+    
+    let alltextCorrectAnswers = [];
+    let allmcqCorrectAnswersB = [];
+    let correctAnswers_taskCQA1=[];
+    let correctAnswers_taskCQA2=[];
+    
+
+    
+
+    let timeLimit = timeAllotted * 60; // Convert minutes to seconds
+    let timer;  
+    let timeRemaining = timeLimit;  
+    
+    function startTest() {
+        // Show test content and initialize the timer
+        document.getElementById('test-content').style.display = 'block';
+        document.getElementById('start-button').style.display = 'none';
+        document.querySelector('.feedback-box').style.display = 'none';
+        document.getElementById('timer-display').style.display = 'block';
+        document.getElementById('tips-container').style.display = 'none';
+        document.getElementById("task-form").style.display = "block";
+   
+
+        loadAllTasksA(task_A,taskAQA);
+        showTask('A');
+        timeRemaining = timeLimit; // Reset the time
+        updateTimerDisplay(); // Update the timer UI
+        startCountdown(); // Start countdown
+    }
+
+    function loadAllTasksA(task_A,taskAQA) {
+      if (!task_A) {
+          console.error("No task content provided.");
+          return;
+      }
+  
+      console.log("Received task_A:", task_A);
+  
+      // Ensure the container exists
+      const taskContainer = document.getElementById('questions-containerA');
+      if (!taskContainer) {
+          console.error("Element with ID 'questions-containerA' not found.");
+          return;
+      }
+  
+      taskContainer.innerHTML = ''; // Clear existing content
+  
+      try {
+          // Use `marked` to convert Markdown to HTML
+          const parsedHTML = marked(task_A);
+  
+          // Sanitize the HTML to prevent XSS attacks
+          const safeHTML = DOMPurify.sanitize(parsedHTML);
+  
+          // Insert the sanitized HTML into the container
+          taskContainer.innerHTML = safeHTML;
+  
+          console.log("Markdown content rendered successfully.");
+      } catch (error) {
+          console.error("Error while processing Markdown content:", error);
+      }
+
+      
+      displayAQA(taskAQA);
+  
+  }
+
+  function displayAQA(taskAQA) {
+    // Check if taskAQA is valid
+    if (!taskAQA || !taskAQA.instruction1 || !taskAQA.instruction2 || !taskAQA.instruction3) {
+        console.error('Invalid taskAQA object');
+        return;
+    }
+
+    // Create a container element for the content
+    const container = document.getElementById('questions-containerAQA');
+    if (!container) {
+        console.error('Container element not found');
+        return;
+    }
+
+    // Start building the HTML content
+    let content = '';
+    
+
+    // Add Instructions and Render Sets
+    content += `<p><strong><em>Instruction 1:</em></strong> <strong><em>${taskAQA.instruction1}</em></strong></p>`;
+    content += renderTaskSet(taskAQA.set1, 1).content;
+    alltextCorrectAnswers = alltextCorrectAnswers.concat(renderTaskSet(taskAQA.set1, 1).correctAnswers);
+    content += `<p><strong><em>Instruction 2:</em></strong> <strong><em>${taskAQA.instruction2}</em></strong></p>`;
+    content += renderTaskSet(taskAQA.set2, 2).content;
+    alltextCorrectAnswers = alltextCorrectAnswers.concat(renderTaskSet(taskAQA.set2, 2).correctAnswers);
+    content += `<p><strong><em>Instruction 3:</em></strong> <strong><em>${taskAQA.instruction3}</em></strong></p>`;
+    content += renderTaskSet(taskAQA.set3, 3).content;
+    alltextCorrectAnswers = alltextCorrectAnswers.concat(renderTaskSet(taskAQA.set3, 3).correctAnswers);
+
+    // Add the constructed content to the container
+    container.innerHTML = content;
+    console.log('All text Correct Answers:', alltextCorrectAnswers);
+}
+
+  // Function to render each task set with input boxes replacing '_____'
+  function renderTaskSet(set, setId) {
+    if (!set || set.length === 0) {
+        return {
+            content: `<div class="task-set"><h3>Set ${setId}</h3><p>No tasks available.</p></div>`,
+            correctAnswers: []
+        };
+    }
+
+    let setContent = `<div class="task-set"><h3>Set ${setId}</h3>`;
+    let correctAnswers = [];
+
+    // Loop through the tasks in the set and add them to the content
+    set.forEach(task => {
+        for (let key in task) {
+            if (key === "correct_answer") {
+                // Collect the correct answers in a list
+                correctAnswers.push(task[key]);
+            } else {
+                // Show the question without the correct answer
+                let taskContent = task[key];
+                if (taskContent.includes('_____')) {
+                    taskContent = taskContent.replace('_____', '<input type="text" class="task-input" />');
+                }
+                taskContent = taskContent.replace(/_/g, '');
+
+                setContent += `<p class="task-question"><strong>${key}:</strong> ${taskContent}</p>`;
+            }
+        }
+    });
+
+    setContent += `</div>`;
+    return { content: setContent, correctAnswers: correctAnswers };
+}
+
+  function showTask(part) {
+    // Hide all parts initially
+    document.getElementById('task-A').style.display = 'none';
+    document.getElementById('task-BC').style.display = 'none';
+
+    // Show the selected task part
+    if (part === 'A') {
+        document.getElementById('task-A').style.display = 'block';
+        document.getElementById('task-BC').style.display = 'none';
+        loadAllTasksA(task_A,taskAQA)
+    } else if (part === 'BC') {
+        document.getElementById('task-A').style.display = 'none';
+        document.getElementById('task-BC').style.display = 'block';
+        const markdown_responseB1=processAndGenerateMarkdown(task_B1);
+        document.getElementById('questions-containerB1').innerHTML = marked(markdown_responseB1.html);
+        allmcqCorrectAnswersB1=markdown_responseB1.correctAnswers;
+        console.log("allmcqCorrectAnswersB1",allmcqCorrectAnswersB1)
+        const markdown_responseB2=processAndGenerateMarkdown(task_B2);
+        document.getElementById('questions-containerB2').innerHTML = marked(markdown_responseB2.html);
+        allmcqCorrectAnswersB = allmcqCorrectAnswersB1.concat(markdown_responseB2.correctAnswers);
+        console.log("allmcqCorrectAnswersB",allmcqCorrectAnswersB)
+        renderMarkdown(task_C1,"questions-containerC1");
+        
+        correctAnswers_taskCQA1 =displayQuestions_C(taskCQA1,"questions-containerCQA1");
+        
+        renderMarkdown(task_C2,"questions-containerC2");
+        correctAnswers_taskCQA2 =displayQuestions_C(taskCQA2,"questions-containerCQA2");
+        console.log("correctAnswers_taskCQA2",correctAnswers_taskCQA2)
+        console.log("correctAnswers_taskCQA1",correctAnswers_taskCQA1)
+        
+    }
+}
+
+
+    
+    // Set initial visibility based on the dropdown selection
+    document.getElementById('task-select').addEventListener('change', function() {
+      showTask(this.value);
+    });
+    
+    
+    function processAndGenerateMarkdown(data) {
+      // Clean up quotation marks and single quotes
+      data = data.replace(/“|”/g, '"').replace(/‘|’/g, "'").replace(/'/g, "");
+  
+      // Remove leading and trailing characters and split sections
+      let cleanedData = data.substring(1, data.length - 1);
+      let sections = cleanedData.split('},');
+  
+      let markdownOutput = [];
+    
+  
+      // Loop through each section
+      sections.forEach((section, index) => {
+          // Extract title and passage using regex
+          let titleMatch = section.match(/"title":"(.*?)"/);
+          let passageMatch = section.match(/"passage":"(.*?)"/);
+  
+          // Extract tasks with regex
+          let tasks = section.match(/"task":"(.*?)","options":(\[.*?\]),"correct_answer":"(.*?)"/g);
+  
+          // If both title and passage are found, add them to the markdown
+          if (titleMatch && passageMatch) {
+              markdownOutput.push(`<div class="box">`);
+              markdownOutput.push(`<h3><strong> ${titleMatch[1]}</strong></h3>`);
+              markdownOutput.push(`<p><strong>${passageMatch[1]}</strong> </p>`);
+              markdownOutput.push(`</div>`);
+          }
+  
+          // If tasks are found, process them
+          if (tasks) {
+              tasks.forEach((task, taskIndex) => {
+                  let taskMatch = task.match(/"task":"(.*?)","options":(\[.*?\]),"correct_answer":"(.*?)"/);
+                  if (taskMatch) {
+                      markdownOutput.push(`<h5> ${taskMatch[1]}</h5>`);
+  
+                      // Extract options
+                      let optionsString = taskMatch[2].replace(/["[\]]/g, '');
+                      let options = optionsString.split(',').map(option => option.trim());
+  
+                      // Store the correct answer
+                      allmcqCorrectAnswersB.push(taskMatch[3]);
+  
+                      // Generate radio buttons for only the first 3 options (a, b, c)
+                      markdownOutput.push("<ul id='optionsList_" + index + "'>");
+                      options.slice(0, 3).forEach((option, optionIndex) => {
+                          markdownOutput.push(`
+                              <li>
+                                  <input type="radio" id="option_${index}_${optionIndex}" name="task_${index}" value="${optionIndex}">
+                                  <label for="option_${index}_${optionIndex}">${option}</label>
+                              </li>
+                          `);
+                      });
+                      markdownOutput.push("</ul>");
+                  }
+              });
+          }
+  
+          markdownOutput.push("<hr>");
+      });
+  
+      // Return both the generated HTML and the correct answers as an object
+      return {
+          html: markdownOutput.join(''),
+          correctAnswers: allmcqCorrectAnswersB
+      };
+  }
+
+  function renderMarkdown(content, elementId) {
+
+    const renderedHTML = marked.parse(content);
+    document.getElementById(elementId).innerHTML = renderedHTML;
+}
+    
+function displayQuestions_C(data, containerId) {
+  const container = document.getElementById(containerId);
+
+  // Clear the container before adding new questions
+  container.innerHTML = '';
+
+  if (!data.task || !data.task.questions) {
+    console.error("Invalid data structure");
+    return [];
+  }
+
+  let correctAnswers = [];
+
+  data.task.questions.forEach((item, index) => {
+    // Add the correct answer to the list
+    correctAnswers.push(item.correct_answer);
+
+    // Create a container for each question
+    const questionDiv = document.createElement("div");
+    questionDiv.classList.add("question");
+
+    // Add the question text
+    const questionText = document.createElement("p");
+    questionText.innerText = `${index + 1}. ${item.question}`;
+    questionDiv.appendChild(questionText);
+
+    // Add options with radio buttons and inline styles
+    const optionsList = document.createElement("ul");
+    optionsList.style.listStyle = "none"; // Remove bullets
+    optionsList.style.padding = "0";     // Remove padding
+    optionsList.style.margin = "0";      // Remove margin
+
+    item.options.forEach((option, optionIndex) => {
+      const optionItem = document.createElement("li");
+      optionItem.style.marginBottom = "8px"; // Add spacing between options (optional)
+
+      // Create a radio button for each option
+      const radioInput = document.createElement("input");
+      radioInput.type = "radio";
+      radioInput.name = `${index+1}`; // Group radios by question number
+      radioInput.value = option; // The option text as the value
+
+      // Add label for the radio button
+      const label = document.createElement("label");
+      label.innerText = option;
+      label.style.marginLeft = "8px";
+
+      // Append radio button and label to the option item
+      optionItem.appendChild(radioInput);
+      optionItem.appendChild(label);
+
+      // Append the option item to the options list
+      optionsList.appendChild(optionItem);
+    });
+
+    // Append the options list to the question container
+    questionDiv.appendChild(optionsList);
+
+    // Append the question container to the main container
+    container.appendChild(questionDiv);
+  });
+
+  // Return the list of correct answers
+  return correctAnswers;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    function updateTimerDisplay() {
+        const minutes = Math.floor(timeRemaining / 60);
+        const seconds = timeRemaining % 60;
+        document.getElementById('timer-display').textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    }
+
+    function startCountdown() {
+        timer = setInterval(() => {
+            timeRemaining--;
+            updateTimerDisplay();
+
+            if (timeRemaining <= 0) {
+                clearInterval(timer);
+                document.getElementById('feedback-section').style.display = 'block';
+                document.getElementById('feedback-message').textContent = "Time's up! Please submit your task.";
+                // Optionally, submit the form automatically
+                // document.getElementById('letter-form').submit();
+            }
+        }, 1000); // Update every second
+    }
+
+   
+
+    function gatherAndSubmitAnswers(event) {
+      event.preventDefault(); // Prevent form submission
+  
+      // Show feedback and test content, hide others
+      document.querySelector('.feedback-box').style.display = 'block';
+      document.getElementById('test-content').style.display = 'block';
+      document.getElementById('start-button').style.display = 'none';
+      document.getElementById('timer-display').style.display = 'none';
+      document.getElementById('tips-container').style.display = 'none';
+  
+      // Collect text answers from Part A
+      const textInputs = document.querySelectorAll('#questions-containerAQA input[type="text"]');
+      const textAnswers = Array.from(textInputs).map(input => input.value);
+      
+
+      const mcqAnswersB = [
+        // Process questions-containerB1
+        ...Array.from(
+            document.querySelectorAll('#questions-containerB1 input[type="radio"]:checked')
+        ).map((input, index) => ({ questionId: `task_${index}`, answer: input.value })),
+        
+        // Process questions-containerB2
+        ...Array.from(
+            document.querySelectorAll('#questions-containerB2 input[type="radio"]:checked')
+        ).map((input, index) => ({ questionId: `task_${index + 3}`, answer: input.value }))
+    ];
+        
+      // Collect MCQ answers from Part C (questions-containerCQA1 and questions-containerCQA2)
+      const mcqAnswersCQA1 = Array.from(
+          document.querySelectorAll('#questions-containerCQA1 input[type="radio"]:checked')
+      ).map(input => ({ questionId: input.name, answer: input.value }));
+  
+      const mcqAnswersCQA2 = Array.from(
+          document.querySelectorAll('#questions-containerCQA2 input[type="radio"]:checked')
+      ).map(input => ({ questionId: input.name, answer: input.value }));
+  
+      // Combine answers into a single payload
+      const payload = {
+          textAnswers: textAnswers,
+          mcqAnswersB:mcqAnswersB,
+          mcqAnswersCQA1: mcqAnswersCQA1,
+          mcqAnswersCQA2: mcqAnswersCQA2,
+          
+          alltextCorrectAnswers:alltextCorrectAnswers,
+          correctAnswers_taskCQA1:correctAnswers_taskCQA1,
+          correctAnswers_taskCQA2:correctAnswers_taskCQA2,
+          allmcqCorrectAnswersB:allmcqCorrectAnswersB,
+          
+          taskA: task_A,
+          taskB1:task_B1,
+          taskB2:task_B2,
+          taskC1:task_C1,
+          taskAQA:taskAQA,
+          taskC2:task_C2,
+          taskCQA1:taskCQA1,
+          taskCQA2:taskCQA2
+      };
+  
+      console.log('Prepared Payload:', JSON.stringify(payload));
+  
+      // Send the payload to the server
+      fetch('/reading_task', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(payload),
+      })
+          .then(response => response.json())
+          .then(data => {
+              console.log('Submission successful:', data);
+  
+              // Handle successful response (e.g., update feedback)
+              if (data.feedback) {
+                  document.getElementById('feedback-display').innerHTML = marked(data.feedback);
+              }
+          })
+          .catch(error => {
+              console.error('Error during submission:', error);
+              // Handle error response (e.g., display an error message)
+          });
+  }
+  
+    window.onload = function() {
+      document.getElementById("task-form").style.display = "none";
+      document.querySelector(".feedback-box").style.display = "none";
+     
+      if (next_got === 'true'){
+        startTest()
+  
+      }
+     
+      
+    };
+    
+
+
+</script>
+
+
+    
+</body></html>

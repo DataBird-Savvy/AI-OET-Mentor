@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="OET listening Task">
+    <meta name="description" content="">
+    <title>Listening Task</title>
+    <link rel="stylesheet" href="static/nicepage.css" media="screen">
+    <link rel="stylesheet" href="static/ListeningTask.css" media="screen">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.3/marked.min.js"></script>    
+    
+    <script class="u-script" type="text/javascript" src="static/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="static/nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 6.21.3, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+    "logo": "static/images/logo_mentor.png"
+
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Listening Task">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-ec27"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <a href="#" class="u-image u-logo u-image-1">
+          <img src="static/images/logo_mentor.png" class="u-logo-image u-logo-image-1">
+        </a>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="./" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{ url_for('writing_task')}}" style="padding: 10px 20px;">Writing Task</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{ url_for('listening_task')}}" style="padding: 10px 20px;">Listening Task</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{ url_for('reading_task')}}" style="padding: 10px 20px;">Reading Task</a>
+</li></ul>
+          </div>
+          <div class="u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="./">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ url_for('writing_task')}}">Writing Task</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ url_for('listening_task')}}">Listening Task</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ url_for('reading_task')}}">Reading Task</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-clearfix u-palette-5-light-3 u-section-1" id="sec-1b9b">
+      <div class="custom-expanded data-layout-selected u-clearfix u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-container-align-center u-container-style u-image u-layout-cell u-size-18 u-image-1" data-image-width="1280" data-image-height="961">
+              <div class="u-container-layout u-container-layout-1"></div>
+            </div>
+            <div class="u-container-style u-layout-cell u-palette-5-light-1 u-size-42 u-layout-cell-2">
+              <div class="u-container-layout u-container-layout-2">
+                <div class="u-grey-40 u-shape u-shape-rectangle u-shape-1"></div>
+                <h2 class="u-align-center u-text u-text-default u-text-grey-10 u-text-1">Listening Task </h2>
+                <p class="u-align-center u-text u-text-default u-text-grey-10 u-text-2">TIME ALLOWED: 45 MINUTES</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-container-align-left u-palette-5-light-2 u-section-2" id="sec-cd44">
+      <div class="u-clearfix u-sheet u-sheet-1">
+          <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <style>
+               
+                  body {
+                      font-family: Arial, sans-serif;
+                      margin: 0;
+                      padding: 0;
+                      background-color: #E0E5EB;
+                  }
+  
+                  h1 {
+                      text-align: left; /* Changed from center to left */
+                  }
+  
+                  .task-box {
+                      background-color: #fff;
+                      padding: 20px;
+                      padding left:50px
+                      margin: 0 auto;
+                      border-radius: 8px;
+                      max-width: 1200px;
+                      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                      text-align: left; /* Ensure text inside the box aligns left */
+                      font-size: 5px;  /* You can adjust this value as per your requirement */
+                      font-style: italic; 
+                      overflow-y: auto; 
+                  }
+  
+                  .task-box h2 {
+                      margin-top: 0;
+                      
+                  }
+  
+                 
+  
+                  .button-container {
+                    background-color: #fff;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    display: flex;
+                    justify-content: space-between; /* Adjusts spacing between button and timer */
+                    align-items: center;
+                    margin: 10px 0; /* Optional margin for spacing */
+                }
+                  .timer-display {
+                    font-size: 19px; /* Adjust font size for better visibility */
+                    margin-left: 20px; /* Adds space between button and timer */
+                    text-align: right;
+                    min-width: 80px;
+                    flex-shrink: 0; /* Prevents the timer from shrinking */
+                }
+  
+                  button {
+                      padding: 15px 30px;
+                      background-color: #619c87;
+                      color: #fff;
+                      border: none;
+                      border-radius: 4px;
+                      cursor: pointer;
+                      font-size: 18px;
+                      margin-right: 10px; /* Add space between buttons */
+                  }
+  
+                  button:hover {
+                      background-color: #4e7b6d;
+                  }
+                  table {
+                    width: 100%;
+                    border-collapse: collapse;
+                  }
+                  
+                  table th, table td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                  }
+                  
+                  table th {
+                    background-color: #f4f4f4;
+                  }
+  
+                 
+                  .feedback-box {
+                    background-color: #e7f3fe;
+                    border-left: 6px solid #B2BEC7;
+                    padding: 5px;
+                    margin-top: 5px;
+                }
+
+             
+                      
+                .audio-player-container {
+                  display: flex;
+                  justify-content: center; 
+                  align-items: center; 
+                              
+                  
+                }
+
+                  audio {
+                    max-width: 100%; 
+                  }
+
+                  .question-item {
+                    margin-bottom: 20px;
+                }
+                
+                .options-container {
+                    margin-top: 10px;
+                    margin-left: 20px;
+                }
+                
+                label {
+                    display: block;
+                    margin-bottom: 5px;
+                }
+                
+                                
+                
+              
+              </style>
+  
+              <div class="button-container">
+                <button id="start-button" onclick="startTest()" style="height: 250px;">Start Test</button>
+                <div id="timer-display" class="timer-display" style="display: none;">0:00</div> <!-- Timer Display -->
+             
+                
+                
+                <div id="tips-container" class="tips-container" >
+                  <h3 style="text-align: center; font-size: 24px; color: rgba(0, 0, 0, 0.8);">Important Tips for OET Listening Test</h3>
+                  <ul>
+                    <li><span class="italic-text">Familiarize Yourself with the Test Format</span>: Understand the different parts of the listening test (Part A, B, and C), including the types of questions and audio formats you’ll encounter.</li>
+                    <li><span class="italic-text">Listen for Key Information</span>: Pay attention to key details such as patient symptoms, treatment plans, and medical advice. Focus on listening for numbers, dates, times, and names.</li>
+                    <li><span class="italic-text">Practice Active Listening</span>: Practice listening to various audio clips and take notes. This will help you train your ears to pick up important details quickly and efficiently.</li>
+                    <li><span class="italic-text">Understand Accents and Dialects</span>: OET listening recordings feature a range of English accents, so it’s beneficial to practice with different accents to be prepared for any variations in pronunciation.</li>
+                    <li><span class="italic-text">Follow the Instructions Carefully</span>: Read and listen to the instructions for each section carefully to ensure you understand what is being asked and to avoid mistakes.</li>
+                    <li><span class="italic-text">Keep Up with the Pace</span>: The test moves quickly, so it’s important to stay focused and not to spend too much time on any one question. Move on if you miss an answer and come back later if time allows.</li>
+                    <li><span class="italic-text">Take Notes During the Listening</span>: Jot down important points as you listen to the recordings. This helps you track the key information and makes it easier to answer questions when they follow.</li>
+                    <li><span class="italic-text">Stay Calm and Focused</span>: Don’t panic if you don’t understand every word. Focus on the overall message and main points of the recording, rather than trying to understand every detail.</li>
+                    <li><span class="italic-text">Review Your Answers</span>: If time permits, double-check your answers before submitting. Ensure that all information is correctly entered and that you’ve responded to all questions.</li>
+                    <li><span class="italic-text">Practice Under Test Conditions</span>: Regularly practice listening exercises under timed conditions to simulate the actual test environment. This will help you manage your time effectively and get accustomed to the pressure of the test.</li>
+                    <li><span class="italic-text">Be Prepared for Different Question Types</span>: Practice with a variety of question types, such as multiple-choice, fill-in-the-blank, matching, and short-answer questions to be well-prepared for any format on the test.</li>
+                  </ul>
+                 
+                </div>
+              </div>
+              <!-- Test Content -->
+              <div id="test-content" style="display: none;">
+                <div class="audio-player-container">
+                  <audio id="audioPlayer" controls>
+                    <source id="audioSource" src="audioUrl" type="audio/mp3">
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+                <div class="task-box">
+                  <h3>Part A</h3>
+                  <p id="task-question"></p>
+                  <h3>Part B</h3>
+                  <p style="display: block; font-style: normal; font-size: 19px; font-weight: bold; background-color: #f0f0f0; padding: 10px; border: 1px solid #ccc;">
+                    In this part of the test, you’ll hear six different extracts. In each extract, you’ll hear people talking in a different healthcare setting. For questions 25-30, choose the answer (A, B or C) which fits best according to what you hear. You’ll have time to read each question before you listen. Complete your answers as you listen.
+                  </p>
+                  
+                  <div id="questions-containerB"></div>
+                  <h3>Part C</h3>
+                  <div id="questions-containerC"></div>
+
+                </div>
+  
+                  <div class="task-box">
+                 
+                  <form id="task-form" action="{{ url_for('listening_task') }}" method="POST">
+                          
+                          
+                    <div class="button-container">
+                        <button type="button" name="submit_button" value="submit" id="submit_btn" onclick="gatherAndSubmitAnswers(event)">Submit</button>
+                       
+
+                        <button type="submit" name="submit_button" value="next" onclick="startTest()" >Next</button>
+                        
+
+                    </div>
+                </form>
+                                 
+                  <div class="feedback-box">
+                    <div id="feedback-display" style="font-size: 18px; line-height: 1.6; overflow-y: auto; max-height: 500px;">
+ 
+                </div>
+                </div>
+                  
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+<script>
+
+  const tasks = `{{ task_question | tojson |safe }}`|| null;  
+  const next_got=`{{ next_got | tojson | safe }}`;
+  const audioUrl = `{{ audio_file | safe }}`|| null;
+  const timeAllotted = parseInt(`{{time_allowed}}`|| null);
+  const feedback = `{{ feedback | safe }}`|| null; 
+  const feedbackgot = `{{ feedback_got | tojson | safe }}`;
+  const filtered_B = `{{ filtered_B | tojson | safe }}`|| null;
+  const filtered_C = `{{ filtered_C | tojson | safe }}`|| null;
+  const jsonObjectB = filtered_B ? JSON.parse(filtered_B) : null;
+  const jsonObjectC = filtered_C ? JSON.parse(filtered_C) : null;
+
+  console.log("tasks",tasks)
+  console.log("next_got",next_got)
+  console.log("timeAllotted",timeAllotted)
+  console.log("audioUrl",audioUrl)
+  console.log("feedback",feedback)
+  console.log("feedbackgot",feedbackgot)
+  
+  console.log("C",jsonObjectC);
+  
+  
+
+
+
+  
+  let timeLimit = timeAllotted * 60;  // Convert minutes to seconds
+  let timer;  // To hold the countdown timer
+  let timeRemaining = timeLimit;  // Initialize with time limit
+
+  
+ 
+  document.getElementById('audioSource').src = audioUrl;
+  function startTest() {
+      // Show the test content and hide the start button
+      document.getElementById('test-content').style.display = 'block';
+      document.getElementById('start-button').style.display = 'none';
+      document.querySelector('.feedback-box').style.display = 'none';
+      document.getElementById('timer-display').style.display = 'block';
+      document.getElementById('tips-container').style.display = 'none';
+      
+      
+      // Load tasks and reset the timer
+      loadAllTasks(tasks);
+      
+      timeRemaining = timeLimit;  // Reset time
+      updateTimerDisplay();  // Update timer initially
+      startCountdown();  // Start countdown timer
+  }
+
+
+  function loadAllTasks(tasks) {
+    tasks = tasks.replace(/"/g, '');
+    
+    document.getElementById('tips-container').style.display = 'none';
+
+    const taskContainer = document.getElementById('task-question');
+    taskContainer.innerHTML = ''; 
+
+    // Extract the instruction once from the task string
+    const instructionMatch = tasks.match(/- instruction: (.+?)(?=\n|$)/);
+    const instruction = instructionMatch ? instructionMatch[1].trim() : 'No instruction found';
+    
+
+    // Create a styled paragraph for the instruction
+    const instructionParagraph = document.createElement('p');
+    instructionParagraph.style.display = 'block';
+    instructionParagraph.style.fontStyle = 'normal';
+    instructionParagraph.style.fontSize = '19px';
+    instructionParagraph.style.fontWeight = 'bold';
+    instructionParagraph.style.backgroundColor = '#f0f0f0';
+    instructionParagraph.style.padding = '10px';
+    instructionParagraph.style.border = '1px solid #ccc';
+    instructionParagraph.innerHTML = instruction;
+
+    // Append the instruction paragraph to the container
+    taskContainer.appendChild(instructionParagraph);
+
+    // Remove the instruction line and handle part A specifically
+    tasks = tasks.replace(/- instruction: .+?\n/, '');  // Remove the instruction line
+    const partAMatch = tasks.match(/### Part A\n(.*?)####/s);  // Match 'Part A' content
+    let partAContent = partAMatch ? partAMatch[1].trim() : '';  // Extract Part A
+
+    // Remove 'Part A' and other parts (like 'Part B') from the task content
+    tasks = tasks.replace(/### Part A\n(.*?)####/s, '');  // Remove Part A
+    tasks = tasks.replace(/### Part B\n/, '');  // Remove 'Part B' (and other parts if needed)
+
+    // Create a div for Part A and add it to the container
+    if (partAContent) {
+        const partADiv = document.createElement('div');
+        const partAWithInputs = partAContent.replace(/____/g, () => {
+            return `<input type="text" name="answer" placeholder="" />`;
+        });
+        partADiv.innerHTML = marked(partAWithInputs); // Assuming 'marked' is used for Markdown parsing
+        partADiv.style.marginBottom = '20px';
+        taskContainer.appendChild(partADiv);
+    }
+
+    // Split the remaining tasks by the task delimiter '####'
+    const taskArray = tasks.split('####');
+    let k = 0;
+
+    taskArray.forEach((task, index) => {
+        const lines = task.split('\n');
+
+        // Extract task content (remove any leading empty lines)
+        const taskContent = lines.join('\n').trim(); 
+
+        // Replace placeholders (____) with input fields
+        const taskWithInputs = taskContent.replace(/____/g, () => {
+            return `<input type="text" name="answer${k++}" placeholder="" />`;
+        });
+
+        // Create a div to hold the task content
+        const taskDiv = document.createElement('div');
+        taskDiv.innerHTML = marked(taskWithInputs); // Assuming 'marked' is used for Markdown parsing
+        taskDiv.style.marginBottom = '20px';
+
+        // Append the task div (content) to the main task container
+        taskContainer.appendChild(taskDiv);
+    });
+}
+
+
+
+
+function renderMCQsB(filtered_B) {
+  // Select the container where questions will be displayed
+  const questionsContainer = document.getElementById('questions-containerB');
+  
+  // Clear any existing content in the container
+  questionsContainer.innerHTML = '';
+
+  // Loop through each question in the "MCQ_25_30" array
+  filtered_B['Part B'].MCQ_25_30.forEach(function(questionObj) {
+    // Create a new div for each question
+    const questionDiv = document.createElement('div');
+    questionDiv.classList.add('question-item');
+    
+    // Extract the question number and the question text
+    const questionNumber = Object.keys(questionObj)[0];
+    const questionText = questionObj[questionNumber];
+    
+    
+    // Create a paragraph for the question
+    const questionParagraph = document.createElement('p');
+    questionParagraph.textContent = `${questionNumber}. ${questionText}`;
+    
+    // Add the question text to the question div
+    questionDiv.appendChild(questionParagraph);
+    
+    // Create a container for options
+    const optionsContainer = document.createElement('div');
+    optionsContainer.classList.add('options-container');
+    
+    // Loop through the options and create radio buttons
+    questionObj.options.forEach(function(option, index) {
+      const optionLabel = document.createElement('label');
+      
+      // Create the radio input
+      const radioInput = document.createElement('input');
+      radioInput.type = 'radio';
+      radioInput.name = `question_${questionNumber}`;
+      radioInput.value = option;
+
+      // Increase the size of the radio button
+      radioInput.style.width = '20px';
+      radioInput.style.height = '20px';
+
+      // Increase the font size of the option label
+      optionLabel.style.fontSize = '18px'; // You can adjust the size as needed
+      optionLabel.style.marginRight = '10px'; // Adds space between the radio button and the label text
+
+      
+      // Append the radio input and option text to the label
+      optionLabel.appendChild(radioInput);
+      optionLabel.appendChild(document.createTextNode(option));
+      
+      // Append the option label to the options container
+      optionsContainer.appendChild(optionLabel);
+    });
+    
+    // Add options container to the question div
+    questionDiv.appendChild(optionsContainer);
+    
+    
+    // Append the question div to the questions container
+    questionsContainer.appendChild(questionDiv);
+  });
+}
+
+function renderMCQsC(filtered_C) {
+  // Select the container where questions will be displayed
+  const questionsContainer = document.getElementById('questions-containerC');
+  
+  // Clear any existing content in the container
+  questionsContainer.innerHTML = '';
+
+  // Add the Extract 1 instructions and content
+  const extract1Div = document.createElement('div');
+  const extract1Title = document.createElement('h5');
+
+  extract1Title.style.padding = '10px';
+  extract1Title.style.borderRadius = '5px';
+  extract1Title.style.fontSize = '22px'; 
+  extract1Title.style.fontWeight = 'bold'; 
+  extract1Title.style.width = '100%'; 
+  extract1Title.textContent = 'Extract 1: Questions 31-36';
+  extract1Div.appendChild(extract1Title);
+  const extract1Text = document.createElement('div');
+  extract1Text.style.padding = '10px';
+  extract1Text.style.borderRadius = '5px';
+  extract1Text.style.fontSize = '20px'; 
+  extract1Text.style.fontWeight = 'bold'; 
+  extract1Text.style.width = '100%'; 
+  extract1Text.textContent = filtered_C['Part C']["Extract 1: Questions 31-36"];
+  extract1Div.appendChild(extract1Text);
+  // Append Extract 1 section to the questions container
+  questionsContainer.appendChild(extract1Div);
+
+  // Add the MCQs for Extract 1 (Questions 31-36)
+  filtered_C['Part C'].mcq_31_36.forEach(function(questionObj) {
+    const questionDiv = document.createElement('div');
+    questionDiv.classList.add('question-item');
+    
+    const questionNumber = Object.keys(questionObj)[0];
+    const questionText = questionObj[questionNumber];
+    
+    const questionParagraph = document.createElement('p');
+    questionParagraph.textContent = `${questionNumber}. ${questionText}`;
+    questionDiv.appendChild(questionParagraph);
+    
+    const optionsContainer = document.createElement('div');
+    optionsContainer.classList.add('options-container');
+    
+    questionObj.options.forEach(function(option) {
+      const optionLabel = document.createElement('label');
+      const radioInput = document.createElement('input');
+      radioInput.type = 'radio';
+      radioInput.name = `question_${questionNumber}`;
+      radioInput.value = option;
+      radioInput.style.width = '20px';
+      radioInput.style.height = '20px';
+      optionLabel.style.fontSize = '18px';
+      optionLabel.style.marginRight = '10px';
+      optionLabel.appendChild(radioInput);
+      optionLabel.appendChild(document.createTextNode(option));
+      optionsContainer.appendChild(optionLabel);
+    });
+    
+    questionDiv.appendChild(optionsContainer);
+    questionsContainer.appendChild(questionDiv);
+  });
+
+  // Add the Extract 2 instructions and content
+  const extract2Div = document.createElement('div');
+  const extract2Title = document.createElement('h5');
+  extract2Title.style.padding = '10px';
+  extract2Title.style.borderRadius = '5px';
+  extract2Title.style.fontSize = '22px'; 
+  extract2Title.style.fontWeight = 'bold'; 
+  extract2Title.style.width = '100%'; 
+  extract2Title.textContent = 'Extract 2: Questions 37-42';
+
+  extract2Div.appendChild(extract2Title);
+
+
+  const extract2Text = document.createElement('div');
+  extract2Text.style.padding = '10px';
+  extract2Text.style.borderRadius = '5px';
+  extract2Text.style.fontSize = '20px'; 
+  extract2Text.style.fontWeight = 'bold'; 
+  extract2Text.style.width = '100%'; 
+  extract2Text.textContent = filtered_C['Part C']["Extract 2: Questions 37-42"];
+
+  
+  extract2Div.appendChild(extract2Text);
+
+  // Append Extract 2 section to the questions container
+  questionsContainer.appendChild(extract2Div);
+
+  // Add the MCQs for Extract 2 (Questions 37-42)
+  filtered_C['Part C'].mcq_37_42.forEach(function(questionObj) {
+    const questionDiv = document.createElement('div');
+    questionDiv.classList.add('question-item');
+    
+    const questionNumber = Object.keys(questionObj)[0];
+    const questionText = questionObj[questionNumber];
+    
+    const questionParagraph = document.createElement('p');
+    questionParagraph.textContent = `${questionNumber}. ${questionText}`;
+    questionDiv.appendChild(questionParagraph);
+    
+    const optionsContainer = document.createElement('div');
+    optionsContainer.classList.add('options-container');
+    
+    questionObj.options.forEach(function(option) {
+      const optionLabel = document.createElement('label');
+      const radioInput = document.createElement('input');
+      radioInput.type = 'radio';
+      radioInput.name = `question_${questionNumber}`;
+      radioInput.value = option;
+      radioInput.style.width = '20px';
+      radioInput.style.height = '20px';
+      optionLabel.style.fontSize = '18px';
+      optionLabel.style.marginRight = '10px';
+      optionLabel.appendChild(radioInput);
+      optionLabel.appendChild(document.createTextNode(option));
+      optionsContainer.appendChild(optionLabel);
+    });
+    
+    questionDiv.appendChild(optionsContainer);
+    questionsContainer.appendChild(questionDiv);
+  });
+}
+
+
+function gatherAndSubmitAnswers(event) {
+  event.preventDefault(); // Prevent default form submission
+  document.querySelector('.feedback-box').style.display = 'block';
+  document.getElementById('test-content').style.display = 'block';
+  document.getElementById('start-button').style.display = 'none';
+  document.getElementById('timer-display').style.display = 'none';
+  document.getElementById('tips-container').style.display = 'none';
+
+  // Collect answers from text input fields
+  const textInputs = document.querySelectorAll('#task-question input[type="text"]');
+  const textAnswers = Array.from(textInputs).map(input => input.value);
+
+  // Collect answers from MCQs
+  const mcqAnswers = [];
+  const mcqContainers = document.querySelectorAll('.question-item');
+  
+  mcqContainers.forEach((container) => {
+    const selectedOption = container.querySelector('input[type="radio"]:checked');
+    
+    if (selectedOption) {
+      const questionId = selectedOption.name.replace('question_', ''); // Extract question number
+      mcqAnswers.push({ question: questionId, answer: selectedOption.value });
+    } else {
+      const questionId = container.querySelector('input[type="radio"]').name.replace('question_', '');
+      mcqAnswers.push({ question: questionId, answer: 'No answer selected' });
+    }
+  });
+
+  // Prepare the payload
+  const payload = {
+    textAnswers: textAnswers,
+    mcqAnswers: mcqAnswers,
+    task: tasks, 
+    audioUrl: audioUrl 
+  };
+  console.log('Prepared Payload:', JSON.stringify(payload));
+
+
+  // Send the payload to the backend using Fetch API
+  fetch('/listening_task', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(payload),
+  })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Submission successful:', data);
+
+      // Handle successful response (e.g., update feedback)
+      if (data.feedback) {
+        document.getElementById('feedback-display').innerHTML = marked(data.feedback);
+      }
+    })
+    .catch(error => {
+      console.error('Error during submission:', error);
+      // Handle error response (e.g., display an error message)
+    });
+}
+
+
+
+  function updateTimerDisplay() {
+      const minutes = Math.floor(timeRemaining / 60);
+      const seconds = timeRemaining % 60;
+      document.getElementById('timer-display').textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+  }
+
+  
+
+
+  function startCountdown() {
+      timer = setInterval(() => {
+          timeRemaining--;
+          updateTimerDisplay();
+          
+          if (timeRemaining <= 0) {
+              clearInterval(timer);
+              document.getElementById('feedback-section').style.display = 'block';
+              document.getElementById('feedback-message').textContent = "Time's up! Please submit your task.";
+              // Optionally, you can automatically submit the form
+              // document.getElementById('letter-form').submit();
+          }
+      }, 1000); // Update every second
+  }
+
+  // Ensure the page behaves according to whether the test has started or not
+  window.onload = function() {
+    if (jsonObjectB != null)  {
+      renderMCQsB(jsonObjectB)
+     
+    }
+    if (jsonObjectC != null)  {
+      renderMCQsC(jsonObjectC)
+     
+    }
+    if (next_got === 'true'){
+      startTest()
+
+    }
+   
+    
+  };
+  
+     
+    
+</script>
+
+    
+</body>
+
+</html>

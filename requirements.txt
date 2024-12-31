@@ -1,0 +1,7 @@
+langchain==0.3.8
+python-dotenv==1.0.1
+sentence-transformers==3.1.1
+langchain-google-genai==2.0.5
+langchain-community
+openai==1.47.1
+Flask==3.0.3
