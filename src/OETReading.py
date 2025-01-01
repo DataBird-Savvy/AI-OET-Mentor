@@ -4,47 +4,28 @@ from pinecone import Pinecone
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-
 import re
 import sqlite3
 from flask import  send_file, jsonify
 import pandas as pd
-
 from langchain_pinecone import PineconeVectorStore
-from pydantic import BaseModel
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from groq import Groq
-from typing import List
 from openai import OpenAI
 load_dotenv()
-
 from openai import OpenAI
+from logger import logging
 
-
-class Task(BaseModel):
-    task: str
-    options: List[str]
-    correct_answer: str
-
-
-class Passage(BaseModel):
-    title: str
-    passage: str
-    tasks: List[Task]
-
-
-class ResponseData(BaseModel):
-    passages: List[Passage]    
 
 class OETReadingTaskAssistant:
     def __init__(self):
+        logging.info("Initializing the OET Reading Task Assistant ")
         self.PINECONE_API = os.getenv("PINE_CONE_API")
         self.INDEX_NAME_A = os.getenv("INDEX_NAME_A")
         self.INDEX_NAME_C = os.getenv("INDEX_NAME_C")
         self.artifact_path = "static/artifacts"
         self.GROQ_API_KEY=os.getenv("GROQ_API_KEY")
         self.openai_client=OpenAI()
-        self.ANTHROPIC_API_KEY=os.getenv("ANTHROPIC_API_KEY")
         pc = Pinecone(api_key=self.PINECONE_API )
         indexA = pc.Index(self.INDEX_NAME_A)
         indexC = pc.Index(self.INDEX_NAME_C)
@@ -174,45 +155,25 @@ class OETReadingTaskAssistant:
         )
 
         response_next_input = chat_completion.choices[0].message.content
-
-        # Extract JSON portion
         start_index = response_next_input.find('{')
         end_index = response_next_input.rfind('}') + 1
 
         try:
-            # Extract the JSON content
+            
             json_text = response_next_input[start_index:end_index]
-            
-            # Clean up potential issues
-            json_text = json_text.strip()  # Remove extra whitespace
-            json_text = json_text.replace("\n", "").replace("\t", "")  # Remove control characters
-            
-            # Parse JSON
+            json_text = json_text.strip()  
+            json_text = json_text.replace("\n", "").replace("\t", "")  
             json_output = json.loads(json_text)
-
-            # Pretty print for debugging (optional)
             print(json.dumps(json_output, indent=4))
 
         except json.JSONDecodeError as e:
             print("Invalid JSON response:", response_next_input)
             print("Error:", e)
-            json_output = None  # Return None or handle the fallback case
+            json_output = None  
 
         return json_output
         
-        # def rag_taskpartAQA(self, input):
-        #     # print(input)
-        #     response_next_input = self.genai_client.invoke(input)
-
-        #     print("task_question:",response_next_input)
-        #     response_next_input=response_next_input.content.strip('```json\n').strip('```').strip()
-            
-        #     print("json_text",response_next_input)
-        #     json_output = json.loads(response_next_input)
-            
-        #     return json_output
         
-    
     
     def retrieve_qaA_prompt(self, taskA_context):
                # Format the prompt string dynamically using f-string, ensuring correct escaping
@@ -317,25 +278,20 @@ class OETReadingTaskAssistant:
         return prompt_next
     def compare_answersB_to_dataframe(self, mcq_answers, correct_answers, total_marks):
         results = []
-        marks_per_question = 1  # Set the mark per correct answer (adjust as needed)
+        marks_per_question = 1  
         
-        # Loop through each answer and check if it matches the correct answer
         for idx, mcq in enumerate(mcq_answers):
             
-            selected_answer = mcq['answer'].split(')')[0]  # Get the letter before ')'
+            selected_answer = mcq['answer'].split(')')[0]  
             print("selected_answer",selected_answer)
             answer_mapping = { '0': 'a', '1': 'b', '2': 'c'}
             selected_answer = answer_mapping.get(selected_answer, "Invalid answer") 
             print("selected_answer",selected_answer)
             print("correct_answers[idx] ",correct_answers[idx] )
-            # Compare with the correct answer
             is_correct = 'Correct' if selected_answer == correct_answers[idx] else 'Incorrect'
-            
-            # If the answer is correct, add marks
             if is_correct == 'Correct':
                 total_marks += marks_per_question
-            
-            # Append the result to the list
+
             results.append({
                 'Question ID': idx+1,
                 'Selected Answer': selected_answer,
