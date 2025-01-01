@@ -1,33 +1,23 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
-import random
-# Load environment variables from a .env file
+from logger import logging
 load_dotenv()
 import re
 
 class OETWritingTaskAssistant:
     def __init__(self):
-        """Initialize the OET Writing Task Assistant with Google GenAI client."""
+        logging.info("Initializing the OET Writing Task Assistant with Google GenAI client")
+        
         self.client = ChatGoogleGenerativeAI(model="gemini-1.5-pro")
         self.task_question = self.generate_task_question()
         
-    # Define a function to extract the time allowed
-    def extract_time(self,task):
-        # Use regular expression to find "Time allowed: XX minutes"
-        time_pattern = r"\*\*Time allowed:\*\*\s*(\d+)\s*minutes"
-        
-        match = re.search(time_pattern, task)
-        
-        # If a match is found, return the time in minutes as an integer
-        if match:
-            return int(match.group(1))
-        else:
-            return None
+    
     
     
 
     def generate_score(self, task_text):
-        """Generate a score for the writing task."""
+        logging.info("Generating a score for the writing task.")
+        
         response = self.client.invoke(
             f"Evaluate the quality of the following OET writing task and provide a score from 1 to 10:\n{task_text}"
         )
@@ -36,11 +26,6 @@ class OETWritingTaskAssistant:
 
     def generate_task_question(self):
         
-
-        
-
-      # Optionally invoke the client to process the template and return the task
-        # Optionally invoke the client to process the template and return the task
         prompt =""" Create detailed patient case notes and a corresponding writing task for the OET Nursing Writing Test. Follow the structured format for the case notes and ensure the writing task aligns with OET standards.
 
             # Steps
@@ -96,22 +81,16 @@ class OETWritingTaskAssistant:
         # print("task_md:",response_md)
         return response_md
     def get_feedback_and_score(self, task_text):
-        """Get both feedback and score for a given OET writing task."""
+        logging.info("Getting both feedback and score for a given OET writing task")
+        
         if not task_text:
             return "Please provide a valid writing task.", None
-        
-        # Generate feedback (you can add this functionality later if needed)
-        feedback = None  # Placeholder for feedback logic
-        
-        # Generate score
+        feedback = None  
         feedback = self.generate_score(task_text)
         
         return feedback
 
-    def get_next_question(self):
-        """Fetch a new writing task question."""
-        self.task_question = self.generate_task_question()
-        return self.task_question
+   
 
 
    
