@@ -25,6 +25,9 @@ class OETReadingTaskAssistant:
         self.INDEX_NAME_C = os.getenv("INDEX_NAME_C")
         self.artifact_path = "static/artifacts"
         self.GROQ_API_KEY=os.getenv("GROQ_API_KEY")
+        logging.info(f"Initializing Groq client with API key: {self.GROQ_API_KEY}")
+        print(f"Initializing Groq client with API key: {self.GROQ_API_KEY}")
+        
         self.openai_client=OpenAI()
         pc = Pinecone(api_key=self.PINECONE_API )
         indexA = pc.Index(self.INDEX_NAME_A)
@@ -682,9 +685,9 @@ class OETReadingTaskAssistant:
     
     
             
-    def get_cyclic_inputs(self,DB_TASKB):
+    def get_cyclic_inputs(self,DB_TASK):
         # Connect to SQLite database
-        conn = sqlite3.connect(DB_TASKB)
+        conn = sqlite3.connect(DB_TASK)
         cursor = conn.cursor()
 
         # Fetch all input data from the table

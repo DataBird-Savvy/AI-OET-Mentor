@@ -228,12 +228,12 @@ def reading_task():
                 
                 # -------------------------------finetunemodel using openai--------------------
                 
-                response_textB1 = reading_assistant.retrive_B(prompt_B)
-                logging.info("response_textB1: %s", response_textB1)
+                # response_textB1 = reading_assistant.retrive_B(prompt_B)
+                # logging.info("response_textB1: %s", response_textB1)
 
-                prompt_B = next(cyclic_gen)
-                response_textB2 = reading_assistant.retrive_B(prompt_B)
-                logging.info("response_textB2: %s", response_textB2)
+                # prompt_B = next(cyclic_gen)
+                # response_textB2 = reading_assistant.retrive_B(prompt_B)
+                # logging.info("response_textB2: %s", response_textB2)
                 
                 
                 # ----------------------------------------------------------------------------
@@ -258,8 +258,8 @@ def reading_task():
                 return render_template('ReadingTask.html', 
                                         task_A=taskA,
                                         task_qa_A=taskAQA_text,
-                                        task_B1=response_textB1,
-                                        task_B2=response_textB2,
+                                        task_B1='',
+                                        task_B2='',
                                         task_C1=taskC1,
                                         task_CQA1=taskCQA1,
                                         task_C2=taskC2,
@@ -322,9 +322,8 @@ def reading_task():
             taskA=reading_assistant.rag_taskpart(taskA_prompt)
             taskAQA_prompt=reading_assistant.retrieve_qaA_prompt(taskA)
             taskAQA=reading_assistant.rag_taskpartQA(taskAQA_prompt)
-            # print("taskAQA_text",taskAQA_text)
-            # taskAQA=reading_assistant.parse_stringA(taskAQA_text)
-            # taskAQA=json.loads(taskAQA)
+            
+                        
             print("taskAQA",taskAQA)
             
             
@@ -368,14 +367,14 @@ def reading_task():
             
             # -------------------------------finetunemodel using openai--------------------
             
-            response_textB1=reading_assistant.retrive_B(prompt_B)
-            print("response_textB1",response_textB1)
+            # response_textB1=reading_assistant.retrive_B(prompt_B)
+            # print("response_textB1",response_textB1)
             
-            prompt_B = next(cyclic_gen)
-            response_textB2=reading_assistant.retrive_B(prompt_B)
-            print("response_textB2",response_textB2)
-            logging.info("Task B1: %s", response_textB1)
-            logging.info("Task B2: %s", response_textB2)
+            # prompt_B = next(cyclic_gen)
+            # response_textB2=reading_assistant.retrive_B(prompt_B)
+            # print("response_textB2",response_textB2)
+            # logging.info("Task B1: %s", response_textB1)
+            # logging.info("Task B2: %s", response_textB2)
         
             
             # ----------------------------------------------------------------------------
@@ -433,5 +432,5 @@ def reading_task():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
-    # app.run(debug=True)
+    # app.run(host='0.0.0.0', port=5000)
+    app.run(debug=True)
