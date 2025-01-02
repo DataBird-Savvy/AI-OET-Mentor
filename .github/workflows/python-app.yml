@@ -39,4 +39,4 @@ jobs:
     - name: Run tests or deploy
       run: |
         # Your test or deployment command here
-        python app.py  # Example of running your script
+        # python app.py  # Example of running your script
