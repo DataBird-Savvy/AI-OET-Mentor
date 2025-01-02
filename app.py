@@ -228,12 +228,12 @@ def reading_task():
                 
                 # -------------------------------finetunemodel using openai--------------------
                 
-                # response_textB1 = reading_assistant.retrive_B(prompt_B)
-                # logging.info("response_textB1: %s", response_textB1)
+                response_textB1 = reading_assistant.retrive_B(prompt_B)
+                logging.info("response_textB1: %s", response_textB1)
 
-                # prompt_B = next(cyclic_gen)
-                # response_textB2 = reading_assistant.retrive_B(prompt_B)
-                # logging.info("response_textB2: %s", response_textB2)
+                prompt_B = next(cyclic_gen)
+                response_textB2 = reading_assistant.retrive_B(prompt_B)
+                logging.info("response_textB2: %s", response_textB2)
                 
                 
                 # ----------------------------------------------------------------------------
@@ -258,8 +258,8 @@ def reading_task():
                 return render_template('ReadingTask.html', 
                                         task_A=taskA,
                                         task_qa_A=taskAQA_text,
-                                        task_B1='',
-                                        task_B2='',
+                                        task_B1=response_textB1,
+                                        task_B2=response_textB2,
                                         task_C1=taskC1,
                                         task_CQA1=taskCQA1,
                                         task_C2=taskC2,
@@ -367,14 +367,14 @@ def reading_task():
             
             # -------------------------------finetunemodel using openai--------------------
             
-            # response_textB1=reading_assistant.retrive_B(prompt_B)
-            # print("response_textB1",response_textB1)
+            response_textB1=reading_assistant.retrive_B(prompt_B)
+            print("response_textB1",response_textB1)
             
-            # prompt_B = next(cyclic_gen)
-            # response_textB2=reading_assistant.retrive_B(prompt_B)
-            # print("response_textB2",response_textB2)
-            # logging.info("Task B1: %s", response_textB1)
-            # logging.info("Task B2: %s", response_textB2)
+            prompt_B = next(cyclic_gen)
+            response_textB2=reading_assistant.retrive_B(prompt_B)
+            print("response_textB2",response_textB2)
+            logging.info("Task B1: %s", response_textB1)
+            logging.info("Task B2: %s", response_textB2)
         
             
             # ----------------------------------------------------------------------------
@@ -413,8 +413,8 @@ def reading_task():
         return render_template('ReadingTask.html', 
                                task_A=taskA,
                                task_qa_A=taskAQA,
-                               task_B1= '',
-                               task_B2= '',
+                               task_B1= response_textB1,
+                               task_B2= response_textB2,
                                task_C1=taskC1,
                                task_qa_C1=taskCQA1,
                                task_C2=taskC2,
