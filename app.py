@@ -194,38 +194,8 @@ def reading_task():
                 inputsB = reading_assistant.get_cyclic_inputs(DB_TASKB)
                 cyclic_gen = reading_assistant.cyclic_iterator(idx=next_index, inputs=inputsB)
                 prompt_B = next(cyclic_gen)
-                # -------------------------------finetuned model with ollama--------------------------------
-                # response_textB=[]
-                # url = "http://localhost:11434/api/generate"
-                # model_name = "hf.co/jiya2/fineTuned_OETReadingPartB_Llama-3.2-1B-bnb-4bit_3Q_19_12:F16"
-                # # task_B_list = []  # List to store responses
-                # data = {
-                #     "model": model_name,
-                #     "prompt": f"{prompt_B}and give exact solution in json without verbosity"
-                #         }
-                # # Make the API request
-                # response = requests.post(url, json=data, stream=True)
-
-                # if response.status_code == 200:
-                #     response_text = ""  # Initialize an empty string to accumulate the response
-                #     for line in response.iter_lines():
-                #         if line:
-                #             decoded_line = line.decode("utf-8") if isinstance(line, bytes) else line
-                #             try:
-                #                 result = json.loads(decoded_line)
-                #                 response_text += result.get("response", "")  # Append the result to response_text
-                #             except json.JSONDecodeError:
-                #                 # Handle cases where decoding the line fails
-                #                 print(f"Failed to decode line: {decoded_line}")
-                #                 continue
-
-                #     # Add the response to the list
-                #     response_textB.append(response_text)
-                # else:
-                #     print("Error", response.status_code, response.text)
-                #     # task_B_list.append(f"Error: {response.status_code}")
-                # print("task_B_list", response_textB)
                 
+               
                 # -------------------------------finetunemodel using openai--------------------
                 
                 response_textB1 = reading_assistant.retrive_B(prompt_B)
@@ -333,37 +303,7 @@ def reading_task():
             # Prompt input
             prompt_B = next(cyclic_gen)
             print("prompt_B",prompt_B)
-            # -------------------------------finetuned model with ollama--------------------------------
-            # response_textB=[]
-            # url = "http://localhost:11434/api/generate"
-            # model_name = "hf.co/jiya2/fineTuned_OETReadingPartB_Llama-3.2-1B-bnb-4bit_3Q_19_12:F16"
-            # # task_B_list = []  # List to store responses
-            # data = {
-            #     "model": model_name,
-            #     "prompt": f"{prompt_B}and give exact solution in json without verbosity"
-            #         }
-            # # Make the API request
-            # response = requests.post(url, json=data, stream=True)
-
-            # if response.status_code == 200:
-            #     response_text = ""  # Initialize an empty string to accumulate the response
-            #     for line in response.iter_lines():
-            #         if line:
-            #             decoded_line = line.decode("utf-8") if isinstance(line, bytes) else line
-            #             try:
-            #                 result = json.loads(decoded_line)
-            #                 response_text += result.get("response", "")  # Append the result to response_text
-            #             except json.JSONDecodeError:
-            #                 # Handle cases where decoding the line fails
-            #                 print(f"Failed to decode line: {decoded_line}")
-            #                 continue
-
-            #     # Add the response to the list
-            #     response_textB.append(response_text)
-            # else:
-            #     print("Error", response.status_code, response.text)
-            #     # task_B_list.append(f"Error: {response.status_code}")
-            # print("task_B_list", response_textB)
+           
             
             # -------------------------------finetunemodel using openai--------------------
             
