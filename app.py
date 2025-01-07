@@ -266,6 +266,7 @@ def reading_task():
                                         task_CQA2=taskCQA2, 
                                         feedback=None,
                                         feedback_got=False, 
+                                        next_got=True,
                                         time_allowed=time_allowed)
 
 
@@ -367,14 +368,14 @@ def reading_task():
             
             # -------------------------------finetunemodel using openai--------------------
             
-            response_textB1=reading_assistant.retrive_B(prompt_B)
-            print("response_textB1",response_textB1)
+            # response_textB1=reading_assistant.retrive_B(prompt_B)
+            # print("response_textB1",response_textB1)
             
-            prompt_B = next(cyclic_gen)
-            response_textB2=reading_assistant.retrive_B(prompt_B)
-            print("response_textB2",response_textB2)
-            logging.info("Task B1: %s", response_textB1)
-            logging.info("Task B2: %s", response_textB2)
+            # prompt_B = next(cyclic_gen)
+            # response_textB2=reading_assistant.retrive_B(prompt_B)
+            # print("response_textB2",response_textB2)
+            # logging.info("Task B1: %s", response_textB1)
+            # logging.info("Task B2: %s", response_textB2)
         
             
             # ----------------------------------------------------------------------------
