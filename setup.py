@@ -12,7 +12,7 @@ setup(
     name="ai-oet-mentor",
     version="0.0.1",
     author="Jiya Mary Joseph",
-    author_email="mejiyamaryjoseph@gmaail.com",
+    author_email="mejiyamaryjoseph@gmail.com",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     install_requires=get_requirements(),  # Read dependencies from requirements.txt
