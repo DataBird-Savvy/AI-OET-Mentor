@@ -1,0 +1,46 @@
+{
+    "Scenario": "A patient is visiting a nurse to discuss their recent health concerns and get advice on managing their condition.",
+    "Passage_type": "Part A",
+    "Listening_Passage": "Nurse: Good morning, Mr. Smith. How can I assist you today?  Patient: Good morning, Nurse. I've been feeling quite fatigued lately and I’m not sure why. Nurse: I see. Fatigue can be caused by various factors. Can you tell me how long you've been experiencing this fatigue? Patient: It’s been about three weeks now. I'm also having trouble sleeping. Nurse: That could be related. Have there been any changes in your lifestyle or stress levels? Patient: Well, I’ve been under a lot of stress at work lately, and my diet has not been great. Nurse: Stress and poor nutrition can definitely contribute to fatigue. Have you had a chance to eat regular meals? Patient: Not really. I often skip breakfast and sometimes lunch. Nurse: That's important to address. Skipping meals can lead to decreased energy levels. I recommend you start by having a balanced breakfast each morning. Patient: That sounds good, but I’m not sure what to include. Nurse: Try to include protein, whole grains, and some fruit. For example, oatmeal with nuts and a banana would be a nutritious option. Patient: I can do that. Is there anything else I should consider? Nurse: Yes, I suggest incorporating some physical activity into your routine, as exercise can improve your energy levels and help reduce stress. Patient: I usually don’t have time for that. Nurse: Even a short walk during your lunch break can make a difference. Additionally, if you’re interested, I can arrange for you to meet with a dietitian who can provide more personalized dietary advice. Patient: I would appreciate that. What about the sleep issue? Nurse: Sleep hygiene is crucial. Ensure your sleeping environment is comfortable and consider establishing a relaxing bedtime routine. Avoid caffeine in the hours leading up to sleep. Patient: Great, I’ll work on that. How soon should I see improvement? Nurse: You may begin to feel better within a few weeks with these changes. However, if the fatigue persists, it might be best to undergo some tests to rule out any underlying health issues. Patient: Thank you, Nurse. I feel more hopeful now.",
+    "Questions": [
+        "1. The patient has been feeling fatigued for _____ weeks.",
+        "2. The nurse suggests the patient include _____ in their breakfast.",
+        "3. Skipping meals can lead to _____ energy levels.",
+        "4. The nurse recommends incorporating _____ into the patient's routine.",
+        "5. The nurse can arrange a meeting with a _____ for personalized dietary advice.",
+        "6. The environment for sleep should be _____ according to the nurse.",
+        "7. The patient is experiencing trouble _____ according to their report.",
+        "8. The nurse emphasizes the importance of _____ hygiene.",
+        "9. To improve energy levels, the patient should avoid _____ in the hours leading to sleep.",
+        "10. The nurse suggests a _____ walk during lunch to help improve fatigue."
+    ],
+    "Correct_answers": [
+        "3",
+        "protein",
+        "decreased",
+        "physical activity",
+        "dietitian",
+        "comfortable",
+        "sleeping",
+        "sleep",
+        "caffeine",
+        "short"
+    ],
+    "Explanation": [
+        "The patient mentions they have been feeling fatigued for 3 weeks, making this the correct answer.",
+        "The nurse's advice on breakfast highlights including protein for nutrition.",
+        "The nurse points out that skipping meals can lead to decreased energy levels.",
+        "The importance of physical activity is noted by the nurse as a way to combat fatigue.",
+        "Meeting a dietitian is suggested to provide personalized dietary advice.",
+        "The environment for sleep should be comfortable, as emphasized by the nurse.",
+        "The patient's concern about sleeping is addressed during the conversation.",
+        "The nurse discusses sleep hygiene as a necessity for better rest.",
+        "Avoiding caffeine is crucial for improving sleep quality, as mentioned by the nurse.",
+        "Incorporating a short walk is recommended by the nurse to boost energy levels."
+    ],
+    "Suggestions": [
+        "Listen to healthcare dialogues to familiarize yourself with medical terminology.",
+        "Practice summarizing key points from recorded conversations.",
+        "Engage in active listening exercises with varied accents to improve comprehension skills."
+    ]
+}

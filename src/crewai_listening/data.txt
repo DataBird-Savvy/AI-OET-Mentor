@@ -1,0 +1,2472 @@
+{
+    "Scenarios": [
+        {
+            "Scenario": "A patient is visiting a doctor to discuss their recent symptoms and seek advice on treatment options.",
+            "Listening_Passage": [
+                {
+                    "Type": "Part A",
+                    "Passage": "Dr. Smith: Good morning, Mrs. Johnson. What seems to be the problem today?\nMrs. Johnson: Good morning, Doctor. I've been feeling quite unwell lately. I\u00e2\u20ac\u2122ve had a persistent cough for the past two weeks, and I\u00e2\u20ac\u2122m also experiencing some chest tightness.\nDr. Smith: I see. Have you had any other symptoms, such as fever or shortness of breath?\nMrs. Johnson: Yes, I had a low-grade fever a few days ago, and I sometimes feel short of breath, especially when I exert myself.\nDr. Smith: Are you taking any medications currently?\nMrs. Johnson: Just a couple of over-the-counter cough syrups, but they don\u00e2\u20ac\u2122t seem to be helping much.\nDr. Smith: Alright. I\u00e2\u20ac\u2122m going to listen to your lungs now. Please take a deep breath for me.\n[Sound of stethoscope being used]\nDr. Smith: It sounds like you might have a respiratory infection. I\u00e2\u20ac\u2122m going to prescribe you some antibiotics and recommend that you get plenty of rest.\nMrs. Johnson: Thank you, Doctor. Is there anything else I should be aware of?\nDr. Smith: Yes, make sure to stay hydrated and avoid strenuous activities. If your symptoms worsen or you develop a high fever, come back to see me immediately.\nMrs. Johnson: Understood. I\u00e2\u20ac\u2122ll follow your advice. How long should I wait before I see improvement?\nDr. Smith: You should start to feel better within a few days of starting the antibiotics. However, if there\u00e2\u20ac\u2122s no improvement, we may need to run further tests.\nMrs. Johnson: Thank you very much for your help.\nDr. Smith: You\u00e2\u20ac\u2122re welcome. Take care and see you soon if needed."
+                }
+            ],
+            "Questions": [
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Mrs. Johnson has been feeling unwell for the past _____ weeks."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Dr. Smith used a _____ to listen to Mrs. Johnson\u00e2\u20ac\u2122s lungs."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Dr. Smith suggested Mrs. Johnson should stay _____ and get plenty of rest."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "If Mrs. Johnson doesn\u00e2\u20ac\u2122t improve, Dr. Smith may need to run further _____."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Dr. Smith mentioned that Mrs. Johnson\u00e2\u20ac\u2122s symptoms might be due to a _____ infection."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Mrs. Johnson experienced a _____ a few days ago."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Dr. Smith advised Mrs. Johnson to avoid _____ activities."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Dr. Smith recommended that Mrs. Johnson stay _____ and rest."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "If symptoms worsen, Mrs. Johnson should visit Dr. Smith _____."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Mrs. Johnson is taking _____ syrups currently."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Dr. Smith will prescribe Mrs. Johnson some _____ to help with her condition."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Dr. Smith suggested that Mrs. Johnson might start to feel better within a few _____ of starting the antibiotics."
+                }
+            ],
+            "Correct_answers": [
+                "two",
+                "stethoscope",
+                "hydrated",
+                "tests",
+                "respiratory",
+                "low-grade fever",
+                "strenuous",
+                "hydrated",
+                "immediately",
+                "cough",
+                "antibiotics",
+                "days"
+            ],
+            "Explanation": [
+                "Mrs. Johnson mentioned feeling unwell for two weeks.",
+                "Dr. Smith used a stethoscope to examine Mrs. Johnson.",
+                "Dr. Smith advised staying hydrated and getting plenty of rest.",
+                "If no improvement, further tests might be required.",
+                "A respiratory infection was suggested as the cause.",
+                "She had a low-grade fever a few days ago.",
+                "Dr. Smith advised avoiding strenuous activities.",
+                "Staying hydrated was recommended.",
+                "If symptoms worsen, visiting Dr. Smith immediately was advised.",
+                "Mrs. Johnson was taking cough syrups.",
+                "Antibiotics were prescribed to help with her condition.",
+                "Improvement is expected within a few days of starting antibiotics."
+            ],
+            "Suggestions": [
+                "Practice active listening by focusing on key details and main ideas.",
+                "Take notes during conversations to capture important information.",
+                "Improve your vocabulary related to healthcare to better understand medical terms.",
+                "Listen to similar dialogues or recordings to get accustomed to different accents and speech patterns."
+            ]
+        },
+        {
+            "Scenario": "A patient is visiting a nurse to discuss their recent health concerns and get advice on managing their condition.",
+            "Listening_Passage": [
+                {
+                    "Type": "Part A",
+                    "Passage": "Nurse: Hello, Mr. Thompson. What brings you in today?\nMr. Thompson: Hi, Nurse. I\u00e2\u20ac\u2122ve been having severe headaches for the past week and some dizziness. I\u00e2\u20ac\u2122m also feeling quite nauseous in the mornings.\nNurse: I\u00e2\u20ac\u2122m sorry to hear that. Have you noticed any other symptoms, like blurred vision or sensitivity to light?\nMr. Thompson: Yes, actually, I have experienced some blurred vision, especially when the light is bright.\nNurse: Are you currently taking any medications or have you recently started a new treatment?\nMr. Thompson: No new medications, but I have been taking over-the-counter painkillers for the headaches, which don\u00e2\u20ac\u2122t seem to help much.\nNurse: Alright. I\u00e2\u20ac\u2122m going to check your blood pressure now to see if that might be related. Please sit down and relax.\n[Sound of blood pressure cuff being used]\nNurse: Your blood pressure is a bit elevated. It might be contributing to your headaches. I recommend you see a doctor for further evaluation and possibly some prescription medication.\nMr. Thompson: Thank you for the advice. Is there anything I should do in the meantime?\nNurse: Yes, try to manage your stress and stay well-hydrated. Avoid any activities that might worsen your symptoms. If you notice any new symptoms or your condition worsens, seek medical attention immediately.\nMr. Thompson: I will do that. How soon should I expect to see improvement?\nNurse: If the elevated blood pressure is the cause, managing it properly with medication and lifestyle changes should help reduce your symptoms over time. However, follow-up with your doctor is important.\nMr. Thompson: Thanks for your help.\nNurse: You\u00e2\u20ac\u2122re welcome. Take care and follow up with your doctor as needed."
+                }
+            ],
+            "Questions": [
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Mr. Thompson has been experiencing severe headaches for the past _____ week."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Mr. Thompson reported feeling _____ in the mornings."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Nurse checked Mr. Thompson\u00e2\u20ac\u2122s _____ to determine if it might be related to his headaches."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "The nurse recommended that Mr. Thompson manage his _____ and stay well-hydrated."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "If Mr. Thompson notices any new symptoms or if his condition worsens, he should seek _____ attention immediately."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Mr. Thompson has been taking over-the-counter _____ for his headaches."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Nurse mentioned that Mr. Thompson\u00e2\u20ac\u2122s elevated _____ might be contributing to his headaches."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "The nurse suggested Mr. Thompson see a _____ for further evaluation."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "If the elevated blood pressure is the cause, managing it with _____ and lifestyle changes should help reduce symptoms."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Mr. Thompson should avoid activities that might _____ his symptoms."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Nurse advised Mr. Thompson to relax while she checked his _____."
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Improvement should be seen over _____ with proper management and follow-up."
+                }
+            ],
+            "Correct_answers": [
+                "one",
+                "nauseous",
+                "blood pressure",
+                "stress",
+                "medical",
+                "painkillers",
+                "blood pressure",
+                "doctor",
+                "medication",
+                "worsen",
+                "blood pressure",
+                "time"
+            ],
+            "Explanation": [
+                "Mr. Thompson has had severe headaches for one week.",
+                "He reported feeling nauseous in the mornings.",
+                "The nurse checked Mr. Thompson\u00e2\u20ac\u2122s blood pressure.",
+                "Managing stress and staying hydrated was recommended.",
+                "If new symptoms arise or condition worsens, seek medical attention.",
+                "Mr. Thompson has been taking over-the-counter painkillers.",
+                "Elevated blood pressure might be contributing to his headaches.",
+                "A doctor was recommended for further evaluation.",
+                "Proper management with medication should help reduce symptoms.",
+                "Activities that might worsen symptoms should be avoided.",
+                "The nurse advised Mr. Thompson to relax while she checked his blood pressure.",
+                "Improvement is expected over time with proper management."
+            ],
+            "Suggestions": [
+                "Practice active listening to capture essential details and main points.",
+                "Take notes during interactions to remember important information.",
+                "Increase your medical vocabulary to better understand health-related terms.",
+                "Listen to similar healthcare dialogues to become familiar with different accents and speech patterns."
+            ]
+        },
+        {
+            "Scenario": "A nurse is giving a detailed talk about managing diabetes to a group of patients.",
+            "Listening_Passage": [
+                {
+                    "Type": "Part B",
+                    "Passage": "Nurse: Good afternoon, everyone. Today, we\u00e2\u20ac\u2122re going to discuss managing diabetes effectively. Diabetes is a chronic condition that requires ongoing management to prevent complications. Let\u00e2\u20ac\u2122s start by talking about blood sugar monitoring. It\u00e2\u20ac\u2122s crucial to check your blood glucose levels regularly to ensure they stay within the target range set by your healthcare provider. Typically, you should measure your blood sugar at least twice a day\u00e2\u20ac\u201donce in the morning and once before dinner. Keeping a log of these readings will help you and your doctor understand how well your diabetes is being controlled.\n\nNext, let\u00e2\u20ac\u2122s discuss diet. A balanced diet is fundamental in managing diabetes. Aim for a diet rich in fiber, such as whole grains, fruits, and vegetables, while limiting foods high in sugar and refined carbohydrates. Eating smaller, more frequent meals can help maintain stable blood sugar levels. Portion control is also important. Be mindful of serving sizes and try to avoid overeating.\n\nIn addition to dietary changes, physical activity plays a significant role in diabetes management. Aim for at least 150 minutes of moderate-intensity exercise each week. This could be brisk walking, swimming, or cycling. Exercise helps your body use insulin more efficiently and can lower your blood sugar levels. Always check your blood sugar before and after exercise to ensure it remains in a safe range.\n\nMedication management is another key aspect. Take your prescribed medications exactly as directed by your healthcare provider. If you experience any side effects or if you feel your medication isn\u00e2\u20ac\u2122t working effectively, consult with your doctor before making any changes. Do not stop or alter your medication regimen without professional advice.\n\nMonitoring for complications is also vital. People with diabetes are at risk for various complications, such as heart disease, nerve damage, and kidney problems. Regular check-ups with your healthcare team, including eye exams and foot inspections, are essential. Report any unusual symptoms, like persistent numbness, vision changes, or swelling, to your doctor as soon as possible.\n\nManaging stress is another important factor. Chronic stress can impact your blood sugar levels and overall health. Incorporate stress-relief techniques into your daily routine, such as deep breathing exercises, meditation, or yoga. Ensure you get enough rest and make time for activities you enjoy.\n\nFinally, educate yourself about diabetes and stay informed about new treatments and management strategies. Join support groups, attend educational sessions, and read reliable resources. Being proactive and well-informed can greatly enhance your ability to manage diabetes effectively.\n\nIf you have any questions or need further clarification on any of these points, please feel free to ask."
+                }
+            ],
+            "Questions": [
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How often should you measure your blood sugar according to the nurse?",
+                    "Options": [
+                        "Once a day",
+                        "Twice a day",
+                        "Three times a day",
+                        "Four times a day"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How many minutes of moderate-intensity exercise should you aim for each week?",
+                    "Options": [
+                        "75 minutes",
+                        "120 minutes",
+                        "150 minutes",
+                        "180 minutes"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which of the following is NOT listed as a recommended stress-relief technique?",
+                    "Options": [
+                        "Deep breathing exercises",
+                        "Meditation",
+                        "Yoga",
+                        "High-intensity interval training"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should you do if you experience side effects from your medication?",
+                    "Options": [
+                        "Consult with your doctor",
+                        "Adjust the dosage yourself",
+                        "Stop taking the medication",
+                        "Change the medication type"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which of the following foods should you limit in your diet?",
+                    "Options": [
+                        "Whole grains",
+                        "Fruits",
+                        "Vegetables",
+                        "Foods high in sugar and refined carbohydrates"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is the role of physical activity in managing diabetes?",
+                    "Options": [
+                        "Increases appetite",
+                        "Helps use insulin more efficiently",
+                        "Decreases blood sugar levels temporarily",
+                        "Reduces medication needs"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should you do if you notice persistent numbness or vision changes?",
+                    "Options": [
+                        "Ignore it",
+                        "Report it to your doctor",
+                        "Take over-the-counter medication",
+                        "Increase your exercise"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which of the following is a recommended frequency for eating meals to help maintain stable blood sugar levels?",
+                    "Options": [
+                        "Once a day",
+                        "Twice a day",
+                        "Three times a day",
+                        "Smaller, more frequent meals"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is a key aspect of managing diabetes according to the nurse?",
+                    "Options": [
+                        "Frequent fasting",
+                        "Regular blood sugar monitoring",
+                        "Avoiding all carbohydrates",
+                        "Taking medication irregularly"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What type of exercise is recommended for diabetes management?",
+                    "Options": [
+                        "High-intensity interval training",
+                        "Brisk walking",
+                        "Heavy weight lifting",
+                        "Sprinting"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How should you manage your medication regimen if you feel it isn\u00e2\u20ac\u2122t effective?",
+                    "Options": [
+                        "Change the dosage yourself",
+                        "Consult with your doctor",
+                        "Stop taking the medication",
+                        "Switch to a different medication on your own"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which of the following symptoms should you report to your doctor?",
+                    "Options": [
+                        "Minor fatigue",
+                        "Occasional headaches",
+                        "Persistent numbness",
+                        "Mild dizziness"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is an important component of a diabetes management plan according to the nurse?",
+                    "Options": [
+                        "Reducing stress",
+                        "Increased caffeine intake",
+                        "Skipping meals",
+                        "Avoiding all social activities"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What does the nurse suggest about dietary fiber?",
+                    "Options": [
+                        "It should be avoided",
+                        "It helps maintain stable blood sugar levels",
+                        "It increases blood sugar levels",
+                        "It has no impact on blood sugar levels"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should you do if you develop a high level of stress?",
+                    "Options": [
+                        "Increase your physical activity",
+                        "Ignore it",
+                        "Incorporate stress-relief techniques",
+                        "Eat more sugary foods"
+                    ]
+                }
+            ],
+            "Correct_answers": [
+                "Twice a day",
+                "150 minutes",
+                "High-intensity interval training",
+                "Consult with your doctor",
+                "Foods high in sugar and refined carbohydrates",
+                "Helps use insulin more efficiently",
+                "Report it to your doctor",
+                "Smaller, more frequent meals",
+                "Regular blood sugar monitoring",
+                "Brisk walking",
+                "Consult with your doctor",
+                "Persistent numbness",
+                "Reducing stress",
+                "It helps maintain stable blood sugar levels",
+                "Incorporate stress-relief techniques"
+            ],
+            "Explanation": [
+                "The nurse recommends measuring blood sugar twice a day.",
+                "The recommended amount of moderate-intensity exercise is 150 minutes per week.",
+                "High-intensity interval training is not a recommended stress-relief technique.",
+                "Consult with your doctor if you experience side effects from your medication.",
+                "Limit foods high in sugar and refined carbohydrates in your diet.",
+                "Physical activity helps use insulin more efficiently.",
+                "Report persistent numbness or vision changes to your doctor.",
+                "Smaller, more frequent meals help maintain stable blood sugar levels.",
+                "Regular blood sugar monitoring is crucial in diabetes management.",
+                "Brisk walking is a recommended exercise for diabetes management.",
+                "Consult with your doctor before changing your medication regimen.",
+                "Persistent numbness should be reported to your doctor.",
+                "Reducing stress is an important component of diabetes management.",
+                "Dietary fiber helps maintain stable blood sugar levels.",
+                "Incorporate stress-relief techniques to manage high levels of stress."
+            ],
+            "Suggestions": [
+                "Focus on details related to diabetes management strategies.",
+                "Practice answering multiple-choice questions based on medical advice.",
+                "Engage with educational resources on diabetes and its management.",
+                "Review common recommendations for managing chronic conditions effectively."
+            ]
+        },
+        {
+            "Scenario": "A nurse is giving a detailed talk about managing diabetes to a group of patients.",
+            "Listening_Passage": [
+                {
+                    "Type": "Part B",
+                    "Passage": "Nurse: Good afternoon, everyone. Today, we\u00e2\u20ac\u2122re going to discuss managing diabetes effectively. Diabetes is a chronic condition that requires ongoing management to prevent complications. Let\u00e2\u20ac\u2122s start by talking about blood sugar monitoring. It\u00e2\u20ac\u2122s crucial to check your blood glucose levels regularly to ensure they stay within the target range set by your healthcare provider. Typically, you should measure your blood sugar at least twice a day\u00e2\u20ac\u201donce in the morning and once before dinner. Keeping a log of these readings will help you and your doctor understand how well your diabetes is being controlled.\n\nNext, let\u00e2\u20ac\u2122s discuss diet. A balanced diet is fundamental in managing diabetes. Aim for a diet rich in fiber, such as whole grains, fruits, and vegetables, while limiting foods high in sugar and refined carbohydrates. Eating smaller, more frequent meals can help maintain stable blood sugar levels. Portion control is also important. Be mindful of serving sizes and try to avoid overeating.\n\nIn addition to dietary changes, physical activity plays a significant role in diabetes management. Aim for at least 150 minutes of moderate-intensity exercise each week. This could be brisk walking, swimming, or cycling. Exercise helps your body use insulin more efficiently and can lower your blood sugar levels. Always check your blood sugar before and after exercise to ensure it remains in a safe range.\n\nMedication management is another key aspect. Take your prescribed medications exactly as directed by your healthcare provider. If you experience any side effects or if you feel your medication isn\u00e2\u20ac\u2122t working effectively, consult with your doctor before making any changes. Do not stop or alter your medication regimen without professional advice.\n\nMonitoring for complications is also vital. People with diabetes are at risk for various complications, such as heart disease, nerve damage, and kidney problems. Regular check-ups with your healthcare team, including eye exams and foot inspections, are essential. Report any unusual symptoms, like persistent numbness, vision changes, or swelling, to your doctor as soon as possible.\n\nManaging stress is another important factor. Chronic stress can impact your blood sugar levels and overall health. Incorporate stress-relief techniques into your daily routine, such as deep breathing exercises, meditation, or yoga. Ensure you get enough rest and make time for activities you enjoy.\n\nFinally, educate yourself about diabetes and stay informed about new treatments and management strategies. Join support groups, attend educational sessions, and read reliable resources. Being proactive and well-informed can greatly enhance your ability to manage diabetes effectively.\n\nIf you have any questions or need further clarification on any of these points, please feel free to ask."
+                }
+            ],
+            "Questions": [
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How often should you measure your blood sugar according to the nurse?",
+                    "Options": [
+                        "Once a day",
+                        "Twice a day",
+                        "Three times a day",
+                        "Four times a day"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How many minutes of moderate-intensity exercise should you aim for each week?",
+                    "Options": [
+                        "75 minutes",
+                        "120 minutes",
+                        "150 minutes",
+                        "180 minutes"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which of the following is NOT listed as a recommended stress-relief technique?",
+                    "Options": [
+                        "Deep breathing exercises",
+                        "Meditation",
+                        "Yoga",
+                        "High-intensity interval training"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should you do if you experience side effects from your medication?",
+                    "Options": [
+                        "Consult with your doctor",
+                        "Adjust the dosage yourself",
+                        "Stop taking the medication",
+                        "Change the medication type"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which of the following foods should you limit in your diet?",
+                    "Options": [
+                        "Whole grains",
+                        "Fruits",
+                        "Vegetables",
+                        "Foods high in sugar and refined carbohydrates"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is the role of physical activity in managing diabetes?",
+                    "Options": [
+                        "Increases appetite",
+                        "Helps use insulin more efficiently",
+                        "Decreases blood sugar levels temporarily",
+                        "Reduces medication needs"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should you do if you notice persistent numbness or vision changes?",
+                    "Options": [
+                        "Ignore it",
+                        "Report it to your doctor",
+                        "Take over-the-counter medication",
+                        "Increase your exercise"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which of the following is a recommended frequency for eating meals to help maintain stable blood sugar levels?",
+                    "Options": [
+                        "Once a day",
+                        "Twice a day",
+                        "Three times a day",
+                        "Smaller, more frequent meals"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is a key aspect of managing diabetes according to the nurse?",
+                    "Options": [
+                        "Frequent fasting",
+                        "Regular blood sugar monitoring",
+                        "Avoiding all carbohydrates",
+                        "Taking medication irregularly"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What type of exercise is recommended for diabetes management?",
+                    "Options": [
+                        "High-intensity interval training",
+                        "Brisk walking",
+                        "Heavy weight lifting",
+                        "Sprinting"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How should you manage your medication regimen if you feel it isn\u00e2\u20ac\u2122t effective?",
+                    "Options": [
+                        "Change the dosage yourself",
+                        "Consult with your doctor",
+                        "Stop taking the medication",
+                        "Switch to a different medication on your own"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which of the following symptoms should you report to your doctor?",
+                    "Options": [
+                        "Minor fatigue",
+                        "Occasional headaches",
+                        "Persistent numbness",
+                        "Mild dizziness"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is an important component of a diabetes management plan according to the nurse?",
+                    "Options": [
+                        "Reducing stress",
+                        "Increased caffeine intake",
+                        "Skipping meals",
+                        "Avoiding all social activities"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What does the nurse suggest about dietary fiber?",
+                    "Options": [
+                        "It should be avoided",
+                        "It helps maintain stable blood sugar levels",
+                        "It increases blood sugar levels",
+                        "It has no impact on blood sugar levels"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should you do if you develop a high level of stress?",
+                    "Options": [
+                        "Increase your physical activity",
+                        "Ignore it",
+                        "Incorporate stress-relief techniques",
+                        "Eat more sugary foods"
+                    ]
+                }
+            ],
+            "Correct_answers": [
+                "Twice a day",
+                "150 minutes",
+                "High-intensity interval training",
+                "Consult with your doctor",
+                "Foods high in sugar and refined carbohydrates",
+                "Helps use insulin more efficiently",
+                "Report it to your doctor",
+                "Smaller, more frequent meals",
+                "Regular blood sugar monitoring",
+                "Brisk walking",
+                "Consult with your doctor",
+                "Persistent numbness",
+                "Reducing stress",
+                "It helps maintain stable blood sugar levels",
+                "Incorporate stress-relief techniques"
+            ],
+            "Explanation": [
+                "The nurse recommends measuring blood sugar twice a day.",
+                "The recommended amount of moderate-intensity exercise is 150 minutes per week.",
+                "High-intensity interval training is not a recommended stress-relief technique.",
+                "Consult with your doctor if you experience side effects from your medication.",
+                "Limit foods high in sugar and refined carbohydrates in your diet.",
+                "Physical activity helps use insulin more efficiently.",
+                "Report persistent numbness or vision changes to your doctor.",
+                "Smaller, more frequent meals help maintain stable blood sugar levels.",
+                "Regular blood sugar monitoring is crucial in diabetes management.",
+                "Brisk walking is a recommended exercise for diabetes management.",
+                "Consult with your doctor before changing your medication regimen.",
+                "Persistent numbness should be reported to your doctor.",
+                "Reducing stress is an important component of diabetes management.",
+                "Dietary fiber helps maintain stable blood sugar levels.",
+                "Incorporate stress-relief techniques to manage high levels of stress."
+            ],
+            "Suggestions": [
+                "Focus on details related to diabetes management strategies.",
+                "Practice answering multiple-choice questions based on medical advice.",
+                "Engage with educational resources on diabetes and its management.",
+                "Review common recommendations for managing chronic conditions effectively."
+            ]
+        },
+        {
+            "Scenario": "A financial advisor is explaining strategies for saving for retirement.",
+            "Listening_Passage": [
+                {
+                    "Type": "Part B",
+                    "Passage": "Financial Advisor: Good afternoon, everyone. Today, we\u00e2\u20ac\u2122ll discuss some effective strategies for saving for retirement. It\u00e2\u20ac\u2122s crucial to start planning early to ensure you have a comfortable and secure retirement. One of the first strategies is to take advantage of employer-sponsored retirement plans, such as a 401(k). Many employers offer matching contributions, which means they will contribute a percentage of your salary into your retirement account. This is essentially free money, so it\u00e2\u20ac\u2122s important to contribute enough to get the full match.\n\nAnother key strategy is to diversify your investments. Don\u00e2\u20ac\u2122t put all your money into a single type of investment. Instead, spread your investments across different asset classes, such as stocks, bonds, and real estate. Diversification helps reduce risk and can lead to more stable returns over time.\n\nIt\u00e2\u20ac\u2122s also important to regularly review and adjust your investment portfolio. As you approach retirement age, you may want to shift your investments from higher-risk assets to more conservative ones. This helps protect your savings from market volatility and ensures that your money is safe as you near retirement.\n\nAdditionally, consider setting up an individual retirement account (IRA). There are different types of IRAs, such as traditional IRAs and Roth IRAs, each with its own tax advantages. A traditional IRA allows you to make pre-tax contributions, which can reduce your taxable income, while a Roth IRA allows for tax-free withdrawals in retirement.\n\nTo further enhance your retirement savings, create a budget and track your expenses. This helps identify areas where you can cut back and allocate more funds toward your retirement savings. Automatic contributions from your paycheck to your retirement account can make saving easier and more consistent.\n\nFinally, don\u00e2\u20ac\u2122t forget to take into account other sources of retirement income, such as Social Security benefits or pensions. Understanding how these sources will supplement your savings can help you plan more effectively and ensure that you have enough funds to cover your retirement needs.\n\nBy implementing these strategies and regularly monitoring your progress, you can build a solid foundation for a secure and comfortable retirement. If you have any questions or need personalized advice, please feel free to reach out."
+                }
+            ],
+            "Questions": [
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is one benefit of contributing to an employer-sponsored 401(k) plan?",
+                    "Options": [
+                        "Tax-free withdrawals",
+                        "Free money through employer matching contributions",
+                        "Higher interest rates",
+                        "Lower fees"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What does diversification in investments involve?",
+                    "Options": [
+                        "Investing in a single asset class",
+                        "Spreading investments across different asset classes",
+                        "Focusing only on stocks",
+                        "Avoiding real estate investments"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "As you approach retirement, what type of investments might you want to shift towards?",
+                    "Options": [
+                        "Higher-risk assets",
+                        "More conservative investments",
+                        "Cryptocurrencies",
+                        "Startup stocks"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is a traditional IRA\u00e2\u20ac\u2122s primary tax advantage?",
+                    "Options": [
+                        "Tax-free withdrawals in retirement",
+                        "Pre-tax contributions that reduce taxable income",
+                        "No contribution limits",
+                        "Higher annual interest rates"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What can setting up an individual retirement account (IRA) help with?",
+                    "Options": [
+                        "Lowering credit card debt",
+                        "Reducing taxable income or offering tax-free withdrawals",
+                        "Increasing monthly income",
+                        "Paying off student loans"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How can automatic contributions help with retirement savings?",
+                    "Options": [
+                        "They make saving easier and more consistent",
+                        "They increase monthly expenses",
+                        "They provide immediate tax benefits",
+                        "They eliminate the need for budgeting"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should you regularly review and adjust as you approach retirement age?",
+                    "Options": [
+                        "Your investment portfolio",
+                        "Your mortgage rate",
+                        "Your credit score",
+                        "Your car insurance"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What other sources of retirement income should be considered in planning?",
+                    "Options": [
+                        "Social Security benefits and pensions",
+                        "Health insurance premiums",
+                        "Home repair costs",
+                        "Grocery expenses"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is one strategy to identify where you can cut back on expenses?",
+                    "Options": [
+                        "Create a budget and track expenses",
+                        "Increase your credit card limits",
+                        "Use cashback rewards",
+                        "Buy luxury items on sale"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What type of IRA allows for tax-free withdrawals in retirement?",
+                    "Options": [
+                        "Traditional IRA",
+                        "Roth IRA",
+                        "SEP IRA",
+                        "Simple IRA"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is a benefit of spreading investments across different asset classes?",
+                    "Options": [
+                        "Reduces risk and leads to more stable returns",
+                        "Increases risk for higher returns",
+                        "Focuses only on high-risk investments",
+                        "Limits potential returns"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is the role of employer matching contributions in a 401(k) plan?",
+                    "Options": [
+                        "To increase your retirement savings with additional funds",
+                        "To decrease your taxable income immediately",
+                        "To reduce the fees associated with the account",
+                        "To provide interest on savings"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should you consider when setting up automatic contributions to your retirement account?",
+                    "Options": [
+                        "Aligning contributions with your paycheck",
+                        "Adjusting contributions based on market trends",
+                        "Using savings from credit card rewards",
+                        "Making irregular contributions"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is a key factor in planning for retirement savings effectively?",
+                    "Options": [
+                        "Understanding how other sources of income will supplement savings",
+                        "Focusing solely on short-term investments",
+                        "Maximizing credit card usage",
+                        "Minimizing savings contributions"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Why is it important to start saving for retirement early?",
+                    "Options": [
+                        "To benefit from compound growth over time",
+                        "To maximize current income",
+                        "To avoid paying taxes on savings",
+                        "To reduce monthly expenses"
+                    ]
+                }
+            ],
+            "Correct_answers": [
+                "Free money through employer matching contributions",
+                "Spreading investments across different asset classes",
+                "More conservative investments",
+                "Pre-tax contributions that reduce taxable income",
+                "Reducing taxable income or offering tax-free withdrawals",
+                "They make saving easier and more consistent",
+                "Your investment portfolio",
+                "Social Security benefits and pensions",
+                "Create a budget and track expenses",
+                "Roth IRA",
+                "Reduces risk and leads to more stable returns",
+                "To increase your retirement savings with additional funds",
+                "Aligning contributions with your paycheck",
+                "Understanding how other sources of income will supplement savings",
+                "To benefit from compound growth over time"
+            ],
+            "Explanation": [
+                "Employer matching contributions increase your retirement savings.",
+                "Diversifying investments reduces risk and provides stable returns.",
+                "Conservative investments protect savings from market volatility.",
+                "Traditional IRA contributions reduce taxable income.",
+                "IRAs can offer tax benefits either through pre-tax contributions or tax-free withdrawals.",
+                "Automatic contributions ensure consistent savings.",
+                "Reviewing and adjusting your investment portfolio is crucial as retirement approaches.",
+                "Social Security and pensions can supplement retirement savings.",
+                "Budgeting helps find areas to cut back and save more.",
+                "Roth IRA allows for tax-free withdrawals in retirement.",
+                "Diversification reduces investment risk.",
+                "Employer matching provides additional funds for retirement savings.",
+                "Automatic contributions should align with your paycheck.",
+                "Planning should account for all sources of retirement income.",
+                "Starting early benefits from compound growth over time."
+            ],
+            "Suggestions": [
+                "Understand different retirement account options and their benefits.",
+                "Regularly review and adjust your investment strategies.",
+                "Create and stick to a budget to optimize savings.",
+                "Consider the impact of all income sources on your retirement plan."
+            ]
+        },
+        {
+            "Scenario": "A health professional discusses new guidelines for managing diabetes with a group of practitioners.",
+            "Listening_Passage": [
+                {
+                    "Type": "Part C",
+                    "Passage": "Health Professional: Good morning, everyone. Today, we\u00e2\u20ac\u2122re going to review the latest guidelines for managing diabetes, which have recently been updated. The primary focus of these new guidelines is to improve patient outcomes by emphasizing individualized treatment plans.\n\nFirst and foremost, it\u00e2\u20ac\u2122s important to recognize that diabetes management should be tailored to each patient\u00e2\u20ac\u2122s specific needs and circumstances. This means that treatment plans should consider factors such as age, comorbid conditions, and patient preferences. For instance, older patients with diabetes might benefit from less aggressive glycemic control compared to younger patients who are otherwise healthy.\n\nIn addition to personalized treatment plans, the new guidelines stress the importance of incorporating lifestyle interventions alongside medication. Dietary changes, regular physical activity, and weight management are crucial components of diabetes care. Patients should be encouraged to adopt a balanced diet rich in fiber, whole grains, and lean proteins while limiting processed foods and sugary beverages.\n\nMedication management has also evolved with the new guidelines. There is now a greater emphasis on using medications that address both glycemic control and cardiovascular risk. For example, medications such as SGLT2 inhibitors and GLP-1 receptor agonists have been shown to not only improve blood sugar levels but also provide cardiovascular benefits, which is particularly important for patients with a high risk of heart disease.\n\nFurthermore, the guidelines highlight the need for regular monitoring and follow-up. It\u00e2\u20ac\u2122s essential to track patients\u00e2\u20ac\u2122 progress through routine blood tests and check-ups to ensure that their treatment plans are effective and to make adjustments as necessary. This proactive approach helps in identifying any potential issues early and addressing them promptly.\n\nFinally, patient education is a key component of effective diabetes management. Educating patients about their condition, the importance of adhering to treatment plans, and the benefits of lifestyle changes can lead to better outcomes and improved quality of life. Practitioners should provide clear, accessible information and support to empower patients to take an active role in managing their diabetes.\n\nBy following these updated guidelines and focusing on individualized care, lifestyle changes, comprehensive medication management, regular monitoring, and patient education, we can enhance diabetes management and improve overall patient health."
+                }
+            ],
+            "Questions": [
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is the primary focus of the new diabetes management guidelines?",
+                    "Options": [
+                        "Aggressive glycemic control for all patients",
+                        "Individualized treatment plans",
+                        "Reducing medication use",
+                        "Increased reliance on diet alone"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "According to the new guidelines, how should treatment plans be tailored?",
+                    "Options": [
+                        "Based on age, comorbid conditions, and patient preferences",
+                        "Only based on age",
+                        "Based on weight alone",
+                        "By using a standardized approach for all patients"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What lifestyle interventions are emphasized in the new guidelines?",
+                    "Options": [
+                        "Medication-only approach",
+                        "Dietary changes, physical activity, and weight management",
+                        "Strict caloric restriction",
+                        "Increased medication dosage"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which medications are highlighted for their benefits beyond glycemic control?",
+                    "Options": [
+                        "SGLT2 inhibitors and GLP-1 receptor agonists",
+                        "Insulin injections",
+                        "Metformin only",
+                        "Statins"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is an important aspect of medication management in the new guidelines?",
+                    "Options": [
+                        "Addressing both glycemic control and cardiovascular risk",
+                        "Minimizing medication side effects",
+                        "Avoiding any new medications",
+                        "Focusing only on oral medications"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Why is regular monitoring and follow-up important according to the guidelines?",
+                    "Options": [
+                        "To track progress and make adjustments as necessary",
+                        "To reduce medication costs",
+                        "To limit patient visits",
+                        "To avoid lifestyle changes"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What role does patient education play in diabetes management?",
+                    "Options": [
+                        "It empowers patients to manage their condition effectively",
+                        "It is less important than medication",
+                        "It focuses solely on diet",
+                        "It replaces the need for regular monitoring"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which dietary components are recommended in the new guidelines?",
+                    "Options": [
+                        "Fiber, whole grains, and lean proteins",
+                        "High-fat foods and sugary snacks",
+                        "Processed foods and sugary beverages",
+                        "Red meats and fried foods"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should practitioners do to help patients take an active role in managing their diabetes?",
+                    "Options": [
+                        "Provide clear, accessible information and support",
+                        "Focus only on medication adjustments",
+                        "Limit patient involvement in treatment decisions",
+                        "Encourage minimal lifestyle changes"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is a key consideration when managing older patients with diabetes according to the guidelines?",
+                    "Options": [
+                        "Less aggressive glycemic control",
+                        "More aggressive medication regimens",
+                        "Increased dietary restrictions",
+                        "Focus on younger patients first"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How should practitioners approach medication management for patients with high cardiovascular risk?",
+                    "Options": [
+                        "By using medications that provide cardiovascular benefits",
+                        "By avoiding medications altogether",
+                        "By increasing dosages of existing medications",
+                        "By focusing only on blood sugar levels"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is a benefit of incorporating lifestyle changes into diabetes management?",
+                    "Options": [
+                        "Improves overall patient health and supports medication effectiveness",
+                        "Reduces the need for patient education",
+                        "Limits the need for regular check-ups",
+                        "Minimizes the impact of medication side effects"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is an important aspect of patient education mentioned in the guidelines?",
+                    "Options": [
+                        "Explaining the benefits of adhering to treatment plans",
+                        "Focusing solely on medication side effects",
+                        "Avoiding discussions about lifestyle changes",
+                        "Emphasizing the need for less patient involvement"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What does individualized treatment for diabetes involve?",
+                    "Options": [
+                        "Considering each patient\u00e2\u20ac\u2122s specific needs and circumstances",
+                        "Applying a one-size-fits-all approach",
+                        "Ignoring patient preferences",
+                        "Focusing only on age"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should practitioners emphasize to improve diabetes management outcomes?",
+                    "Options": [
+                        "Personalized care, lifestyle changes, and comprehensive medication management",
+                        "Strict adherence to medication without lifestyle changes",
+                        "Standardized treatment plans for all patients",
+                        "Minimal patient involvement in treatment decisions"
+                    ]
+                }
+            ],
+            "Correct_answers": [
+                "Individualized treatment plans",
+                "Based on age, comorbid conditions, and patient preferences",
+                "Dietary changes, physical activity, and weight management",
+                "SGLT2 inhibitors and GLP-1 receptor agonists",
+                "Addressing both glycemic control and cardiovascular risk",
+                "To track progress and make adjustments as necessary",
+                "It empowers patients to manage their condition effectively",
+                "Fiber, whole grains, and lean proteins",
+                "Provide clear, accessible information and support",
+                "Less aggressive glycemic control",
+                "By using medications that provide cardiovascular benefits",
+                "Improves overall patient health and supports medication effectiveness",
+                "Explaining the benefits of adhering to treatment plans",
+                "Considering each patient\u00e2\u20ac\u2122s specific needs and circumstances",
+                "Personalized care, lifestyle changes, and comprehensive medication management"
+            ],
+            "Explanation": [
+                "The primary focus is on creating individualized treatment plans.",
+                "Treatment plans should be tailored based on various patient factors.",
+                "Lifestyle changes, including diet and exercise, are crucial.",
+                "Certain medications offer benefits beyond glycemic control.",
+                "Effective medication management addresses both blood sugar and cardiovascular health.",
+                "Regular monitoring helps adjust treatment and address issues early.",
+                "Patient education improves self-management and outcomes.",
+                "Recommended dietary components include fiber, whole grains, and lean proteins.",
+                "Clear information and support are essential for patient empowerment.",
+                "Older patients may need less aggressive glycemic control.",
+                "Medications should also address cardiovascular risk.",
+                "Incorporating lifestyle changes enhances overall health and medication effectiveness.",
+                "Patient education should cover the benefits of adhering to treatment plans.",
+                "Treatment should be personalized based on individual patient needs.",
+                "Effective management involves personalized care, lifestyle changes, and medication management."
+            ],
+            "Suggestions": [
+                "Review updated guidelines regularly to stay informed about best practices.",
+                "Incorporate patient preferences and specific needs into treatment plans.",
+                "Promote a holistic approach to diabetes management, including lifestyle changes.",
+                "Stay updated on new medications and their benefits for both glycemic control and cardiovascular health.",
+                "Ensure regular follow-up and monitoring to adapt treatment plans as needed.",
+                "Empower patients with knowledge and support to enhance their role in managing their condition."
+            ]
+        },
+        {
+            "Scenario": "A nutritionist discusses dietary recommendations for patients with high blood pressure during a professional development seminar.",
+            "Listening_Passage": [
+                {
+                    "Type": "Part C",
+                    "Passage": "Nutritionist: Good afternoon, everyone. Today, we will be discussing dietary recommendations for managing high blood pressure, which is a prevalent condition affecting many individuals. Effective dietary management is crucial in controlling blood pressure and reducing the risk of associated complications such as heart disease and stroke.\n\nFirstly, a low-sodium diet is essential for managing high blood pressure. Sodium can cause the body to retain water, which increases blood pressure. Therefore, it is important to reduce the intake of sodium by avoiding processed and canned foods, which often contain high levels of salt. Instead, focus on fresh, whole foods and use herbs and spices to flavor your meals.\n\nIn addition to reducing sodium intake, increasing the consumption of potassium-rich foods can be beneficial. Potassium helps balance the effects of sodium and supports overall cardiovascular health. Foods such as bananas, oranges, potatoes, and spinach are excellent sources of potassium and should be included in the diet.\n\nAnother important aspect of dietary management is maintaining a healthy weight. Excess weight can contribute to high blood pressure, so it\u00e2\u20ac\u2122s important to achieve and maintain a healthy weight through a balanced diet and regular physical activity. Emphasize a diet that includes whole grains, lean proteins, and healthy fats while limiting refined sugars and saturated fats.\n\nThe DASH diet, or Dietary Approaches to Stop Hypertension, is a well-researched dietary plan specifically designed to combat high blood pressure. This diet emphasizes the consumption of fruits, vegetables, whole grains, and low-fat dairy products while reducing the intake of red meat, sugary foods, and high-fat dairy products. Adhering to the DASH diet can help lower blood pressure and improve overall heart health.\n\nRegular monitoring of blood pressure is also recommended to assess the effectiveness of dietary changes and adjust the plan as needed. Encouraging patients to keep track of their blood pressure readings and report any significant changes can help in managing their condition more effectively.\n\nLastly, patient education is crucial. Providing patients with clear information about dietary guidelines and the impact of different foods on blood pressure can empower them to make healthier choices and take an active role in their health management."
+                }
+            ],
+            "Questions": [
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is the primary goal of dietary management for high blood pressure?",
+                    "Options": [
+                        "To reduce sodium intake",
+                        "To increase sugar intake",
+                        "To avoid all fats",
+                        "To consume more processed foods"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is one of the main recommendations for reducing sodium intake?",
+                    "Options": [
+                        "Avoid processed and canned foods",
+                        "Increase intake of sugary snacks",
+                        "Eat more red meat",
+                        "Use salt liberally in cooking"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which foods are suggested to increase potassium intake?",
+                    "Options": [
+                        "Bananas, oranges, potatoes, and spinach",
+                        "Red meats and fried foods",
+                        "Pastries and sugary drinks",
+                        "High-fat dairy products"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What does the DASH diet emphasize?",
+                    "Options": [
+                        "Fruits, vegetables, whole grains, and low-fat dairy",
+                        "Red meats and sugary foods",
+                        "High-fat dairy products and processed snacks",
+                        "Refined sugars and saturated fats"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Why is maintaining a healthy weight important for blood pressure management?",
+                    "Options": [
+                        "Excess weight can contribute to high blood pressure",
+                        "It reduces the need for medication",
+                        "It increases sodium intake",
+                        "It eliminates the need for dietary changes"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How can potassium help with managing high blood pressure?",
+                    "Options": [
+                        "By balancing the effects of sodium",
+                        "By increasing blood pressure",
+                        "By causing water retention",
+                        "By reducing heart rate"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is a recommended source of information for managing high blood pressure through diet?",
+                    "Options": [
+                        "The DASH diet",
+                        "A high-sodium diet",
+                        "Sugary beverage intake",
+                        "Refined carbohydrate consumption"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should patients do to monitor their blood pressure effectively?",
+                    "Options": [
+                        "Keep track of readings and report significant changes",
+                        "Ignore changes and rely solely on medication",
+                        "Increase their intake of high-fat foods",
+                        "Reduce physical activity"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is an important aspect of patient education regarding blood pressure management?",
+                    "Options": [
+                        "Providing clear dietary guidelines and food impact information",
+                        "Avoiding discussions about dietary changes",
+                        "Limiting patient involvement in their health management",
+                        "Focusing only on medication side effects"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which dietary component should be limited according to the guidelines?",
+                    "Options": [
+                        "Sodium",
+                        "Potassium",
+                        "Fiber",
+                        "Lean proteins"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What type of fats are recommended in the diet for managing high blood pressure?",
+                    "Options": [
+                        "Healthy fats",
+                        "Saturated fats",
+                        "Trans fats",
+                        "High-fat dairy products"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What type of food should be avoided to manage high blood pressure?",
+                    "Options": [
+                        "Processed and high-sodium foods",
+                        "Fresh fruits and vegetables",
+                        "Whole grains",
+                        "Lean proteins"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Why is a balanced diet important for high blood pressure management?",
+                    "Options": [
+                        "It supports overall cardiovascular health",
+                        "It only affects blood sugar levels",
+                        "It has no impact on blood pressure",
+                        "It reduces the need for physical activity"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What role does regular physical activity play in managing high blood pressure?",
+                    "Options": [
+                        "It helps in maintaining a healthy weight",
+                        "It is not relevant to blood pressure",
+                        "It only affects muscle tone",
+                        "It increases sodium retention"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which of the following is not a recommended dietary change for managing high blood pressure?",
+                    "Options": [
+                        "Increasing sodium intake",
+                        "Eating more fruits and vegetables",
+                        "Reducing processed foods",
+                        "Increasing whole grains"
+                    ]
+                }
+            ],
+            "Correct_answers": [
+                "To reduce sodium intake",
+                "Avoid processed and canned foods",
+                "Bananas, oranges, potatoes, and spinach",
+                "Fruits, vegetables, whole grains, and low-fat dairy",
+                "Excess weight can contribute to high blood pressure",
+                "By balancing the effects of sodium",
+                "The DASH diet",
+                "Keep track of readings and report significant changes",
+                "Providing clear dietary guidelines and food impact information",
+                "Sodium",
+                "Healthy fats",
+                "Processed and high-sodium foods",
+                "It supports overall cardiovascular health",
+                "It helps in maintaining a healthy weight",
+                "Increasing sodium intake"
+            ],
+            "Explanation": [
+                "Reducing sodium intake is crucial for managing high blood pressure.",
+                "Processed and canned foods are high in sodium and should be avoided.",
+                "Potassium-rich foods help balance sodium levels and support cardiovascular health.",
+                "The DASH diet emphasizes a diet rich in fruits, vegetables, and whole grains while reducing harmful foods.",
+                "Maintaining a healthy weight is important as excess weight can increase blood pressure.",
+                "Potassium helps counteract the effects of sodium on blood pressure.",
+                "The DASH diet provides a comprehensive approach to managing high blood pressure.",
+                "Monitoring blood pressure regularly helps in making necessary adjustments to the treatment plan.",
+                "Clear dietary guidelines and understanding food impacts are vital for effective patient education.",
+                "Sodium should be limited to help control blood pressure.",
+                "Healthy fats are recommended for their cardiovascular benefits.",
+                "Processed and high-sodium foods should be avoided to manage blood pressure.",
+                "A balanced diet improves overall cardiovascular health.",
+                "Regular physical activity supports weight management, which helps in controlling blood pressure.",
+                "Increasing sodium intake is contrary to the recommended dietary changes for high blood pressure."
+            ],
+            "Suggestions": [
+                "Encourage patients to follow the DASH diet for effective blood pressure management.",
+                "Educate patients on the importance of reducing sodium and increasing potassium in their diet.",
+                "Promote regular physical activity as part of a comprehensive blood pressure management plan.",
+                "Regularly monitor patients' blood pressure and adjust dietary recommendations as needed.",
+                "Provide patients with clear and practical dietary guidelines to support their blood pressure management efforts."
+            ]
+        },
+        {
+            "Scenario": "A clinical researcher presents findings from a recent study on hypertension management to a group of healthcare professionals.",
+            "Listening_Passage": [
+                {
+                    "Type": "Part C",
+                    "Passage": "Researcher: Good afternoon, everyone. Today, I\u00e2\u20ac\u2122d like to present the findings of our recent study on hypertension management. This study aimed to evaluate the effectiveness of different treatment strategies in controlling high blood pressure and improving patient outcomes.\n\nOne of the key findings is that a combination of lifestyle modifications and medication is more effective than medication alone. Our study demonstrated that patients who adopted a healthy diet, engaged in regular physical activity, and managed stress were able to achieve better blood pressure control compared to those who only used antihypertensive medications.\n\nWe also found that patients who received personalized treatment plans tailored to their specific needs had significantly better outcomes. Personalized plans, which included adjustments based on individual risk factors and preferences, were associated with higher adherence rates and improved overall health.\n\nAnother important finding from our research is the role of patient education in hypertension management. Patients who were actively involved in their treatment decisions and received thorough education about their condition were more likely to follow their treatment plans and achieve better results.\n\nAdditionally, the study highlighted the importance of regular monitoring and follow-up. Patients who had consistent follow-up appointments and regular blood pressure checks were better able to manage their hypertension and prevent complications.\n\nFinally, we observed that integrating multidisciplinary approaches, such as collaboration between primary care physicians, cardiologists, and dietitians, contributed to more effective hypertension management. This integrated approach ensured that all aspects of a patient\u00e2\u20ac\u2122s health were addressed, leading to improved outcomes.\n\nIn summary, our study underscores the importance of combining lifestyle changes with medication, personalizing treatment plans, educating patients, monitoring regularly, and utilizing a multidisciplinary approach to manage hypertension effectively."
+                }
+            ],
+            "Questions": [
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What was the primary aim of the study on hypertension management?",
+                    "Options": [
+                        "To evaluate the effectiveness of different treatment strategies",
+                        "To assess the impact of stress on hypertension",
+                        "To compare dietary interventions only",
+                        "To determine the best antihypertensive medication"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What combination was found to be more effective in controlling blood pressure?",
+                    "Options": [
+                        "Lifestyle modifications and medication",
+                        "Medication alone",
+                        "Dietary supplements only",
+                        "Stress management alone"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What was associated with better outcomes in the study?",
+                    "Options": [
+                        "Personalized treatment plans",
+                        "Generic treatment plans",
+                        "Minimal patient involvement",
+                        "Uniform medication dosages"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How did patient education impact hypertension management?",
+                    "Options": [
+                        "It improved adherence to treatment plans",
+                        "It had no significant effect",
+                        "It reduced the need for follow-up appointments",
+                        "It only improved dietary habits"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What role did regular monitoring play in hypertension management?",
+                    "Options": [
+                        "It helped manage hypertension and prevent complications",
+                        "It was less important than medication",
+                        "It replaced the need for lifestyle changes",
+                        "It was only necessary for severe cases"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What was one of the benefits of an integrated multidisciplinary approach?",
+                    "Options": [
+                        "Addressing all aspects of a patient\u00e2\u20ac\u2122s health",
+                        "Reducing the need for patient education",
+                        "Focusing solely on medication",
+                        "Limiting the number of healthcare professionals involved"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What lifestyle changes were shown to improve blood pressure control?",
+                    "Options": [
+                        "Healthy diet, physical activity, and stress management",
+                        "Only reducing salt intake",
+                        "Increasing medication dosages",
+                        "Avoiding all physical activity"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What factor contributed to higher adherence rates in the study?",
+                    "Options": [
+                        "Personalized treatment plans",
+                        "Generic treatment plans",
+                        "Minimal patient involvement",
+                        "Standardized treatment protocols"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What did the study reveal about the impact of patient involvement in treatment decisions?",
+                    "Options": [
+                        "It led to better adherence and results",
+                        "It had no impact on treatment adherence",
+                        "It decreased patient satisfaction",
+                        "It was less important than medication"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What was one key finding related to follow-up appointments?",
+                    "Options": [
+                        "Consistent follow-up improved hypertension management",
+                        "Follow-up was not necessary",
+                        "It was only useful for initial diagnosis",
+                        "It replaced the need for lifestyle changes"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How did integrating different healthcare professionals benefit hypertension management?",
+                    "Options": [
+                        "It ensured comprehensive care and improved outcomes",
+                        "It led to increased costs without added benefits",
+                        "It reduced the need for patient education",
+                        "It limited the focus to one aspect of care"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What was the overall conclusion of the study?",
+                    "Options": [
+                        "Combining lifestyle changes with medication and personalizing care improves hypertension management",
+                        "Medication alone is sufficient for managing hypertension",
+                        "Lifestyle changes are not necessary if medication is used",
+                        "Standard treatment plans are adequate for all patients"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which aspect of care was highlighted as crucial for effective hypertension management?",
+                    "Options": [
+                        "A multidisciplinary approach",
+                        "Minimizing patient involvement",
+                        "Limiting medication use",
+                        "Avoiding dietary changes"
+                    ]
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What was found to be less effective according to the study?",
+                    "Options": [
+                        "Medication alone without lifestyle changes",
+                        "Combination of lifestyle changes and medication",
+                        "Personalized treatment plans",
+                        "Regular monitoring and follow-up"
+                    ]
+                }
+            ],
+            "Correct_answers": [
+                "To evaluate the effectiveness of different treatment strategies",
+                "Lifestyle modifications and medication",
+                "Personalized treatment plans",
+                "It improved adherence to treatment plans",
+                "It helped manage hypertension and prevent complications",
+                "Addressing all aspects of a patient\u00e2\u20ac\u2122s health",
+                "Healthy diet, physical activity, and stress management",
+                "Personalized treatment plans",
+                "It led to better adherence and results",
+                "Consistent follow-up improved hypertension management",
+                "It ensured comprehensive care and improved outcomes",
+                "Combining lifestyle changes with medication and personalizing care improves hypertension management",
+                "A multidisciplinary approach",
+                "Medication alone without lifestyle changes"
+            ],
+            "Explanation": [
+                "The study aimed to evaluate different treatment strategies for hypertension.",
+                "Combining lifestyle changes with medication was found to be more effective.",
+                "Personalized treatment plans led to better outcomes.",
+                "Patient education improved adherence to treatment plans.",
+                "Regular monitoring helped in managing hypertension and preventing complications.",
+                "An integrated approach ensured comprehensive care.",
+                "Lifestyle changes such as diet, exercise, and stress management improved blood pressure control.",
+                "Personalized plans contributed to higher adherence rates.",
+                "Patient involvement in treatment decisions improved adherence and results.",
+                "Consistent follow-up appointments improved management.",
+                "A multidisciplinary approach ensured all aspects of health were addressed.",
+                "Combining lifestyle changes with medication and personalizing care were key to effective management.",
+                "A multidisciplinary approach was crucial for comprehensive care.",
+                "Medication alone without lifestyle changes was found to be less effective."
+            ],
+            "Suggestions": [
+                "Adopt a holistic approach to managing hypertension, combining lifestyle changes with medication.",
+                "Personalize treatment plans to meet individual patient needs and preferences.",
+                "Educate patients thoroughly to enhance their role in managing their condition.",
+                "Ensure regular monitoring and follow-up to track progress and prevent complications.",
+                "Utilize a multidisciplinary approach to provide comprehensive care and improve patient outcomes."
+            ]
+        },
+        {
+            "Scenario": "A nurse is conducting a follow-up appointment with a patient who has recently been diagnosed with diabetes. The nurse reviews the patient\u00e2\u20ac\u2122s condition and provides advice on managing their new diagnosis.",
+            "Listening_Passage": [
+                {
+                    "Type": "Part A",
+                    "Passage": "Nurse: Good morning, Mr. Thompson. How have you been feeling since your diagnosis?\nMr. Thompson: Good morning. I've been feeling a bit overwhelmed, to be honest. I\u00e2\u20ac\u2122m not sure I fully understand everything about managing diabetes.\nNurse: I understand. It can be a lot to take in. Let\u00e2\u20ac\u2122s review some key points. First, it\u00e2\u20ac\u2122s important to monitor your blood sugar levels regularly. This will help you understand how your body responds to different foods and activities.\nMr. Thompson: I\u00e2\u20ac\u2122ve been checking my blood sugar, but it\u00e2\u20ac\u2122s hard to know what the numbers mean sometimes.\nNurse: That\u00e2\u20ac\u2122s normal at first. We can go over your blood sugar logs together and discuss what the numbers indicate. Also, maintaining a balanced diet is crucial. You should aim for a diet high in fiber, with plenty of vegetables, whole grains, and lean proteins, while limiting foods high in sugar and fat.\nMr. Thompson: What about exercise? How often should I be working out?\nNurse: Regular physical activity is very beneficial. Aim for at least 150 minutes of moderate-intensity exercise per week, such as brisk walking or cycling. Exercise helps improve your insulin sensitivity and overall health.\nMr. Thompson: I\u00e2\u20ac\u2122ve heard that stress can affect blood sugar levels. Is that true?\nNurse: Yes, stress can impact your blood sugar levels. It\u00e2\u20ac\u2122s important to find ways to manage stress effectively. Techniques such as deep breathing exercises, meditation, or talking to a counselor can be helpful.\nMr. Thompson: How often should I be seeing the doctor for follow-ups?\nNurse: Initially, you should have follow-up appointments every three to six months to monitor your progress and adjust your treatment plan as needed. If you experience any significant changes in your health or have concerns, don\u00e2\u20ac\u2122t hesitate to reach out sooner.\nMr. Thompson: Thank you for all the information. I feel a bit more confident about managing my condition now.\nNurse: You\u00e2\u20ac\u2122re welcome. Remember, managing diabetes is a team effort, and we\u00e2\u20ac\u2122re here to support you every step of the way."
+                }
+            ],
+            "Questions": [
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Mr. Thompson has been feeling a bit _____ since his diabetes diagnosis.",
+                    "Answer": "overwhelmed"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "The nurse advised Mr. Thompson to monitor his _____ levels regularly.",
+                    "Answer": "blood sugar"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Maintaining a balanced diet should include plenty of vegetables, whole grains, and _____ proteins.",
+                    "Answer": "lean"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "The nurse recommended at least _____ minutes of moderate-intensity exercise per week.",
+                    "Answer": "150"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Regular exercise helps improve insulin _____ and overall health.",
+                    "Answer": "sensitivity"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Stress can impact blood _____ levels.",
+                    "Answer": "sugar"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "The nurse suggested techniques like deep breathing, meditation, or talking to a _____ to manage stress.",
+                    "Answer": "counselor"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Follow-up appointments should be scheduled every _____ to _____ months initially.",
+                    "Answer": "three, six"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Mr. Thompson should contact his healthcare provider if he experiences significant _____ in his health.",
+                    "Answer": "changes"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Mr. Thompson should aim for a diet high in fiber and limit foods high in _____ and fat.",
+                    "Answer": "sugar"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Regular physical activity includes activities such as brisk walking or _____.",
+                    "Answer": "cycling"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "The nurse mentioned that managing diabetes is a _____ effort.",
+                    "Answer": "team"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Mr. Thompson felt a bit more _____ about managing his condition after the appointment.",
+                    "Answer": "confident"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "The nurse will review Mr. Thompson\u00e2\u20ac\u2122s blood sugar logs to discuss what the numbers _____.",
+                    "Answer": "indicate"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "The nurse advised Mr. Thompson to aim for a diet high in fiber and to maintain a _____ diet.",
+                    "Answer": "balanced"
+                }
+            ],
+            "Correct_answers": [
+                "overwhelmed",
+                "blood sugar",
+                "lean",
+                "150",
+                "sensitivity",
+                "sugar",
+                "counselor",
+                "three, six",
+                "changes",
+                "sugar",
+                "cycling",
+                "team",
+                "confident",
+                "indicate",
+                "balanced"
+            ],
+            "Explanation": [
+                "Mr. Thompson expressed feeling overwhelmed after his diagnosis.",
+                "Monitoring blood sugar levels helps track diabetes management.",
+                "Lean proteins are part of a balanced diet for managing diabetes.",
+                "150 minutes of exercise per week is recommended for managing diabetes.",
+                "Regular exercise improves insulin sensitivity.",
+                "Stress can affect blood sugar levels.",
+                "Managing stress through various techniques can benefit blood sugar control.",
+                "Initial follow-ups are recommended every three to six months.",
+                "Contacting the provider is advised if there are significant changes in health.",
+                "Limiting sugar is important for a balanced diet.",
+                "Cycling is an example of moderate-intensity exercise.",
+                "Diabetes management is a team effort involving support from healthcare providers.",
+                "Mr. Thompson felt more confident in managing his condition.",
+                "Reviewing blood sugar logs helps understand what the numbers indicate.",
+                "Maintaining a balanced diet is crucial for managing diabetes."
+            ],
+            "Suggestions": [
+                "Review key points about managing chronic conditions during patient appointments.",
+                "Provide clear instructions and explanations for managing symptoms and treatment.",
+                "Encourage patients to maintain detailed logs of their condition and follow-up appointments.",
+                "Emphasize the importance of lifestyle modifications and stress management in chronic disease management."
+            ]
+        },
+        {
+            "Scenario": "A pharmacist is explaining medication instructions to a patient who has been prescribed a new antihypertensive drug.",
+            "Listening_Passage": [
+                {
+                    "Type": "Part B",
+                    "Passage": "Pharmacist: Hello, Mrs. Harris. I see you\u00e2\u20ac\u2122ve been prescribed a new medication for your hypertension. This is an important part of managing your blood pressure. Let me explain how to take it properly. You should take one tablet every morning with food. This helps to minimize any stomach upset. It\u00e2\u20ac\u2122s also crucial to take the medication at the same time each day to maintain a consistent level in your bloodstream.\nMrs. Harris: What should I do if I miss a dose?\nPharmacist: If you miss a dose, take it as soon as you remember. However, if it\u00e2\u20ac\u2122s almost time for your next dose, skip the missed dose\u00e2\u20ac\u201ddo not double up to make up for a missed dose. Doubling up can increase the risk of side effects.\nMrs. Harris: Are there any specific side effects I should be aware of?\nPharmacist: Some common side effects include dizziness, headaches, and fatigue. If you experience any severe side effects, such as swelling in your legs or trouble breathing, you should contact your doctor immediately.\nMrs. Harris: Can I take this medication with other drugs or supplements?\nPharmacist: It\u00e2\u20ac\u2122s important to inform your doctor about any other medications or supplements you\u00e2\u20ac\u2122re taking. Some substances can interact with your antihypertensive drug and either increase or decrease its effectiveness. For example, certain over-the-counter pain relievers can interfere with how well this medication works.\nMrs. Harris: How long will I need to be on this medication?\nPharmacist: This medication is usually taken long-term, possibly for the rest of your life, as part of your treatment plan to manage your blood pressure effectively. Regular check-ups are necessary to monitor your condition and adjust your treatment if needed.\nMrs. Harris: Thank you for the information.\nPharmacist: You\u00e2\u20ac\u2122re welcome. If you have any other questions or concerns, don\u00e2\u20ac\u2122t hesitate to contact us."
+                }
+            ],
+            "Questions": [
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How should Mrs. Harris take the medication?",
+                    "Options": [
+                        "On an empty stomach",
+                        "With food",
+                        "With a glass of water only",
+                        "Before bed"
+                    ],
+                    "Answer": "With food"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should Mrs. Harris do if she misses a dose?",
+                    "Options": [
+                        "Double up on the next dose",
+                        "Skip the missed dose if it's close to the next dose",
+                        "Take the missed dose as soon as possible",
+                        "Stop taking the medication"
+                    ],
+                    "Answer": "Skip the missed dose if it's close to the next dose"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which of the following is NOT mentioned as a side effect of the medication?",
+                    "Options": [
+                        "Dizziness",
+                        "Headaches",
+                        "Fatigue",
+                        "Swelling in the arms"
+                    ],
+                    "Answer": "Swelling in the arms"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should Mrs. Harris do if she experiences severe side effects?",
+                    "Options": [
+                        "Continue taking the medication as usual",
+                        "Contact her doctor immediately",
+                        "Reduce the dosage",
+                        "Take an over-the-counter remedy"
+                    ],
+                    "Answer": "Contact her doctor immediately"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Why is it important to inform the doctor about other medications or supplements?",
+                    "Options": [
+                        "To avoid duplicate medications",
+                        "To ensure the antihypertensive drug's effectiveness",
+                        "To prevent overdose",
+                        "To make the medication more affordable"
+                    ],
+                    "Answer": "To ensure the antihypertensive drug's effectiveness"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How long is Mrs. Harris likely to be on this medication?",
+                    "Options": [
+                        "A few weeks",
+                        "A few months",
+                        "Long-term, possibly for life",
+                        "Until her blood pressure is normal"
+                    ],
+                    "Answer": "Long-term, possibly for life"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What type of check-ups are necessary for Mrs. Harris?",
+                    "Options": [
+                        "Occasional blood tests only",
+                        "Regular check-ups to monitor her condition",
+                        "Only if she feels unwell",
+                        "Annual visits to the pharmacist"
+                    ],
+                    "Answer": "Regular check-ups to monitor her condition"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should Mrs. Harris avoid when taking the medication?",
+                    "Options": [
+                        "Drinking alcohol",
+                        "Taking other antihypertensive medications",
+                        "Using over-the-counter pain relievers that can interfere",
+                        "Eating citrus fruits"
+                    ],
+                    "Answer": "Using over-the-counter pain relievers that can interfere"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What advice did the pharmacist give regarding the timing of taking the medication?",
+                    "Options": [
+                        "Take it in the morning only",
+                        "Take it at the same time each day",
+                        "Take it before meals",
+                        "Take it before bedtime"
+                    ],
+                    "Answer": "Take it at the same time each day"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is one of the common side effects of the medication?",
+                    "Options": [
+                        "Nausea",
+                        "Diarrhea",
+                        "Dizziness",
+                        "Insomnia"
+                    ],
+                    "Answer": "Dizziness"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should Mrs. Harris do if she has any other questions or concerns?",
+                    "Options": [
+                        "Visit the doctor\u00e2\u20ac\u2122s office",
+                        "Contact the pharmacy",
+                        "Ask a family member",
+                        "Search online"
+                    ],
+                    "Answer": "Contact the pharmacy"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What type of food is recommended to take with the medication?",
+                    "Options": [
+                        "High-protein foods",
+                        "Foods high in sugar",
+                        "Foods high in fiber",
+                        "Foods high in fat"
+                    ],
+                    "Answer": "Foods high in fiber"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What might occur if Mrs. Harris doubles up on a missed dose?",
+                    "Options": [
+                        "Increased effectiveness",
+                        "Increased risk of side effects",
+                        "Decreased risk of side effects",
+                        "Improved digestion"
+                    ],
+                    "Answer": "Increased risk of side effects"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Why is it important to maintain a consistent level of the medication in the bloodstream?",
+                    "Options": [
+                        "To prevent drug interactions",
+                        "To reduce the cost of medication",
+                        "To maintain its effectiveness",
+                        "To speed up recovery"
+                    ],
+                    "Answer": "To maintain its effectiveness"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What action should Mrs. Harris take if she experiences trouble breathing?",
+                    "Options": [
+                        "Reduce the medication dosage",
+                        "Contact her doctor immediately",
+                        "Stop taking the medication",
+                        "Use an over-the-counter remedy"
+                    ],
+                    "Answer": "Contact her doctor immediately"
+                }
+            ],
+            "Correct_answers": [
+                "With food",
+                "Skip the missed dose if it's close to the next dose",
+                "Swelling in the arms",
+                "Contact her doctor immediately",
+                "To ensure the antihypertensive drug's effectiveness",
+                "Long-term, possibly for life",
+                "Regular check-ups to monitor her condition",
+                "Using over-the-counter pain relievers that can interfere",
+                "Take it at the same time each day",
+                "Dizziness",
+                "Contact the pharmacy",
+                "Foods high in fiber",
+                "Increased risk of side effects",
+                "To maintain its effectiveness",
+                "Contact her doctor immediately"
+            ],
+            "Explanation": [
+                "Taking the medication with food helps prevent stomach upset.",
+                "Skipping the missed dose is advised if it's close to the next dose to avoid doubling up.",
+                "Swelling in the arms is not mentioned as a side effect.",
+                "Severe side effects like trouble breathing require immediate contact with the doctor.",
+                "Informing the doctor about other medications ensures the antihypertensive drug's effectiveness.",
+                "The medication is usually taken long-term to manage hypertension.",
+                "Regular check-ups are necessary to adjust treatment and monitor condition.",
+                "Certain over-the-counter pain relievers can interfere with the medication.",
+                "Taking the medication at the same time each day helps maintain consistent levels.",
+                "Dizziness is a common side effect of the medication.",
+                "The pharmacy is the point of contact for additional questions or concerns.",
+                "Foods high in fiber are recommended to take with the medication.",
+                "Doubling up on a missed dose can increase the risk of side effects.",
+                "Maintaining consistent medication levels is crucial for its effectiveness.",
+                "Immediate contact with the doctor is necessary if experiencing trouble breathing."
+            ],
+            "Suggestions": [
+                "Provide clear instructions on medication adherence and timing.",
+                "Educate patients about potential side effects and when to seek medical help.",
+                "Ensure patients understand how to handle missed doses correctly.",
+                "Highlight the importance of informing healthcare providers about other medications."
+            ]
+        },
+        {
+            "Scenario": "A nurse is providing instructions to a patient about managing their diabetes and dealing with potential complications.",
+            "Passage_type": "Part B",
+            "Listening_Passage": "Nurse: Good afternoon, Mr. Smith. How are you managing with your diabetes so far?\nMr. Smith: Good afternoon. I've been trying to follow the diet plan, but I still feel unsure about some things.\nNurse: That\u00e2\u20ac\u2122s understandable. Diabetes management can be challenging at first. Let\u00e2\u20ac\u2122s review a few key points. Firstly, it's important to monitor your blood sugar levels regularly. Have you been keeping track of them?\nMr. Smith: Yes, I check my blood sugar levels twice a day as instructed.\nNurse: Great. Now, regarding your medication, make sure to take it exactly as prescribed. If you miss a dose, do not double up on your next dose. Instead, take the missed dose as soon as you remember unless it\u00e2\u20ac\u2122s almost time for your next dose.\nMr. Smith: Okay, I\u00e2\u20ac\u2122ll keep that in mind.\nNurse: Also, be aware of the symptoms of high and low blood sugar. High blood sugar can cause increased thirst, frequent urination, and blurred vision, while low blood sugar can lead to dizziness, sweating, and confusion. If you experience any of these symptoms, contact us right away.\nMr. Smith: I will. What should I do if I feel unwell or notice any unusual symptoms?\nNurse: If you feel unwell or notice symptoms that concern you, it\u00e2\u20ac\u2122s crucial to seek medical help immediately. Sometimes, complications can arise, and prompt action can make a big difference. Additionally, maintain a balanced diet, exercise regularly, and keep a record of any changes in your health.\nMr. Smith: Thank you for the information. I feel more confident about managing my condition now.\nNurse: You\u00e2\u20ac\u2122re welcome. Remember, we\u00e2\u20ac\u2122re here to support you. Don\u00e2\u20ac\u2122t hesitate to call if you have any questions or concerns.",
+            "Questions": [
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How often does Mr. Smith check his blood sugar levels?",
+                    "Options": [
+                        "Once a day",
+                        "Twice a day",
+                        "Three times a day",
+                        "Once a week"
+                    ],
+                    "Answer": "Twice a day"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should Mr. Smith do if he misses a dose of medication?",
+                    "Options": [
+                        "Skip the missed dose",
+                        "Double up on the next dose",
+                        "Take the missed dose as soon as remembered unless it's close to the next dose",
+                        "Take extra medication to compensate"
+                    ],
+                    "Answer": "Take the missed dose as soon as remembered unless it's close to the next dose"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which symptom is associated with high blood sugar?",
+                    "Options": [
+                        "Dizziness",
+                        "Sweating",
+                        "Increased thirst",
+                        "Confusion"
+                    ],
+                    "Answer": "Increased thirst"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should Mr. Smith do if he experiences symptoms of low blood sugar?",
+                    "Options": [
+                        "Ignore them",
+                        "Contact the nurse immediately",
+                        "Take more medication",
+                        "Wait to see if they improve"
+                    ],
+                    "Answer": "Contact the nurse immediately"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What are some symptoms of low blood sugar?",
+                    "Options": [
+                        "Increased thirst and frequent urination",
+                        "Dizziness and confusion",
+                        "Blurred vision",
+                        "Frequent urination and blurred vision"
+                    ],
+                    "Answer": "Dizziness and confusion"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What additional steps are suggested for managing diabetes?",
+                    "Options": [
+                        "Maintain a balanced diet and exercise regularly",
+                        "Take medication irregularly",
+                        "Avoid checking blood sugar levels",
+                        "Skip meals to manage weight"
+                    ],
+                    "Answer": "Maintain a balanced diet and exercise regularly"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should Mr. Smith do if he feels unwell or notices unusual symptoms?",
+                    "Options": [
+                        "Seek medical help immediately",
+                        "Wait for symptoms to go away",
+                        "Take over-the-counter medication",
+                        "Contact a friend for advice"
+                    ],
+                    "Answer": "Seek medical help immediately"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Who should Mr. Smith contact if he has questions or concerns?",
+                    "Options": [
+                        "His friends",
+                        "A family member",
+                        "The nurse",
+                        "His employer"
+                    ],
+                    "Answer": "The nurse"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How can prompt action affect the management of diabetes complications?",
+                    "Options": [
+                        "It can make a big difference",
+                        "It is usually unnecessary",
+                        "It only affects the cost",
+                        "It delays recovery"
+                    ],
+                    "Answer": "It can make a big difference"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should Mr. Smith do to stay informed about his condition?",
+                    "Options": [
+                        "Keep a record of any changes in health",
+                        "Avoid keeping a record",
+                        "Only check his blood sugar levels",
+                        "Ignore changes in health"
+                    ],
+                    "Answer": "Keep a record of any changes in health"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is an important aspect of medication adherence mentioned by the nurse?",
+                    "Options": [
+                        "Taking medication exactly as prescribed",
+                        "Taking medication at irregular times",
+                        "Taking medication with every meal",
+                        "Skipping doses when feeling better"
+                    ],
+                    "Answer": "Taking medication exactly as prescribed"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which of the following symptoms is not mentioned as a sign of high blood sugar?",
+                    "Options": [
+                        "Increased thirst",
+                        "Frequent urination",
+                        "Sweating",
+                        "Blurred vision"
+                    ],
+                    "Answer": "Sweating"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What advice does the nurse give about exercise?",
+                    "Options": [
+                        "Exercise regularly",
+                        "Avoid exercise",
+                        "Exercise only once a week",
+                        "Exercise only if feeling well"
+                    ],
+                    "Answer": "Exercise regularly"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should Mr. Smith do if he has concerns about his diabetes management?",
+                    "Options": [
+                        "Call the nurse",
+                        "Consult a friend",
+                        "Ignore the concerns",
+                        "Call a family member"
+                    ],
+                    "Answer": "Call the nurse"
+                }
+            ],
+            "Correct_answers": [
+                "Twice a day",
+                "Take the missed dose as soon as remembered unless it's close to the next dose",
+                "Increased thirst",
+                "Contact the nurse immediately",
+                "Dizziness and confusion",
+                "Maintain a balanced diet and exercise regularly",
+                "Seek medical help immediately",
+                "The nurse",
+                "It can make a big difference",
+                "Keep a record of any changes in health",
+                "Taking medication exactly as prescribed",
+                "Sweating",
+                "Exercise regularly",
+                "Call the nurse"
+            ],
+            "Explanation": [
+                "Mr. Smith checks his blood sugar levels twice a day.",
+                "If Mr. Smith misses a dose, he should take it as soon as remembered unless it's close to the next dose.",
+                "Increased thirst is a symptom of high blood sugar.",
+                "Mr. Smith should contact the nurse immediately if he experiences symptoms of low blood sugar.",
+                "Dizziness and confusion are symptoms of low blood sugar.",
+                "Maintaining a balanced diet and exercising regularly are crucial for diabetes management.",
+                "If Mr. Smith feels unwell, he should seek medical help immediately.",
+                "The nurse is the person to contact for any questions or concerns about diabetes management.",
+                "Prompt action can make a significant difference in managing diabetes complications.",
+                "Keeping a record of changes in health helps in managing diabetes effectively.",
+                "Taking medication exactly as prescribed is crucial for effective diabetes management.",
+                "Sweating is not mentioned as a symptom of high blood sugar.",
+                "Regular exercise is important for managing diabetes.",
+                "For concerns about diabetes management, Mr. Smith should call the nurse."
+            ],
+            "Suggestions": [
+                "Ensure patients understand the importance of medication adherence and managing missed doses.",
+                "Provide clear instructions on recognizing and responding to symptoms of high and low blood sugar.",
+                "Emphasize the role of regular exercise and a balanced diet in managing diabetes.",
+                "Encourage patients to keep a detailed record of their health changes and symptoms."
+            ]
+        },
+        {
+            "Scenario": "A nurse provides a diabetic patient with dietary advice to manage blood sugar levels effectively.",
+            "Passage_type": "Part B",
+            "Listening_Passage": "Nurse: Good afternoon, Mr. Smith. How are you feeling today?\nMr. Smith: Good afternoon. I\u00e2\u20ac\u2122m feeling okay, but I\u00e2\u20ac\u2122m still trying to get my blood sugar levels under control.\nNurse: I understand. Managing your diet is crucial in controlling blood sugar levels. Let\u00e2\u20ac\u2122s review some important dietary tips.\nMr. Smith: That sounds good. What should I focus on?\nNurse: First, aim to include a balance of carbohydrates, proteins, and fats in your meals. Choose complex carbohydrates like whole grains over simple sugars. For example, opt for brown rice or whole grain bread instead of white rice or white bread.\nMr. Smith: What about fruits and vegetables?\nNurse: Fruits and vegetables are essential. Choose a variety of colorful vegetables and fruits with a low glycemic index. For example, apples, berries, and leafy greens are good choices. Try to avoid high-sugar fruits like bananas and grapes.\nMr. Smith: How about portion sizes?\nNurse: Portion control is important. Avoid overeating by using smaller plates and measuring your food. A good rule of thumb is to fill half of your plate with vegetables, a quarter with lean protein, and a quarter with whole grains.\nMr. Smith: Can I have snacks between meals?\nNurse: Yes, healthy snacks are fine. Opt for snacks that are high in fiber and protein, such as nuts, seeds, or yogurt. Avoid sugary snacks and refined carbs like chips and cookies.\nMr. Smith: Should I be concerned about eating out?\nNurse: Eating out can be challenging, but you can make healthy choices by selecting dishes with plenty of vegetables, lean proteins, and whole grains. Avoid fried foods and ask for dressings and sauces on the side to control your intake.\nMr. Smith: What if I have a craving for something sweet?\nNurse: It\u00e2\u20ac\u2122s okay to indulge occasionally, but do so mindfully. Choose healthier options like a piece of dark chocolate or fruit. Remember, moderation is key.\nMr. Smith: Thank you for the advice. I\u00e2\u20ac\u2122ll try to follow these tips.\nNurse: You\u00e2\u20ac\u2122re welcome. If you have any questions or need further guidance, feel free to contact me. Managing your diet is an important part of controlling diabetes, and we\u00e2\u20ac\u2122re here to support you.",
+            "Questions": [
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is the nurse's recommendation for carbohydrates?",
+                    "Options": [
+                        "Choose simple sugars",
+                        "Opt for white rice and white bread",
+                        "Choose complex carbohydrates like whole grains",
+                        "Avoid carbohydrates altogether"
+                    ],
+                    "Answer": "Choose complex carbohydrates like whole grains"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which fruits are recommended for a low glycemic index?",
+                    "Options": [
+                        "Bananas and grapes",
+                        "Apples and berries",
+                        "Pineapples and mangoes",
+                        "Oranges and peaches"
+                    ],
+                    "Answer": "Apples and berries"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What portion of the plate should be filled with vegetables according to the nurse's advice?",
+                    "Options": [
+                        "One quarter",
+                        "One half",
+                        "One third",
+                        "Two thirds"
+                    ],
+                    "Answer": "One half"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What type of snacks are recommended between meals?",
+                    "Options": [
+                        "Sugary snacks and chips",
+                        "Refined carbs like cookies",
+                        "Nuts, seeds, or yogurt",
+                        "Candy and pastries"
+                    ],
+                    "Answer": "Nuts, seeds, or yogurt"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should be avoided when eating out?",
+                    "Options": [
+                        "Choosing dishes with vegetables",
+                        "Opting for lean proteins",
+                        "Avoiding fried foods",
+                        "Asking for dressings on the side"
+                    ],
+                    "Answer": "Avoiding fried foods"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is suggested if Mr. Smith has a craving for something sweet?",
+                    "Options": [
+                        "Avoid all sweets",
+                        "Choose healthier options like dark chocolate or fruit",
+                        "Eat as much sweet food as desired",
+                        "Ignore the craving"
+                    ],
+                    "Answer": "Choose healthier options like dark chocolate or fruit"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is a good method for portion control?",
+                    "Options": [
+                        "Use larger plates",
+                        "Measure your food",
+                        "Skip meals",
+                        "Eat quickly"
+                    ],
+                    "Answer": "Measure your food"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should Mr. Smith do if he needs further guidance on managing his diet?",
+                    "Options": [
+                        "Consult a friend",
+                        "Contact the nurse",
+                        "Ignore the issue",
+                        "Change his diet without advice"
+                    ],
+                    "Answer": "Contact the nurse"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is important when making choices at restaurants according to the nurse?",
+                    "Options": [
+                        "Choosing high-fat dishes",
+                        "Selecting dishes with plenty of vegetables and whole grains",
+                        "Avoiding all restaurant meals",
+                        "Eating large portions"
+                    ],
+                    "Answer": "Selecting dishes with plenty of vegetables and whole grains"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How should Mr. Smith handle occasional indulgence in sweets?",
+                    "Options": [
+                        "Indulge without limits",
+                        "Choose healthier options and practice moderation",
+                        "Avoid sweets completely",
+                        "Only eat sweets at specific times"
+                    ],
+                    "Answer": "Choose healthier options and practice moderation"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should Mr. Smith do to avoid overeating?",
+                    "Options": [
+                        "Use smaller plates and measure food",
+                        "Skip meals",
+                        "Eat until full",
+                        "Eat only snacks"
+                    ],
+                    "Answer": "Use smaller plates and measure food"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should Mr. Smith avoid when selecting snacks?",
+                    "Options": [
+                        "High-fiber and protein snacks",
+                        "Sugary snacks and refined carbs",
+                        "Fresh fruits",
+                        "Vegetable sticks"
+                    ],
+                    "Answer": "Sugary snacks and refined carbs"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What does the nurse suggest if Mr. Smith is concerned about his dietary choices?",
+                    "Options": [
+                        "Wait for the next appointment",
+                        "Seek guidance from a dietitian",
+                        "Contact the nurse",
+                        "Consult a family member"
+                    ],
+                    "Answer": "Contact the nurse"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is one key piece of advice for eating out given by the nurse?",
+                    "Options": [
+                        "Choose fried foods for taste",
+                        "Ask for dressings and sauces on the side",
+                        "Order large portions",
+                        "Avoid vegetables"
+                    ],
+                    "Answer": "Ask for dressings and sauces on the side"
+                }
+            ],
+            "Correct_answers": [
+                "Choose complex carbohydrates like whole grains",
+                "Apples and berries",
+                "One half",
+                "Nuts, seeds, or yogurt",
+                "Avoiding fried foods",
+                "Choose healthier options like dark chocolate or fruit",
+                "Measure your food",
+                "Contact the nurse",
+                "Selecting dishes with plenty of vegetables and whole grains",
+                "Choose healthier options and practice moderation",
+                "Use smaller plates and measure food",
+                "Sugary snacks and refined carbs",
+                "Contact the nurse"
+            ],
+            "Explanation": [
+                "Complex carbohydrates help manage blood sugar levels better than simple sugars.",
+                "Apples and berries have a lower glycemic index compared to high-sugar fruits.",
+                "Filling half of the plate with vegetables helps with portion control and balanced meals.",
+                "Nuts, seeds, and yogurt are high in fiber and protein, making them better snack choices.",
+                "Avoiding fried foods helps reduce unhealthy fat intake.",
+                "Choosing healthier sweet options and practicing moderation prevents excessive sugar intake.",
+                "Measuring food and using smaller plates helps control portion sizes and avoid overeating.",
+                "Contacting the nurse for guidance ensures any dietary concerns are addressed promptly.",
+                "Selecting dishes with vegetables and whole grains at restaurants supports healthy eating.",
+                "Moderation and healthier options help manage occasional sweet cravings.",
+                "Using smaller plates and measuring food helps prevent overeating.",
+                "Sugary snacks and refined carbs can lead to spikes in blood sugar levels.",
+                "Contacting the nurse ensures continuous support and management of dietary concerns."
+            ],
+            "Suggestions": [
+                "Emphasize the importance of balancing carbohydrates, proteins, and fats.",
+                "Provide practical tips for managing portion sizes and making healthier snack choices.",
+                "Encourage patients to seek support if they have any questions about their diet.",
+                "Highlight the benefits of making informed choices when eating out."
+            ]
+        },
+        {
+            "Scenario": "A doctor explains the importance of a physical therapy regimen to a patient recovering from knee surgery.",
+            "Passage_type": "Part A",
+            "Listening_Passage": "Doctor: Good morning, Mrs. Johnson. How are you feeling after your knee surgery?\nMrs. Johnson: Good morning, Doctor. I\u00e2\u20ac\u2122m feeling better, but I\u00e2\u20ac\u2122m worried about my recovery process.\nDoctor: I understand your concerns. It\u00e2\u20ac\u2122s very important to follow the physical therapy regimen we\u00e2\u20ac\u2122ve prescribed to ensure a full recovery. Let me explain why this is crucial.\nMrs. Johnson: Please, go ahead.\nDoctor: After knee surgery, physical therapy helps to restore strength, flexibility, and mobility in your knee. The exercises are designed to gradually increase your range of motion and improve muscle strength around the knee joint. This is essential for reducing pain and preventing future injuries.\nMrs. Johnson: How often should I do the exercises?\nDoctor: You should aim to do the exercises _____, or as often as recommended by your physical therapist. Consistency is key to making progress. Your physical therapist will provide you with a schedule and demonstrate the correct way to perform each exercise.\nMrs. Johnson: Are there any specific exercises I should focus on?\nDoctor: Yes, there are several important exercises you should focus on. These include quadriceps strengthening exercises, hamstring stretches, and range-of-motion exercises. For example, straight leg raises and knee bends are effective for building strength and flexibility. Your physical therapist will tailor the exercises to your specific needs.\nMrs. Johnson: What should I do if I experience pain during the exercises?\nDoctor: It\u00e2\u20ac\u2122s normal to experience some discomfort, but you should not experience _____ pain. If you do, it\u00e2\u20ac\u2122s important to stop the exercise and consult your physical therapist. They can adjust your exercise plan to avoid aggravating your knee.\nMrs. Johnson: Can I still engage in other activities while doing physical therapy?\nDoctor: You can engage in low-impact activities such as swimming or cycling, which can be beneficial for your recovery. However, avoid high-impact activities like _____ or jumping until you\u00e2\u20ac\u2122ve fully recovered and your physical therapist gives you the go-ahead.\nMrs. Johnson: How long will I need to continue with physical therapy?\nDoctor: The duration of physical therapy varies from person to person. Typically, you may need to continue therapy for several _____ to a few months, depending on your progress. Regular follow-up appointments will help us monitor your recovery and adjust the therapy as needed.\nMrs. Johnson: Thank you for the information, Doctor.\nDoctor: You\u00e2\u20ac\u2122re welcome, Mrs. Johnson. If you have any other questions or concerns, don\u00e2\u20ac\u2122t hesitate to ask. Following your physical therapy plan is crucial for a successful recovery.",
+            "Questions": [
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "You should aim to do the exercises _____, or as often as recommended by your physical therapist.",
+                    "Answer": "daily"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "It\u00e2\u20ac\u2122s normal to experience some discomfort, but you should not experience _____ pain.",
+                    "Answer": "sharp"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Avoid high-impact activities like _____ or jumping until you\u00e2\u20ac\u2122ve fully recovered.",
+                    "Answer": "running"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Typically, you may need to continue therapy for several _____ to a few months, depending on your progress.",
+                    "Answer": "weeks"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "After knee surgery, physical therapy helps to restore strength, flexibility, and _____ in your knee.",
+                    "Answer": "mobility"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "The exercises are designed to gradually increase your range of motion and improve _____ strength around the knee joint.",
+                    "Answer": "muscle"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Your physical therapist will provide you with a _____ and demonstrate the correct way to perform each exercise.",
+                    "Answer": "schedule"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Quadriceps strengthening exercises, hamstring stretches, and range-of-motion exercises are examples of important _____ to focus on.",
+                    "Answer": "exercises"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "You can engage in low-impact activities such as swimming or _____, which can be beneficial for your recovery.",
+                    "Answer": "cycling"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "If you experience sharp pain during the exercises, it\u00e2\u20ac\u2122s important to stop and consult your _____ therapist.",
+                    "Answer": "physical"
+                }
+            ],
+            "Correct_answers": [
+                "daily",
+                "sharp",
+                "running",
+                "weeks",
+                "mobility",
+                "muscle",
+                "schedule",
+                "exercises",
+                "cycling",
+                "physical"
+            ],
+            "Explanation": [
+                "Daily exercise is essential for consistent progress and adherence to the therapy plan.",
+                "Sharp pain indicates a problem that needs professional evaluation.",
+                "High-impact activities can worsen the condition and hinder recovery.",
+                "The duration of therapy varies but generally lasts from several weeks to a few months.",
+                "Restoring mobility is crucial for full recovery after knee surgery.",
+                "Building muscle strength around the knee is a key component of therapy.",
+                "A schedule helps in maintaining a consistent exercise routine.",
+                "Focusing on specific exercises enhances recovery and rehabilitation.",
+                "Low-impact activities are safer and supportive of the recovery process.",
+                "Consulting a physical therapist helps in managing pain and adjusting the therapy plan."
+            ],
+            "Suggestions": [
+                "Emphasize the importance of regular and consistent exercise.",
+                "Provide clear guidance on what to do if pain occurs.",
+                "Encourage engagement in recommended low-impact activities.",
+                "Highlight the importance of following the prescribed duration of therapy."
+            ]
+        },
+        {
+            "Scenario": "A cardiologist explains the management of high blood pressure to a patient with a recent diagnosis.",
+            "Passage_type": "Part A",
+            "Listening_Passage": "Cardiologist: Good afternoon, Mr. Thompson. I understand that you\u00e2\u20ac\u2122ve recently been diagnosed with high blood pressure. How are you feeling about it?\nMr. Thompson: Good afternoon, Doctor. I\u00e2\u20ac\u2122m a bit concerned. I\u00e2\u20ac\u2122ve never had any issues with my blood pressure before, and I\u00e2\u20ac\u2122m not sure what steps I should take.\nCardiologist: It\u00e2\u20ac\u2122s understandable to be concerned, but with the right management, you can effectively control your blood pressure and reduce your risk of complications. Let\u00e2\u20ac\u2122s go over the key aspects of managing high blood pressure.\nMr. Thompson: That sounds good. What should be my primary focus?\nCardiologist: First and foremost, lifestyle changes are crucial. This includes following a balanced diet low in sodium, engaging in regular physical activity, and maintaining a healthy weight. For example, reducing your intake of processed foods and incorporating more fruits and vegetables can have a significant impact.\nMr. Thompson: What kind of physical activity should I aim for?\nCardiologist: Aim for at least _____ minutes of moderate-intensity exercise most days of the week. Activities like brisk walking, cycling, or swimming are excellent choices. Regular exercise helps lower blood pressure by improving cardiovascular health and reducing stress.\nMr. Thompson: Are there any specific dietary recommendations?\nCardiologist: Yes, in addition to reducing sodium intake, it\u00e2\u20ac\u2122s important to consume foods rich in potassium, magnesium, and calcium. For instance, bananas, spinach, and low-fat dairy products can help manage blood pressure levels. Also, limiting alcohol consumption and avoiding excessive caffeine is beneficial.\nMr. Thompson: Should I be concerned about any potential side effects of medication?\nCardiologist: It\u00e2\u20ac\u2122s possible to experience side effects from antihypertensive medications, such as dizziness or fatigue. However, the benefits of controlling your blood pressure typically outweigh these risks. If you experience any severe side effects, please inform me so we can adjust your treatment plan accordingly.\nMr. Thompson: How often should I monitor my blood pressure at home?\nCardiologist: It\u00e2\u20ac\u2122s recommended to check your blood pressure at least _____ a week. This helps us track your progress and make necessary adjustments to your treatment plan. Ensure you use a validated home blood pressure monitor for accurate readings.\nMr. Thompson: What should I do if I miss a dose of my medication?\nCardiologist: If you miss a dose, take it as soon as you remember, unless it\u00e2\u20ac\u2122s close to your next scheduled dose. In that case, skip the missed dose and resume your regular schedule. Never double up on doses to make up for a missed one, as this can lead to adverse effects.\nMr. Thompson: Are there any additional steps I should take to manage my condition effectively?\nCardiologist: Besides lifestyle changes and medication adherence, it\u00e2\u20ac\u2122s important to manage stress effectively. Practices such as mindfulness, meditation, and adequate sleep can contribute to better blood pressure control. Regular follow-up appointments will also help us ensure that your treatment is working as expected.\nMr. Thompson: Thank you for the detailed information, Doctor.\nCardiologist: You\u00e2\u20ac\u2122re welcome, Mr. Thompson. If you have any more questions or need further clarification, feel free to reach out. Managing high blood pressure is a continuous process, but with commitment and proper care, you can achieve and maintain good health.",
+            "Questions": [
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Aim for at least _____ minutes of moderate-intensity exercise most days of the week.",
+                    "Answer": "30"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "It\u00e2\u20ac\u2122s recommended to check your blood pressure at least _____ a week.",
+                    "Answer": "twice"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Besides lifestyle changes and medication adherence, managing _____ effectively can contribute to better blood pressure control.",
+                    "Answer": "stress"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Reducing sodium intake and consuming foods rich in _____, magnesium, and calcium can help manage blood pressure levels.",
+                    "Answer": "potassium"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "If you miss a dose, take it as soon as you remember, unless it\u00e2\u20ac\u2122s close to your next scheduled dose. In that case, skip the missed dose and resume your regular _____.",
+                    "Answer": "schedule"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Regular exercise helps lower blood pressure by improving cardiovascular health and reducing _____.",
+                    "Answer": "stress"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Monitoring your blood pressure at home helps track your _____ and make necessary adjustments to your treatment plan.",
+                    "Answer": "progress"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "If you experience any severe side effects from antihypertensive medications, please inform me so we can adjust your _____ plan accordingly.",
+                    "Answer": "treatment"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "Practices such as mindfulness, meditation, and adequate _____ can contribute to better blood pressure control.",
+                    "Answer": "sleep"
+                },
+                {
+                    "Type": "Fill in the blank",
+                    "Question": "For managing high blood pressure, it\u00e2\u20ac\u2122s important to follow a balanced diet low in _____ and engage in regular physical activity.",
+                    "Answer": "sodium"
+                }
+            ],
+            "Correct_answers": [
+                "30",
+                "twice",
+                "stress",
+                "potassium",
+                "schedule",
+                "stress",
+                "progress",
+                "treatment",
+                "sleep",
+                "sodium"
+            ],
+            "Explanation": [
+                "30 minutes of exercise most days is recommended for managing blood pressure.",
+                "Checking blood pressure twice a week helps track progress and adjust treatment.",
+                "Effective stress management is crucial for better blood pressure control.",
+                "Potassium-rich foods are beneficial for managing blood pressure.",
+                "Maintaining a consistent schedule with medication is important for effective management.",
+                "Exercise helps reduce stress and improve cardiovascular health.",
+                "Monitoring progress through regular blood pressure checks allows for treatment adjustments.",
+                "Adjusting the treatment plan may be necessary if severe side effects occur.",
+                "Managing stress through mindfulness and adequate sleep supports blood pressure control.",
+                "A diet low in sodium is essential for managing high blood pressure."
+            ],
+            "Suggestions": [
+                "Maintain a regular exercise routine and monitor your progress.",
+                "Adhere to dietary recommendations and manage stress effectively.",
+                "Use a validated home blood pressure monitor for accurate readings.",
+                "Consult with your healthcare provider regularly to adjust treatment as needed."
+            ]
+        },
+        {
+            "Scenario": "A medical expert presents a detailed lecture on managing diabetes in elderly patients.",
+            "Passage_type": "Part C",
+            "Listening_Passage": "Good morning, everyone. Today, we will discuss an important topic in the management of chronic diseases, focusing specifically on diabetes in elderly patients. Diabetes, particularly Type 2 diabetes, is a common condition among older adults. As people age, their bodies often become less effective at regulating blood sugar levels, leading to an increased risk of diabetes. The challenge with managing diabetes in the elderly is compounded by several factors, including the presence of other chronic conditions, decreased physiological reserve, and sometimes reduced cognitive function. \n\nFirst, let's discuss the risk factors. Elderly patients with a history of hypertension, cardiovascular disease, or obesity are at higher risk of developing diabetes. It's crucial to monitor blood sugar levels regularly and implement lifestyle changes to manage these risks. Diet plays a significant role; a balanced diet with controlled carbohydrate intake helps in maintaining optimal blood sugar levels. For elderly patients, it's essential to focus on nutrient-dense foods, including vegetables, fruits, lean proteins, and whole grains, while avoiding high-sugar and high-fat foods.\n\nExercise is another cornerstone of diabetes management. Regular physical activity helps in improving insulin sensitivity and maintaining a healthy weight. For older adults, low-impact exercises such as walking, swimming, or gentle yoga can be beneficial. However, exercise routines should be tailored to each individual\u00e2\u20ac\u2122s capabilities and health status. It\u00e2\u20ac\u2122s also important to address any mobility issues or comorbidities that might affect their ability to exercise.\n\nMedications are often required to manage diabetes, and the choice of medication should consider the patient\u00e2\u20ac\u2122s overall health, potential side effects, and any other medications they are taking. Metformin is commonly used, but other options include sulfonylureas, DPP-4 inhibitors, and SGLT2 inhibitors. Each of these has different mechanisms of action and side effect profiles, so it's important to personalize treatment based on the patient's needs and tolerability.\n\nMonitoring and managing diabetes also involve regular check-ups. Monitoring includes checking blood glucose levels, HbA1c, and kidney function. Regular foot exams are necessary to prevent complications like ulcers or infections. Furthermore, managing diabetes in elderly patients often requires a multidisciplinary approach involving dietitians, physical therapists, and primary care providers to ensure comprehensive care.\n\nIn addition to physical health, mental well-being should not be overlooked. Diabetes management can be challenging, and elderly patients may experience anxiety or depression related to their condition. It's essential to provide psychological support and address any mental health issues as part of the overall care plan. Support groups and counseling services can be beneficial in helping patients cope with the emotional aspects of managing a chronic disease.\n\nFinally, education and self-management play crucial roles in diabetes care. Patients and their caregivers should be well-informed about the disease, its management, and how to recognize symptoms of high or low blood sugar. Providing educational resources and ongoing support helps empower patients to take an active role in their health and improves overall outcomes.\n\nIn summary, managing diabetes in elderly patients requires a comprehensive approach that includes lifestyle modifications, personalized medication management, regular monitoring, and attention to both physical and mental health. By addressing these factors, we can help improve the quality of life for older adults living with diabetes.",
+            "Questions": [
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is a common condition among older adults mentioned in the lecture?",
+                    "Options": [
+                        "Type 1 diabetes",
+                        "Type 2 diabetes",
+                        "Hypertension",
+                        "Cardiovascular disease"
+                    ],
+                    "Answer": "Type 2 diabetes"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What factors complicate diabetes management in elderly patients?",
+                    "Options": [
+                        "Presence of other chronic conditions",
+                        "Increased physical activity",
+                        "Higher cognitive function",
+                        "Decreased nutrient absorption"
+                    ],
+                    "Answer": "Presence of other chronic conditions"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is a key component of managing diabetes through diet?",
+                    "Options": [
+                        "High-sugar foods",
+                        "Balanced diet with controlled carbohydrate intake",
+                        "Low-protein foods",
+                        "Increased fat intake"
+                    ],
+                    "Answer": "Balanced diet with controlled carbohydrate intake"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which exercise is recommended for elderly patients?",
+                    "Options": [
+                        "High-impact aerobics",
+                        "Walking",
+                        "Intense weight lifting",
+                        "Competitive sports"
+                    ],
+                    "Answer": "Walking"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What medication is commonly used for managing diabetes?",
+                    "Options": [
+                        "Insulin only",
+                        "Metformin",
+                        "Antibiotics",
+                        "Anti-hypertensives"
+                    ],
+                    "Answer": "Metformin"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What should be monitored regularly in diabetes management?",
+                    "Options": [
+                        "Blood glucose levels",
+                        "Body temperature",
+                        "Cholesterol levels",
+                        "Heart rate"
+                    ],
+                    "Answer": "Blood glucose levels"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Why are regular foot exams important for diabetic patients?",
+                    "Options": [
+                        "To prevent ulcers or infections",
+                        "To check for cardiovascular health",
+                        "To measure blood pressure",
+                        "To assess lung function"
+                    ],
+                    "Answer": "To prevent ulcers or infections"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What role does mental well-being play in diabetes management?",
+                    "Options": [
+                        "It is irrelevant to diabetes management",
+                        "It should be addressed alongside physical health",
+                        "It can be managed by increasing physical activity",
+                        "It involves only dietary changes"
+                    ],
+                    "Answer": "It should be addressed alongside physical health"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What is important for patients and caregivers to understand?",
+                    "Options": [
+                        "Symptoms of high or low blood sugar",
+                        "Stock market trends",
+                        "Investment strategies",
+                        "Travel regulations"
+                    ],
+                    "Answer": "Symptoms of high or low blood sugar"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "How should exercise routines be designed for elderly patients?",
+                    "Options": [
+                        "They should be high-intensity and rigorous",
+                        "They should be tailored to individual capabilities",
+                        "They should focus solely on cardiovascular training",
+                        "They should be avoided due to health risks"
+                    ],
+                    "Answer": "They should be tailored to individual capabilities"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "Which professionals might be involved in a multidisciplinary approach to diabetes care?",
+                    "Options": [
+                        "Dietitians",
+                        "Physical therapists",
+                        "Primary care providers",
+                        "All of the above"
+                    ],
+                    "Answer": "All of the above"
+                },
+                {
+                    "Type": "Multiple Choice",
+                    "Question": "What kind of foods should elderly patients with diabetes focus on?",
+                    "Options": [
+                        "Nutrient-dense foods",
+                        "High-fat foods",
+                        "Sugary snacks",
+                        "Fast food"
+                    ],
+                    "Answer": "Nutrient-dense foods"
+                }
+            ],
+            "Correct_answers": [
+                "Type 2 diabetes",
+                "Presence of other chronic conditions",
+                "Balanced diet with controlled carbohydrate intake",
+                "Walking",
+                "Metformin",
+                "Blood glucose levels",
+                "To prevent ulcers or infections",
+                "It should be addressed alongside physical health",
+                "Symptoms of high or low blood sugar",
+                "They should be tailored to individual capabilities",
+                "All of the above",
+                "Nutrient-dense foods"
+            ],
+            "Explanation": [
+                "Type 2 diabetes is the focus of the lecture on managing elderly patients.",
+                "The presence of other chronic conditions complicates diabetes management.",
+                "A balanced diet with controlled carbohydrates is key to managing diabetes.",
+                "Walking is a recommended exercise for elderly patients.",
+                "Metformin is a common medication used for diabetes management.",
+                "Regular monitoring of blood glucose levels is crucial.",
+                "Foot exams help prevent complications like ulcers or infections.",
+                "Mental well-being is important and should be addressed in diabetes care.",
+                "Patients and caregivers need to recognize symptoms of high or low blood sugar.",
+                "Exercise routines should be adapted to the patient\u00e2\u20ac\u2122s capabilities.",
+                "A multidisciplinary approach involves dietitians, physical therapists, and primary care providers.",
+                "Elderly patients should focus on nutrient-dense foods for managing diabetes."
+            ],
+            "Suggestions": [
+                "Focus on understanding the main points and details of professional lectures.",
+                "Review terminology and concepts related to diabetes and elderly care.",
+                "Practice listening to comprehensive and detailed presentations to improve comprehension."
+            ]
+        }
+    ]
+}
