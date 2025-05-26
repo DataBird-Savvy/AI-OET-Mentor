@@ -60,7 +60,7 @@
           </div>
         </nav>
       </div></header>
-    <section class="u-clearfix u-palette-5-light-3 u-section-1" id="sec-1b9b">
+    <section class="u-clearfix u-palette-5-light-3 u-section-1" id="sec-1b9b"  style="transform: scale(0.8); transform-origin: top center;">
       <div class="custom-expanded data-layout-selected u-clearfix u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
           <div class="u-layout-row">
@@ -69,16 +69,30 @@
             </div>
             <div class="u-container-style u-layout-cell u-palette-5-light-1 u-size-42 u-layout-cell-2">
               <div class="u-container-layout u-container-layout-2">
-                <div class="u-grey-40 u-shape u-shape-rectangle u-shape-1"></div>
-                <h2 class="u-align-center u-text u-text-default u-text-grey-10 u-text-1">Reading Task </h2>
-                <p class="u-align-center u-text u-text-default u-text-grey-10 u-text-2">TIME ALLOWED: 45 MINUTES</p>
+                
+                  <div class="u-grey-40 u-shape u-shape-rectangle u-shape-1" style="position: relative; height: 250px;">
+                  
+                    <div style="position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                      <h2 style="font-size: 2rem; margin: 0;">
+                        READING TEST: NURSING
+                      </h2>
+                    </div>
+                  
+                    <!-- Bottom-right Details -->
+                    <div style=" position: absolute; bottom: 10px; right: 10px; text-align: right;">
+                      <p style="margin: 2px 0;">TIME ALLOWED:&nbsp;&nbsp;&nbsp;&nbsp; 45 min</p>
+                      <p style="margin: 2px 0;">Writing Time : 40 min</p>
+                    </div>
+                  
+                </div>
+                
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="u-clearfix u-container-align-left u-palette-5-light-2 u-section-2" id="sec-cd44">
+    <section class="u-clearfix u-container-align-left u-palette-5-light-2 u-section-2" id="sec-cd44" style="margin-top: 0; padding-top: 10px;">
       <div class="u-clearfix u-sheet u-sheet-1">
           <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
               <meta charset="UTF-8">
@@ -245,7 +259,7 @@
                 
                 <!-- Container for Writing Tips -->
                 <div id="tips-container" class="tips-container" >
-                  <h3 style="text-align: center; font-size: 24px; color: rgba(0, 0, 0, 0.8);">Important Tips for OET Reading Test</h3>
+                  <h3 style="text-align: center; font-size: 22px; color: rgba(0, 0, 0, 0.8);">Important Tips for OET Reading Test</h3>
                   <ul>
                     <li><span class="italic-text">Familiarize Yourself with the Test Format</span>: Understand the different parts of the listening test (Part A, B, and C), including the types of questions and audio formats you’ll encounter.</li>
                     <li><span class="italic-text">Listen for Key Information</span>: Pay attention to key details such as patient symptoms, treatment plans, and medical advice. Focus on listening for numbers, dates, times, and names.</li>
@@ -265,7 +279,7 @@
                 </div>
               </div>
               <!-- Test Content -->
-              <div id="test-content" style="display: none;">
+              <div id="test-content"  style="display: none;">
 
                 <!-- Dropdown to select task part -->
                 <select id="task-select" onchange="showTask(this.value)">
@@ -306,7 +320,7 @@
                   </form>
 
                   <div class="feedback-box">
-                    <div id="feedback-display" style="font-size: 18px; line-height: 1.6; overflow-y: auto; max-height: 500px;"></div>
+                    <div id="feedback-display" style="font-size: 14px; line-height: 1.6; overflow-y: auto; max-height: 500px;"></div>
                   </div>
 
                 </div>
@@ -321,7 +335,7 @@
     const task_A = `{{ task_A | tojson |safe }}` || null; 
     const taskAQA = JSON.parse(`{{ task_qa_A | tojson | safe }}`) || null;  
     const task_B1 = `{{ task_B1 | tojson | safe }}` || null;  
-    const task_B2 = `{{ task_B2 | tojson | safe }}` || null;  
+    const task_B2 = {{ task_B2 | tojson | safe }} || null;  
     const next_got = `{{ next_got | tojson | safe }}` || null;
     const timeAllotted = parseInt(`{{ time_allowed }}` || null, 10);
     const feedback = `{{ feedback | safe }}` || null; 
@@ -337,13 +351,9 @@
     
     console.log("task_B1", task_B1);
     console.log("type of task_B1", typeof task_B1);
-    console.log("task_B1", task_B2);
+    console.log("task_B2", task_B2);
     console.log("type of task_B2", typeof task_B2);
-    console.log("task_C1", task_C1);
-    console.log("taskCQA1", taskCQA1);
-    console.log("task_C2", task_C2);
-    console.log("taskCQA2", taskCQA2);
-    console.log("feedback_content",feedback)
+    
     
     
     
@@ -500,6 +510,7 @@
         allmcqCorrectAnswersB1=markdown_responseB1.correctAnswers;
         console.log("allmcqCorrectAnswersB1",allmcqCorrectAnswersB1)
         const markdown_responseB2=processAndGenerateMarkdown(task_B2);
+        console.log("markdown_responseB2",markdown_responseB2)
         document.getElementById('questions-containerB2').innerHTML = marked(markdown_responseB2.html);
         allmcqCorrectAnswersB = allmcqCorrectAnswersB1.concat(markdown_responseB2.correctAnswers);
         console.log("allmcqCorrectAnswersB",allmcqCorrectAnswersB)
@@ -524,54 +535,59 @@
     
     
     function processAndGenerateMarkdown(data) {
-      // Clean up quotation marks and single quotes
-      data = data.replace(/“|”/g, '"').replace(/‘|’/g, "'").replace(/'/g, "");
+      let allmcqCorrectAnswersx = [];
   
-      // Remove leading and trailing characters and split sections
-      let cleanedData = data.substring(1, data.length - 1);
-      let sections = cleanedData.split('},');
+      // Normalize quotation marks
+      data = data.replace(/“|”/g, '"').replace(/‘|’/g, "'").replace(/'/g, '');
+  
+      // Remove outer brackets if present
+      data = data.trim();
+      if (data.startsWith('[')) data = data.slice(1);
+      if (data.endsWith(']')) data = data.slice(0, -1);
+  
+      // Split each MCQ section (make sure the split keeps the last curly brace)
+      let sections = data.split(/},\s*{/).map((section, idx, arr) => {
+          if (idx !== 0) section = '{' + section;
+          if (idx !== arr.length - 1) section = section + '}';
+          return section;
+      });
   
       let markdownOutput = [];
-    
   
-      // Loop through each section
       sections.forEach((section, index) => {
-          // Extract title and passage using regex
-          let titleMatch = section.match(/"title":"(.*?)"/);
-          let passageMatch = section.match(/"passage":"(.*?)"/);
+          // Extract title and passage
+          let titleMatch = section.match(/"title"\s*:\s*"(.*?)"/s);
+          let passageMatch = section.match(/"passage"\s*:\s*"(.*?)"/s);
   
-          // Extract tasks with regex
-          let tasks = section.match(/"task":"(.*?)","options":(\[.*?\]),"correct_answer":"(.*?)"/g);
-  
-          // If both title and passage are found, add them to the markdown
           if (titleMatch && passageMatch) {
               markdownOutput.push(`<div class="box">`);
-              markdownOutput.push(`<h3><strong> ${titleMatch[1]}</strong></h3>`);
-              markdownOutput.push(`<p><strong>${passageMatch[1]}</strong> </p>`);
+              markdownOutput.push(`<h3><strong>${titleMatch[1]}</strong></h3>`);
+              markdownOutput.push(`<p><strong>${passageMatch[1]}</strong></p>`);
               markdownOutput.push(`</div>`);
           }
   
-          // If tasks are found, process them
-          if (tasks) {
-              tasks.forEach((task, taskIndex) => {
-                  let taskMatch = task.match(/"task":"(.*?)","options":(\[.*?\]),"correct_answer":"(.*?)"/);
+          // Extract all task blocks
+          let taskMatches = section.match(/"task"\s*:\s*"(.*?)",\s*"options"\s*:\s*(\[[^\]]+\]),\s*"correct_answer"\s*:\s*"(.*?)"/gs);
+  
+          if (taskMatches) {
+              taskMatches.forEach((taskBlock, taskIndex) => {
+                  let taskMatch = taskBlock.match(/"task"\s*:\s*"(.*?)",\s*"options"\s*:\s*(\[[^\]]+\]),\s*"correct_answer"\s*:\s*"(.*?)"/s);
                   if (taskMatch) {
-                      markdownOutput.push(`<h5> ${taskMatch[1]}</h5>`);
+                      let [_, taskText, optionsRaw, correctAnswer] = taskMatch;
+                      markdownOutput.push(`<h5>${taskText}</h5>`);
   
-                      // Extract options
-                      let optionsString = taskMatch[2].replace(/["[\]]/g, '');
-                      let options = optionsString.split(',').map(option => option.trim());
+                      // Clean and split options
+                      let options = optionsRaw.replace(/["[\]]/g, '').split(',').map(opt => opt.trim());
   
-                      // Store the correct answer
-                      allmcqCorrectAnswersB.push(taskMatch[3]);
+                      // Save correct answer
+                      allmcqCorrectAnswersx.push(correctAnswer);
   
-                      // Generate radio buttons for only the first 3 options (a, b, c)
-                      markdownOutput.push("<ul id='optionsList_" + index + "'>");
+                      markdownOutput.push(`<ul id='optionsList_${index}_${taskIndex}'>`);
                       options.slice(0, 3).forEach((option, optionIndex) => {
                           markdownOutput.push(`
                               <li>
-                                  <input type="radio" id="option_${index}_${optionIndex}" name="task_${index}" value="${optionIndex}">
-                                  <label for="option_${index}_${optionIndex}">${option}</label>
+                                  <input type="radio" id="option_${index}_${taskIndex}_${optionIndex}" name="task_${index}_${taskIndex}" value="${optionIndex}">
+                                  <label for="option_${index}_${taskIndex}_${optionIndex}">${option}</label>
                               </li>
                           `);
                       });
@@ -583,12 +599,12 @@
           markdownOutput.push("<hr>");
       });
   
-      // Return both the generated HTML and the correct answers as an object
       return {
           html: markdownOutput.join(''),
-          correctAnswers: allmcqCorrectAnswersB
+          correctAnswers: allmcqCorrectAnswersx
       };
   }
+  
 
   function renderMarkdown(content, elementId) {
 
@@ -757,7 +773,7 @@ function displayQuestions_C(data, containerId) {
   
       console.log('Prepared Payload:', JSON.stringify(payload));
   
-      // Send the payload to the server
+      
       fetch('/reading_task', {
           method: 'POST',
           headers: {
@@ -769,14 +785,14 @@ function displayQuestions_C(data, containerId) {
           .then(data => {
               console.log('Submission successful:', data);
   
-              // Handle successful response (e.g., update feedback)
+              
               if (data.feedback) {
                   document.getElementById('feedback-display').innerHTML = marked(data.feedback);
               }
           })
           .catch(error => {
               console.error('Error during submission:', error);
-              // Handle error response (e.g., display an error message)
+              
           });
   }
   

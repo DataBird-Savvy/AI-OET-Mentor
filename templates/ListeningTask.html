@@ -59,7 +59,7 @@
           </div>
         </nav>
       </div></header>
-    <section class="u-clearfix u-palette-5-light-3 u-section-1" id="sec-1b9b">
+    <section class="u-clearfix u-palette-5-light-3 u-section-1" id="sec-1b9b"  style="transform: scale(0.8); transform-origin: top center;">
       <div class="custom-expanded data-layout-selected u-clearfix u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
           <div class="u-layout-row">
@@ -68,9 +68,22 @@
             </div>
             <div class="u-container-style u-layout-cell u-palette-5-light-1 u-size-42 u-layout-cell-2">
               <div class="u-container-layout u-container-layout-2">
-                <div class="u-grey-40 u-shape u-shape-rectangle u-shape-1"></div>
-                <h2 class="u-align-center u-text u-text-default u-text-grey-10 u-text-1">Listening Task </h2>
-                <p class="u-align-center u-text u-text-default u-text-grey-10 u-text-2">TIME ALLOWED: 45 MINUTES</p>
+                <div class="u-grey-40 u-shape u-shape-rectangle u-shape-1" style="position: relative; height: 250px;">
+                  
+                  <div style="position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                    <h2 style="font-size: 2rem; margin: 0;">
+                      LISTENING TEST: NURSING
+                    </h2>
+                  </div>
+                
+                  <!-- Bottom-right Details -->
+                  <div style=" position: absolute; bottom: 10px; right: 10px; text-align: right;">
+                    <p style="margin: 2px 0;">TIME ALLOWED:&nbsp;&nbsp;&nbsp;&nbsp;  45 min</p>
+                    
+                  </div>
+                </div>
+                
+
               </div>
             </div>
           </div>
@@ -104,7 +117,7 @@
                       max-width: 1200px;
                       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                       text-align: left; /* Ensure text inside the box aligns left */
-                      font-size: 5px;  /* You can adjust this value as per your requirement */
+                      
                       font-style: italic; 
                       overflow-y: auto; 
                   }
@@ -198,7 +211,17 @@
                     display: block;
                     margin-bottom: 5px;
                 }
-                
+
+                #task-question * {
+                  font-size: 14px !important;
+              }
+              
+              #questions-containerB * {
+                font-size: 14px !important;
+              }
+              #questions-containerC * {
+                font-size: 14px !important;
+              }
                                 
                 
               
@@ -206,12 +229,13 @@
   
               <div class="button-container">
                 <button id="start-button" onclick="startTest()" style="height: 250px;">Start Test</button>
-                <div id="timer-display" class="timer-display" style="display: none;">0:00</div> <!-- Timer Display -->
+                
+                <div id="timer-display" class="timer-display" style="display: none;">0:00 </div><!-- Timer Display -->
              
                 
                 
                 <div id="tips-container" class="tips-container" >
-                  <h3 style="text-align: center; font-size: 24px; color: rgba(0, 0, 0, 0.8);">Important Tips for OET Listening Test</h3>
+                  <h3 style="text-align: center; font-size: 22px; color: rgba(0, 0, 0, 0.8);">Important Tips for OET Listening Test</h3>
                   <ul>
                     <li><span class="italic-text">Familiarize Yourself with the Test Format</span>: Understand the different parts of the listening test (Part A, B, and C), including the types of questions and audio formats you’ll encounter.</li>
                     <li><span class="italic-text">Listen for Key Information</span>: Pay attention to key details such as patient symptoms, treatment plans, and medical advice. Focus on listening for numbers, dates, times, and names.</li>
@@ -237,15 +261,15 @@
                   </audio>
                 </div>
                 <div class="task-box">
-                  <h3>Part A</h3>
+                  <h4 style="font-size: 20px;">Part A</h4>
                   <p id="task-question"></p>
-                  <h3>Part B</h3>
-                  <p style="display: block; font-style: normal; font-size: 19px; font-weight: bold; background-color: #f0f0f0; padding: 10px; border: 1px solid #ccc;">
+                  <h4 style="font-size: 20px;">Part B</h4>
+                  <p style="display: block; font-style: normal; font-size: 16px; font-weight: bold; background-color: #f0f0f0; padding: 10px; border: 1px solid #ccc;">
                     In this part of the test, you’ll hear six different extracts. In each extract, you’ll hear people talking in a different healthcare setting. For questions 25-30, choose the answer (A, B or C) which fits best according to what you hear. You’ll have time to read each question before you listen. Complete your answers as you listen.
                   </p>
                   
                   <div id="questions-containerB"></div>
-                  <h3>Part C</h3>
+                  <h4 style="font-size: 20px;">Part C</h4>
                   <div id="questions-containerC"></div>
 
                 </div>
@@ -266,7 +290,7 @@
                 </form>
                                  
                   <div class="feedback-box">
-                    <div id="feedback-display" style="font-size: 18px; line-height: 1.6; overflow-y: auto; max-height: 500px;">
+                    <div id="feedback-display" style=" line-height: 1.6; overflow-y: auto; max-height: 500px;">
  
                 </div>
                 </div>
@@ -304,15 +328,15 @@
 
 
   
-  let timeLimit = timeAllotted * 60;  // Convert minutes to seconds
-  let timer;  // To hold the countdown timer
-  let timeRemaining = timeLimit;  // Initialize with time limit
+  let timeLimit = timeAllotted * 60;  
+  let timer;  
+  let timeRemaining = timeLimit;  
 
   
  
   document.getElementById('audioSource').src = audioUrl;
   function startTest() {
-      // Show the test content and hide the start button
+      
       document.getElementById('test-content').style.display = 'block';
       document.getElementById('start-button').style.display = 'none';
       document.querySelector('.feedback-box').style.display = 'none';
@@ -357,13 +381,13 @@
     taskContainer.appendChild(instructionParagraph);
 
     // Remove the instruction line and handle part A specifically
-    tasks = tasks.replace(/- instruction: .+?\n/, '');  // Remove the instruction line
-    const partAMatch = tasks.match(/### Part A\n(.*?)####/s);  // Match 'Part A' content
-    let partAContent = partAMatch ? partAMatch[1].trim() : '';  // Extract Part A
+    tasks = tasks.replace(/- instruction: .+?\n/, '');  
+    const partAMatch = tasks.match(/### Part A\n(.*?)####/s);  
+    let partAContent = partAMatch ? partAMatch[1].trim() : '';  
 
     // Remove 'Part A' and other parts (like 'Part B') from the task content
-    tasks = tasks.replace(/### Part A\n(.*?)####/s, '');  // Remove Part A
-    tasks = tasks.replace(/### Part B\n/, '');  // Remove 'Part B' (and other parts if needed)
+    tasks = tasks.replace(/### Part A\n(.*?)####/s, ''); 
+    tasks = tasks.replace(/### Part B\n/, '');  
 
     // Create a div for Part A and add it to the container
     if (partAContent) {

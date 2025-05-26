@@ -13,6 +13,7 @@
     <script class="u-script" type="text/javascript" src="static/nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 6.21.3, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -59,7 +60,7 @@
           </div>
         </nav>
       </div></header>
-    <section class="u-clearfix u-palette-5-light-3 u-section-1" id="sec-1b9b">
+    <section class="u-clearfix u-palette-5-light-3 u-section-1" id="sec-1b9b" style="transform: scale(0.8); transform-origin: top center;">
       <div class="custom-expanded data-layout-selected u-clearfix u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
           <div class="u-layout-row">
@@ -68,10 +69,25 @@
             </div>
             <div class="u-container-style u-layout-cell u-palette-5-light-1 u-size-42 u-layout-cell-2">
               <div class="u-container-layout u-container-layout-2">
-                <div class="u-grey-40 u-shape u-shape-rectangle u-shape-1"></div>
-                <h2 class="u-align-center u-text u-text-default u-text-grey-10 u-text-1"style="margin-left: 90px;">WRITING SUB-TEST:NURSING </h2>
-                <p class="u-align-center u-text u-text-default u-text-grey-10 u-text-2">TIME ALLOWED:&nbsp;&nbsp;&nbsp;READING TIME : 5 MIN</p>
-                <p class="u-align-center u-text u-text-default u-text-grey-10 u-text-2"> WRITING TIME :40 MIN</p>
+                <div class="u-grey-40 u-shape u-shape-rectangle u-shape-1" style="position: relative; height: 250px; font-family: 'Poppins', sans-serif;">
+                  
+                  <div style="position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                    <h2 style="font-size: 2rem; margin: 0;">
+                      WRITING TEST: NURSING
+                    </h2>
+                  </div>
+                
+                  <!-- Bottom-right Details -->
+                  <div style=" position: absolute; bottom: 10px; right: 10px; text-align: right;">
+                    <p style="margin: 2px 0;">TIME ALLOWED::&nbsp;&nbsp;&nbsp;&nbsp; Reading Time : 5 min</p>
+                    <p style="margin: 2px 0;">Writing Time : 40 min</p>
+                  </div>
+                </div>
+                
+                
+                
+               
+                
               </div>
             </div>
           </div>
@@ -105,12 +121,13 @@
                       max-width: 1200px;
                       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                       text-align: left; /* Ensure text inside the box aligns left */
-                      font-size: 10px;  /* You can adjust this value as per your requirement */
-                      font-style: italic; 
+                      font-family: 'Poppins', sans-serif;
+                      font-size: 14px !important;
                   }
   
                   .task-box h2 {
                       margin-top: 0;
+
                   }
   
                   textarea {
@@ -119,7 +136,7 @@
                       padding: 10px;
                       border: 1px solid #ccc;
                       border-radius: 4px;
-                      font-size: 16px;
+                      font-size: 14px;
                       resize: none;
                   }
   
@@ -163,6 +180,10 @@
                     padding: 5px;
                     margin-top: 5px;
                 }
+                #task-question * {
+                  font-size: 14px !important;
+              }
+              
                 
               
               </style>
@@ -174,7 +195,7 @@
                 
                 <!-- Container for Writing Tips -->
                 <div id="tips-container" class="tips-container" >
-                  <h3 style="text-align: center; font-size: 24px; color: rgba(0, 0, 0, 0.8);">Important Tips for OET Writing Test</h3>
+                  <h3 style="text-align: center; font-size: 20px; color: rgba(0, 0, 0, 0.8);">Important Tips for OET Writing Test</h3>
                   <ul>
                     
                     <li><span class="italic-text">Understand the Case Notes</span>: Carefully read the case notes provided. Focus on extracting the relevant information needed to complete the task effectively.</li>
@@ -192,13 +213,13 @@
                 </div>
               </div>
               <!-- Test Content -->
-              <div id="test-content" style="display: none;">
-                  <div class="task-box">
+              <div id="test-content" style="display: none; ">
+                  <div class="task-box" >
                     <p>Read the case notes and complete the writing task which follows.</p>
-                    <p id="task-question"></p>
+                    <p id="task-question" style="font-size: 12px !important;" ></p>
                   </div>
   
-                  <div class="task-box">
+                  <div class="task-box" >
                     <form id="letter-form" action="{{ url_for('writing_task') }}" method="POST" >
                       <textarea id="writer-input" name="writer_input"  placeholder="Write your letter here..." ></textarea>
                       <div class="button-container">
@@ -260,10 +281,11 @@
 
         const taskArray = tasks.split('\n\n'); // Split tasks by double newlines
         console.log(taskArray)
-
+        taskContainer.style.setProperty('font-size', '12px', 'important');
         taskArray.forEach((task) => {
             const taskDiv = document.createElement('div');
             taskDiv.innerHTML = marked(task);  // Assuming 'marked' is used for markdown parsing
+            
             taskDiv.style.marginBottom = '20px'; // Adding space between tasks
             taskContainer.appendChild(taskDiv);
         });

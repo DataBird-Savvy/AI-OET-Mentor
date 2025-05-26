@@ -19,7 +19,7 @@ body {
 
 .u-section-1 .u-image-1 {
   min-height: 250px;
-  background-image: url("images/0207669bca703548f874b0f194a097147c50151b6b9133b8ea2d1ad6b368345ceb93abe788a3e77038a657c6ddd6d4da2beb9a07aaca07f20187fb_1280.jpg");
+  background-image: url("images/writingimg.jpg");
   background-position: 50% 50%;
 }
 
@@ -56,13 +56,14 @@ body {
 }
 
 #tips-container h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 #tips-container ul {
   list-style-type: disc;
   padding-left: 20px;
+  font-size: 14px;
 }
 
 #tips-container li {
@@ -98,7 +99,7 @@ body {
 
   .u-section-1 .u-layout-cell-2 {
     min-height: 190px;
-  }
+    }
   .u-section-1 .u-text-1 {
     margin-top: -181px;
     margin-right: 201px;
@@ -197,7 +198,7 @@ body {
 .u-section-2 .u-custom-html-1 {
   height: auto;
   min-height: 950px;
-  margin: 95px 0 -150px;
+  margin-top: 10px ;
 }
 
 @media (max-width: 1199px) {
