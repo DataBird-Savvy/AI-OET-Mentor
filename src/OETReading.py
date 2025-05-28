@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 
-from langchain.vectorstores import Pinecone as P
+from langchain_pinecone import PineconeVectorStore
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from pinecone import Pinecone
 from groq import Groq
@@ -40,8 +40,8 @@ class OETReadingTaskAssistant:
             self.openai_client=OpenAI()
 
             embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
-            self.vector_storeA = P(index=indexA, embedding=embeddings,text_key="text")
-            self.vector_storeC = P(index=indexC, embedding=embeddings,text_key="text")
+            self.vector_storeA = PineconeVectorStore(index=indexA, embedding=embeddings)
+            self.vector_storeC = PineconeVectorStore(index=indexC, embedding=embeddings)
 
             logging.info("OETReadingTaskAssistant initialized successfully.")
 
