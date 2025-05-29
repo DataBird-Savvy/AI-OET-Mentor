@@ -5,13 +5,14 @@
     <meta name="keywords" content="OET Writing Task">
     <meta name="description" content="">
     <title>Reading Task</title>
-    <link rel="stylesheet" href="static/nicepage.css" media="screen">
-    <link rel="stylesheet" href="static/ReadingTask.css" media="screen">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.3/marked.min.js"></script>   
+    <link rel="stylesheet" href="{{ url_for('static', filename='nicepage.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ url_for('static', filename='ReadingTask.css') }}" media="screen">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.3/marked.min.js"></script>   
      
     <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
-    <script class="u-script" type="text/javascript" src="static/jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="static/nicepage.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}" defer></script>
+    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='nicepage.js') }}" defer></script>
+
     <meta name="generator" content="Nicepage 6.21.3, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
 
@@ -19,7 +20,7 @@
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": "",
-    "logo": "static/images/logo_mentor.png"
+    "logo": "{{ url_for('static', filename='images/logo_mentor.png') }}"
 
 }</script>
     <meta name="theme-color" content="#478ac9">
@@ -28,7 +29,7 @@
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
   <body data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-ec27"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <a href="#" class="u-image u-logo u-image-1">
-          <img src="static/images/logo_mentor.png" class="u-logo-image u-logo-image-1">
+          <img src="{{ url_for('static', filename='images/logo_mentor.png') }}" class="u-logo-image u-logo-image-1">
         </a>
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
           <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
